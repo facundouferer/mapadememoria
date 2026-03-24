@@ -7,6 +7,10 @@ interface Props {
 }
 
 const { centros } = Astro.props;
+const serializedCentros = JSON.stringify(centros)
+	.replace(/</g, '\\u003c')
+	.replace(/\u2028/g, '\\u2028')
+	.replace(/\u2029/g, '\\u2029');
 ---
 
 <link
@@ -92,7 +96,7 @@ const { centros } = Astro.props;
 	</div>
 </div>
 
-<script id="map-centros-data" type="application/json">{JSON.stringify(centros)}</script>
+<script id="map-centros-data" type="application/json" set:html={serializedCentros}></script>
 
 <script
 	src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
@@ -123,7 +127,90 @@ const { centros } = Astro.props;
 			return;
 		}
 
-		const data = JSON.parse(dataNode.textContent);
+		const rawData = JSON.parse(dataNode.textContent);
+
+		const asCleanString = (value) => {
+			if (typeof value !== 'string') {
+				return null;
+			}
+			const trimmed = value.trim();
+			return trimmed.length > 0 ? trimmed : null;
+		};
+
+		const asNumber = (value) => {
+			if (typeof value === 'number' && Number.isFinite(value)) {
+				return value;
+			}
+			if (typeof value === 'string') {
+				const parsed = Number(value);
+				if (Number.isFinite(parsed)) {
+					return parsed;
+				}
+			}
+			return null;
+		};
+
+		const pickCode = (value) => {
+			if (typeof value === 'string') {
+				return asCleanString(value);
+			}
+			if (value && typeof value === 'object') {
+				return asCleanString(value.codigo) ?? asCleanString(value.nombre);
+			}
+			return null;
+		};
+
+		const asBoolean = (value, fallback = false) => {
+			if (typeof value === 'boolean') {
+				return value;
+			}
+			if (typeof value === 'string') {
+				const normalized = value.trim().toLowerCase();
+				if (normalized === 'true' || normalized === 'si' || normalized === 'sí') {
+					return true;
+				}
+				if (normalized === 'false' || normalized === 'no') {
+					return false;
+				}
+			}
+			return fallback;
+		};
+
+		const data = (Array.isArray(rawData) ? rawData : []).map((item, index) => {
+			const ubicacion = item?.ubicacion ?? {};
+			const zona = item?.zona;
+			const subzona = item?.subzona;
+			const area = item?.area;
+			const clasificacion = item?.clasificacion ?? {};
+			const geografia = item?.geografia ?? {};
+			const memoria = item?.memoria ?? {};
+			const espacioMemoria = memoria?.espacio_memoria ?? {};
+
+			return {
+				...item,
+				id: asCleanString(item?.id) ?? `centro-${index}`,
+				nombre: asCleanString(item?.nombre) ?? 'Sin nombre',
+				slug: asCleanString(item?.slug) ?? `centro-${index}`,
+				alias: Array.isArray(item?.alias) ? item.alias : asCleanString(item?.alias) ? [item.alias] : [],
+				lat: asNumber(item?.lat ?? geografia?.lat),
+				lng: asNumber(item?.lng ?? geografia?.lng),
+				provincia: asCleanString(item?.provincia ?? ubicacion?.provincia),
+				localidad: asCleanString(item?.localidad ?? ubicacion?.localidad),
+				partido_departamento: asCleanString(item?.partido_departamento ?? ubicacion?.partido_departamento),
+				direccion: asCleanString(item?.direccion ?? ubicacion?.direccion),
+				zona: pickCode(zona),
+				subzona: pickCode(subzona),
+				area: pickCode(area),
+				tipo_lugar: asCleanString(item?.tipo_lugar ?? clasificacion?.tipo_lugar),
+				dependencia: asCleanString(item?.dependencia ?? clasificacion?.dependencia),
+				precision: asCleanString(item?.precision ?? geografia?.precision) ?? 'sin_coordenadas',
+				espacio_memoria: asBoolean(item?.espacio_memoria, asBoolean(espacioMemoria?.es)),
+				senializado: asBoolean(
+					item?.senializado,
+					Array.isArray(memoria?.senializaciones) && memoria.senializaciones.length > 0,
+				),
+			};
+		});
 
 		const ids = {
 			q: document.getElementById('f-q'),
@@ -248,7 +335,7 @@ const { centros } = Astro.props;
 		const toSearchText = (item) =>
 			[
 				item.nombre,
-				item.alias,
+				Array.isArray(item.alias) ? item.alias.join(' ') : item.alias,
 				item.provincia,
 				item.localidad,
 				item.partido_departamento,

@@ -7,6 +7,10 @@ interface Props {
 }
 
 const { centros } = Astro.props;
+const serializedCentros = JSON.stringify(centros)
+	.replace(/</g, '\\u003c')
+	.replace(/\u2028/g, '\\u2028')
+	.replace(/\u2029/g, '\\u2029');
 ---
 
 <div class="filters-layout" id="lista-explorer">
@@ -78,7 +82,7 @@ const { centros } = Astro.props;
 	</section>
 </div>
 
-<script id="lista-centros-data" type="application/json">{JSON.stringify(centros)}</script>
+<script id="lista-centros-data" type="application/json" set:html={serializedCentros}></script>
 
 <script>
 	// @ts-nocheck
