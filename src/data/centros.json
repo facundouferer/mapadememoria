@@ -228,7 +228,9 @@
     "id_ruvte": 5,
     "slug": "el-banco",
     "nombre": "EL BANCO",
-    "alias": [],
+    "alias": [
+      "OMEGA / PUENTE 12"
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -281,9 +283,11 @@
   {
     "id": "ruvte-6",
     "id_ruvte": 6,
-    "slug": "registro-ruvte-6",
-    "nombre": "Registro RUVTE 6",
-    "alias": [],
+    "slug": "ca-com-m-8-cdo-br-i-m-viii",
+    "nombre": "Ca Com M 8 / Cdo Br I M VIII",
+    "alias": [
+      "Ca Com M 8 / Cdo Br I M VIII"
+    ],
     "zona": {
       "codigo": "3",
       "nombre": "Zona 3"
@@ -338,7 +342,9 @@
     "id_ruvte": 7,
     "slug": "unidad-penal-de-coronda",
     "nombre": "UNIDAD PENAL DE CORONDA",
-    "alias": [],
+    "alias": [
+      "INSTITUTO CORRECCIONAL MODELO DE CORONDA (U.1)"
+    ],
     "zona": {
       "codigo": "2",
       "nombre": "Zona 2"
@@ -389,8 +395,8 @@
   {
     "id": "ruvte-8",
     "id_ruvte": 8,
-    "slug": "registro-ruvte-8",
-    "nombre": "Registro RUVTE 8",
+    "slug": "batallon-de-comunicaciones-121-unidad-de-comando-area-211",
+    "nombre": "BATALLON DE COMUNICACIONES 121 UNIDAD DE COMANDO AREA 211",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -615,7 +621,9 @@
     "id_ruvte": 14,
     "slug": "alcaidia-de-resistencia",
     "nombre": "ALCAIDIA DE RESISTENCIA",
-    "alias": [],
+    "alias": [
+      "U.R.1"
+    ],
     "zona": {
       "codigo": "2",
       "nombre": "Zona 2"
@@ -666,8 +674,8 @@
   {
     "id": "ruvte-15",
     "id_ruvte": 15,
-    "slug": "registro-ruvte-15",
-    "nombre": "Registro RUVTE 15",
+    "slug": "comisaria-24-de-capital-federal",
+    "nombre": "COMISARIA 24ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -719,8 +727,8 @@
   {
     "id": "ruvte-16",
     "id_ruvte": 16,
-    "slug": "registro-ruvte-16",
-    "nombre": "Registro RUVTE 16",
+    "slug": "talleres-de-prefectura-naval-argentina-2",
+    "nombre": "TALLERES DE PREFECTURA NAVAL ARGENTINA",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -774,9 +782,11 @@
   {
     "id": "ruvte-18",
     "id_ruvte": 18,
-    "slug": "registro-ruvte-18",
-    "nombre": "Registro RUVTE 18",
-    "alias": [],
+    "slug": "batallon-de-infanteria-de-marina-3-alte-eleazar-videla-bim-3",
+    "nombre": "BATALLON DE INFANTERIA DE MARINA 3 \"ALTE. ELEAZAR VIDELA\" / BIM 3",
+    "alias": [
+      "BATALLON DE INFANTERIA DE MARINA 3 \"ALTE. ELEAZAR VIDELA\" / BIM 3"
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -829,8 +839,8 @@
   {
     "id": "ruvte-22",
     "id_ruvte": 22,
-    "slug": "registro-ruvte-22",
-    "nombre": "Registro RUVTE 22",
+    "slug": "comisaria-50-de-capital-federal",
+    "nombre": "COMISARIA 50ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -1214,9 +1224,11 @@
   {
     "id": "ruvte-31",
     "id_ruvte": 31,
-    "slug": "registro-ruvte-31",
-    "nombre": "Registro RUVTE 31",
-    "alias": [],
+    "slug": "regimiento-de-la-tablada-r-i-3-gral-belgrano",
+    "nombre": "REGIMIENTO DE LA TABLADA / R I 3 \"GRAL. BELGRANO\"",
+    "alias": [
+      "REGIMIENTO DE LA TABLADA / R I 3 \"GRAL. BELGRANO\""
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -1811,7 +1823,9 @@
     "id_ruvte": 44,
     "slug": "pozo-de-quilmes",
     "nombre": "POZO DE QUILMES",
-    "alias": [],
+    "alias": [
+      "CHUPADERO MALVINAS / OMEGA (1979)"
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -2027,8 +2041,8 @@
   {
     "id": "ruvte-49",
     "id_ruvte": 49,
-    "slug": "registro-ruvte-49",
-    "nombre": "Registro RUVTE 49",
+    "slug": "comisaria-2-de-avellaneda-pineyro",
+    "nombre": "COMISARIA 2ª DE AVELLANEDA (PIÑEYRO)",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -2188,9 +2202,11 @@
   {
     "id": "ruvte-57",
     "id_ruvte": 57,
-    "slug": "registro-ruvte-57",
-    "nombre": "Registro RUVTE 57",
-    "alias": [],
+    "slug": "unidad-penal-5",
+    "nombre": "UNIDAD PENAL 5",
+    "alias": [
+      "UNIDAD PENAL 5"
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -2349,8 +2365,8 @@
   {
     "id": "ruvte-67",
     "id_ruvte": 67,
-    "slug": "registro-ruvte-67",
-    "nombre": "Registro RUVTE 67",
+    "slug": "ubicacion-al-momento-de-los-hechos-2",
+    "nombre": "(ubicación al momento de los hechos)",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -2402,8 +2418,8 @@
   {
     "id": "ruvte-68",
     "id_ruvte": 68,
-    "slug": "registro-ruvte-68",
-    "nombre": "Registro RUVTE 68",
+    "slug": "casa-del-s-i-n-servicio-de-inteligencia-naval-2",
+    "nombre": "CASA DEL S.I.N. (SERVICIO DE INTELIGENCIA NAVAL)",
     "alias": [],
     "zona": {
       "codigo": "4",
@@ -2510,8 +2526,8 @@
   {
     "id": "ruvte-70",
     "id_ruvte": 70,
-    "slug": "registro-ruvte-70",
-    "nombre": "Registro RUVTE 70",
+    "slug": "comisaria-1-de-quilmes",
+    "nombre": "COMISARIA 1ª DE QUILMES",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -2563,8 +2579,8 @@
   {
     "id": "ruvte-71",
     "id_ruvte": 71,
-    "slug": "registro-ruvte-71",
-    "nombre": "Registro RUVTE 71",
+    "slug": "comisaria-5-de-alte-brown-rafael-calzada",
+    "nombre": "COMISARIA 5ª DE ALTE. BROWN (RAFAEL CALZADA)",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -2618,8 +2634,8 @@
   {
     "id": "ruvte-73",
     "id_ruvte": 73,
-    "slug": "registro-ruvte-73",
-    "nombre": "Registro RUVTE 73",
+    "slug": "comisaria-3-de-lomas-de-zamora-temperley",
+    "nombre": "COMISARIA 3ª DE LOMAS DE ZAMORA (TEMPERLEY)",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -2726,8 +2742,8 @@
   {
     "id": "ruvte-76",
     "id_ruvte": 76,
-    "slug": "registro-ruvte-76",
-    "nombre": "Registro RUVTE 76",
+    "slug": "comisaria-1-de-gral-sarmiento-san-miguel",
+    "nombre": "COMISARIA 1ª DE GRAL. SARMIENTO (SAN MIGUEL)",
     "alias": [],
     "zona": {
       "codigo": "4",
@@ -2781,8 +2797,8 @@
   {
     "id": "ruvte-77",
     "id_ruvte": 77,
-    "slug": "registro-ruvte-77",
-    "nombre": "Registro RUVTE 77",
+    "slug": "brigada-aerea-viii-mariano-moreno-unidad-de-comando-area-162",
+    "nombre": "BRIGADA AEREA VIII \"MARIANO MORENO\" UNIDAD DE COMANDO AREA 162",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -2950,8 +2966,8 @@
   {
     "id": "ruvte-82",
     "id_ruvte": 82,
-    "slug": "registro-ruvte-82",
-    "nombre": "Registro RUVTE 82",
+    "slug": "regimiento-de-infanteria-7-unidad-de-comando-area-113",
+    "nombre": "REGIMIENTO DE INFANTERIA 7 UNIDAD DE COMANDO AREA 113",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -3060,8 +3076,8 @@
   {
     "id": "ruvte-85",
     "id_ruvte": 85,
-    "slug": "registro-ruvte-85",
-    "nombre": "Registro RUVTE 85",
+    "slug": "comisaria-2-de-quilmes-bernal",
+    "nombre": "COMISARIA 2ª DE QUILMES (BERNAL)",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -3113,8 +3129,8 @@
   {
     "id": "ruvte-86",
     "id_ruvte": 86,
-    "slug": "registro-ruvte-86",
-    "nombre": "Registro RUVTE 86",
+    "slug": "brigada-femenina-de-san-martin-2",
+    "nombre": "BRIGADA FEMENINA DE SAN MARTIN",
     "alias": [],
     "zona": {
       "codigo": "4",
@@ -3168,8 +3184,8 @@
   {
     "id": "ruvte-87",
     "id_ruvte": 87,
-    "slug": "registro-ruvte-87",
-    "nombre": "Registro RUVTE 87",
+    "slug": "comisaria-4-de-alte-brown-longchamps",
+    "nombre": "COMISARIA 4ª DE ALTE. BROWN (LONGCHAMPS)",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -3331,8 +3347,8 @@
   {
     "id": "ruvte-90",
     "id_ruvte": 90,
-    "slug": "registro-ruvte-90",
-    "nombre": "Registro RUVTE 90",
+    "slug": "brigada-de-investigaciones-de-lanus-el-infierno-2",
+    "nombre": "BRIGADA DE INVESTIGACIONES DE LANUS / EL INFIERNO",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -3384,8 +3400,8 @@
   {
     "id": "ruvte-91",
     "id_ruvte": 91,
-    "slug": "registro-ruvte-91",
-    "nombre": "Registro RUVTE 91",
+    "slug": "comisaria-4-de-avellaneda-sarandi",
+    "nombre": "COMISARIA 4ª DE AVELLANEDA (SARANDI)",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -3490,8 +3506,8 @@
   {
     "id": "ruvte-93",
     "id_ruvte": 93,
-    "slug": "registro-ruvte-93",
-    "nombre": "Registro RUVTE 93",
+    "slug": "brigada-de-investigaciones-de-san-martin-2",
+    "nombre": "BRIGADA DE INVESTIGACIONES DE SAN MARTIN",
     "alias": [],
     "zona": {
       "codigo": "4",
@@ -3765,8 +3781,8 @@
   {
     "id": "ruvte-99",
     "id_ruvte": 99,
-    "slug": "registro-ruvte-99",
-    "nombre": "Registro RUVTE 99",
+    "slug": "av-25-de-mayo-401-formosa-formosa",
+    "nombre": "Av 25 DE MAYO 401 FORMOSA · FORMOSA",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -3873,7 +3889,7 @@
   {
     "id": "ruvte-102",
     "id_ruvte": 102,
-    "slug": "vivienda-o-similar-particular-3",
+    "slug": "vivienda-o-similar-particular-4",
     "nombre": "VIVIENDA O SIMILAR / PARTICULAR",
     "alias": [],
     "zona": {
@@ -4034,8 +4050,8 @@
   {
     "id": "ruvte-106",
     "id_ruvte": 106,
-    "slug": "registro-ruvte-106",
-    "nombre": "Registro RUVTE 106",
+    "slug": "comisaria-3-de-avellaneda-dock-sud",
+    "nombre": "COMISARIA 3ª DE AVELLANEDA (DOCK SUD)",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -4087,9 +4103,11 @@
   {
     "id": "ruvte-107",
     "id_ruvte": 107,
-    "slug": "registro-ruvte-107",
-    "nombre": "Registro RUVTE 107",
-    "alias": [],
+    "slug": "campo-los-andes-el-refugio-la-remonta-ca-telecom-141",
+    "nombre": "CAMPO LOS ANDES / EL REFUGIO / LA REMONTA / Ca Telecom 141",
+    "alias": [
+      "CAMPO LOS ANDES / EL REFUGIO / LA REMONTA / Ca Telecom 141"
+    ],
     "zona": {
       "codigo": "3",
       "nombre": "Zona 3"
@@ -4193,9 +4211,11 @@
   {
     "id": "ruvte-109",
     "id_ruvte": 109,
-    "slug": "registro-ruvte-109",
-    "nombre": "Registro RUVTE 109",
-    "alias": [],
+    "slug": "cdo-cpo-ej-i-r-i-1",
+    "nombre": "Cdo Cpo Ej I / R I 1",
+    "alias": [
+      "Cdo Cpo Ej I / R I 1"
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -4301,8 +4321,8 @@
   {
     "id": "ruvte-111",
     "id_ruvte": 111,
-    "slug": "registro-ruvte-111",
-    "nombre": "Registro RUVTE 111",
+    "slug": "jefatura-de-policia-de-rio-cuarto-departamento-de-informaciones-2",
+    "nombre": "JEFATURA DE POLICIA DE RIO CUARTO / DEPARTAMENTO DE INFORMACIONES",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -4409,8 +4429,8 @@
   {
     "id": "ruvte-113",
     "id_ruvte": 113,
-    "slug": "registro-ruvte-113",
-    "nombre": "Registro RUVTE 113",
+    "slug": "comisaria-1-de-moron",
+    "nombre": "COMISARIA 1ª DE MORON",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -4462,8 +4482,8 @@
   {
     "id": "ruvte-114",
     "id_ruvte": 114,
-    "slug": "registro-ruvte-114",
-    "nombre": "Registro RUVTE 114",
+    "slug": "comisaria-2-de-la-plata",
+    "nombre": "COMISARIA 2ª DE LA PLATA",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -4517,8 +4537,8 @@
   {
     "id": "ruvte-115",
     "id_ruvte": 115,
-    "slug": "registro-ruvte-115",
-    "nombre": "Registro RUVTE 115",
+    "slug": "comisaria-5-de-la-plata",
+    "nombre": "COMISARIA 5ª DE LA PLATA",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -4623,8 +4643,8 @@
   {
     "id": "ruvte-118",
     "id_ruvte": 118,
-    "slug": "registro-ruvte-118",
-    "nombre": "Registro RUVTE 118",
+    "slug": "comisaria-1-de-la-plata",
+    "nombre": "COMISARIA 1ª DE LA PLATA",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -4676,8 +4696,8 @@
   {
     "id": "ruvte-119",
     "id_ruvte": 119,
-    "slug": "registro-ruvte-119",
-    "nombre": "Registro RUVTE 119",
+    "slug": "comisaria-10-de-la-plata-villa-elisa",
+    "nombre": "COMISARIA 10ª DE LA PLATA (VILLA ELISA)",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -4782,8 +4802,8 @@
   {
     "id": "ruvte-122",
     "id_ruvte": 122,
-    "slug": "registro-ruvte-122",
-    "nombre": "Registro RUVTE 122",
+    "slug": "comando-de-cuerpo-de-ejercito-i-regimiento-de-infanteria-1-patricios-unidad-de-comando-zona-1-unidad-de-comando-area-ii",
+    "nombre": "COMANDO DE CUERPO DE EJERCITO I / REGIMIENTO DE INFANTERIA 1 \"PATRICIOS\" UNIDAD DE COMANDO ZONA 1 / UNIDAD DE COMANDO AREA II",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -4835,8 +4855,8 @@
   {
     "id": "ruvte-123",
     "id_ruvte": 123,
-    "slug": "registro-ruvte-123",
-    "nombre": "Registro RUVTE 123",
+    "slug": "comisaria-11-de-capital-federal",
+    "nombre": "COMISARIA 11ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -4888,8 +4908,8 @@
   {
     "id": "ruvte-124",
     "id_ruvte": 124,
-    "slug": "registro-ruvte-124",
-    "nombre": "Registro RUVTE 124",
+    "slug": "comisaria-16-de-capital-federal",
+    "nombre": "COMISARIA 16ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -4941,8 +4961,8 @@
   {
     "id": "ruvte-125",
     "id_ruvte": 125,
-    "slug": "registro-ruvte-125",
-    "nombre": "Registro RUVTE 125",
+    "slug": "comisaria-1-de-capital-federal",
+    "nombre": "COMISARIA 1ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -4994,8 +5014,8 @@
   {
     "id": "ruvte-126",
     "id_ruvte": 126,
-    "slug": "registro-ruvte-126",
-    "nombre": "Registro RUVTE 126",
+    "slug": "comisaria-23-de-capital-federal",
+    "nombre": "COMISARIA 23ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -5047,8 +5067,8 @@
   {
     "id": "ruvte-127",
     "id_ruvte": 127,
-    "slug": "registro-ruvte-127",
-    "nombre": "Registro RUVTE 127",
+    "slug": "comisaria-33-de-capital-federal",
+    "nombre": "COMISARIA 33ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -5100,8 +5120,8 @@
   {
     "id": "ruvte-128",
     "id_ruvte": 128,
-    "slug": "registro-ruvte-128",
-    "nombre": "Registro RUVTE 128",
+    "slug": "comisaria-34-de-capital-federal",
+    "nombre": "COMISARIA 34ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -5153,8 +5173,8 @@
   {
     "id": "ruvte-129",
     "id_ruvte": 129,
-    "slug": "registro-ruvte-129",
-    "nombre": "Registro RUVTE 129",
+    "slug": "casa-operativa-en-calle-bacacay",
+    "nombre": "CASA OPERATIVA EN CALLE BACACAY",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -5206,8 +5226,8 @@
   {
     "id": "ruvte-130",
     "id_ruvte": 130,
-    "slug": "registro-ruvte-130",
-    "nombre": "Registro RUVTE 130",
+    "slug": "comisaria-37-de-capital-federal",
+    "nombre": "COMISARIA 37ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -5259,8 +5279,8 @@
   {
     "id": "ruvte-131",
     "id_ruvte": 131,
-    "slug": "registro-ruvte-131",
-    "nombre": "Registro RUVTE 131",
+    "slug": "comisaria-39-de-capital-federal",
+    "nombre": "COMISARIA 39ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -5312,8 +5332,8 @@
   {
     "id": "ruvte-132",
     "id_ruvte": 132,
-    "slug": "registro-ruvte-132",
-    "nombre": "Registro RUVTE 132",
+    "slug": "comisaria-43-de-capital-federal",
+    "nombre": "COMISARIA 43ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -5365,8 +5385,8 @@
   {
     "id": "ruvte-133",
     "id_ruvte": 133,
-    "slug": "registro-ruvte-133",
-    "nombre": "Registro RUVTE 133",
+    "slug": "comisaria-45-de-capital-federal",
+    "nombre": "COMISARIA 45ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -5418,8 +5438,8 @@
   {
     "id": "ruvte-134",
     "id_ruvte": 134,
-    "slug": "registro-ruvte-134",
-    "nombre": "Registro RUVTE 134",
+    "slug": "comisaria-3-de-santa-fe",
+    "nombre": "COMISARIA 3ª DE SANTA FE",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -5473,8 +5493,8 @@
   {
     "id": "ruvte-135",
     "id_ruvte": 135,
-    "slug": "registro-ruvte-135",
-    "nombre": "Registro RUVTE 135",
+    "slug": "comisaria-4-de-santa-fe",
+    "nombre": "COMISARIA 4ª DE SANTA FE",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -5795,8 +5815,8 @@
   {
     "id": "ruvte-142",
     "id_ruvte": 142,
-    "slug": "registro-ruvte-142",
-    "nombre": "Registro RUVTE 142",
+    "slug": "comando-radioelectrico-unidad-regional-vii-2",
+    "nombre": "COMANDO RADIOELECTRICO / UNIDAD REGIONAL VII",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -6673,9 +6693,11 @@
   {
     "id": "ruvte-171",
     "id_ruvte": 171,
-    "slug": "registro-ruvte-171",
-    "nombre": "Registro RUVTE 171",
-    "alias": [],
+    "slug": "unidad-de-tiradores-blindados-de-azul-r-c-tir-bl-10-husares-de-pueyrredon",
+    "nombre": "UNIDAD DE TIRADORES BLINDADOS DE AZUL / R C Tir Bl 10 \"HUSARES DE PUEYRREDON\"",
+    "alias": [
+      "UNIDAD DE TIRADORES BLINDADOS DE AZUL / R C Tir Bl 10 \"HUSARES DE PUEYRREDON\""
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -6728,9 +6750,11 @@
   {
     "id": "ruvte-173",
     "id_ruvte": 173,
-    "slug": "registro-ruvte-173",
-    "nombre": "Registro RUVTE 173",
-    "alias": [],
+    "slug": "g-a-1-regimiento-de-artilleria-de-ciudadela-cuartel-de-ciudadela",
+    "nombre": "G A 1 / REGIMIENTO DE ARTILLERIA DE CIUDADELA / CUARTEL DE CIUDADELA",
+    "alias": [
+      "G A 1 / REGIMIENTO DE ARTILLERIA DE CIUDADELA / CUARTEL DE CIUDADELA"
+    ],
     "zona": {
       "codigo": "4",
       "nombre": "Zona 4"
@@ -6838,8 +6862,8 @@
   {
     "id": "ruvte-177",
     "id_ruvte": 177,
-    "slug": "registro-ruvte-177",
-    "nombre": "Registro RUVTE 177",
+    "slug": "hogar-escuela-pablo-pizzurno-2",
+    "nombre": "HOGAR ESCUELA \"PABLO PIZZURNO\"",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -7327,7 +7351,9 @@
     "id_ruvte": 196,
     "slug": "automotores-orletti",
     "nombre": "AUTOMOTORES ORLETTI",
-    "alias": [],
+    "alias": [
+      "EL JARDIN / O.T. 18"
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -7598,7 +7624,9 @@
     "id_ruvte": 205,
     "slug": "subcomisaria-de-don-bosco-puesto-vasco",
     "nombre": "SUBCOMISARIA DE DON BOSCO / PUESTO VASCO",
-    "alias": [],
+    "alias": [
+      "\"COT 1 BERNAL\" / CASITA DE HUDSON"
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -7704,8 +7732,8 @@
   {
     "id": "ruvte-208",
     "id_ruvte": 208,
-    "slug": "registro-ruvte-208",
-    "nombre": "Registro RUVTE 208",
+    "slug": "regimiento-de-caballeria-de-tiradores-blindado-2-unidad-de-comando-area-124",
+    "nombre": "REGIMIENTO DE CABALLERIA DE TIRADORES BLINDADO 2 UNIDAD DE COMANDO AREA 124",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -7757,9 +7785,11 @@
   {
     "id": "ruvte-209",
     "id_ruvte": 209,
-    "slug": "registro-ruvte-209",
-    "nombre": "Registro RUVTE 209",
-    "alias": [],
+    "slug": "instituto-de-seguridad-u-6",
+    "nombre": "INSTITUTO DE SEGURIDAD (U.6)",
+    "alias": [
+      "INSTITUTO DE SEGURIDAD (U.6)"
+    ],
     "zona": {
       "codigo": "5",
       "nombre": "Zona 5"
@@ -7810,9 +7840,11 @@
   {
     "id": "ruvte-210",
     "id_ruvte": 210,
-    "slug": "registro-ruvte-210",
-    "nombre": "Registro RUVTE 210",
-    "alias": [],
+    "slug": "cuartel-de-zapadores-pontoneros-b-ing-comb-101",
+    "nombre": "CUARTEL DE ZAPADORES PONTONEROS / B Ing Comb 101",
+    "alias": [
+      "CUARTEL DE ZAPADORES PONTONEROS / B Ing Comb 101"
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -8028,8 +8060,8 @@
   {
     "id": "ruvte-218",
     "id_ruvte": 218,
-    "slug": "registro-ruvte-218",
-    "nombre": "Registro RUVTE 218",
+    "slug": "comisario-aldaz-s-n-azul-buenos-aires",
+    "nombre": "COMISARIO ALDAZ s/nº AZUL · BUENOS AIRES",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -8138,9 +8170,11 @@
   {
     "id": "ruvte-220",
     "id_ruvte": 220,
-    "slug": "registro-ruvte-220",
-    "nombre": "Registro RUVTE 220",
-    "alias": [],
+    "slug": "r-c-tir-bl-2-lanceros-gral-paz",
+    "nombre": "R C Tir Bl 2 \"LANCEROS GRAL. PAZ\"",
+    "alias": [
+      "R C Tir Bl 2 \"LANCEROS GRAL. PAZ\""
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -8193,7 +8227,9 @@
     "id_ruvte": 221,
     "slug": "actualmente-san-nicolas-de-bari-o-esq-av-julio-cesar-corzo",
     "nombre": "Actualmente SAN NICOLAS DE BARI (O) esq. Av. JULIO CESAR CORZO",
-    "alias": [],
+    "alias": [
+      "B Ing Const 141"
+    ],
     "zona": {
       "codigo": "3",
       "nombre": "Zona 3"
@@ -8246,9 +8282,11 @@
   {
     "id": "ruvte-222",
     "id_ruvte": 222,
-    "slug": "registro-ruvte-222",
-    "nombre": "Registro RUVTE 222",
-    "alias": [],
+    "slug": "r-c-tir-bl-6-blandengues",
+    "nombre": "R C Tir Bl 6 \"BLANDENGUES\"",
+    "alias": [
+      "R C Tir Bl 6 \"BLANDENGUES\""
+    ],
     "zona": {
       "codigo": "2",
       "nombre": "Zona 2"
@@ -8299,9 +8337,11 @@
   {
     "id": "ruvte-223",
     "id_ruvte": 223,
-    "slug": "registro-ruvte-223",
-    "nombre": "Registro RUVTE 223",
-    "alias": [],
+    "slug": "destacamento-de-exploracion-de-caballeria-blindado-181-coraceros-gral-pacheco-dest-expl-cm-181-c3",
+    "nombre": "DESTACAMENTO DE EXPLORACION DE CABALLERIA BLINDADO 181 \"CORACEROS GRAL. PACHECO\" / Dest Expl CM 181 (C3)",
+    "alias": [
+      "DESTACAMENTO DE EXPLORACION DE CABALLERIA BLINDADO 181 \"CORACEROS GRAL. PACHECO\" / Dest Expl CM 181 (C3)"
+    ],
     "zona": {
       "codigo": "5",
       "nombre": "Zona 5"
@@ -8354,7 +8394,9 @@
     "id_ruvte": 225,
     "slug": "subcomisaria-de-villa-insuperable-sheraton",
     "nombre": "SUBCOMISARIA DE VILLA INSUPERABLE / SHERATON",
-    "alias": [],
+    "alias": [
+      "EMBUDO / COMISARIA 8ª DE LA MATANZA"
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -8517,8 +8559,8 @@
   {
     "id": "ruvte-229",
     "id_ruvte": 229,
-    "slug": "registro-ruvte-229",
-    "nombre": "Registro RUVTE 229",
+    "slug": "comisaria-1-de-san-isidro",
+    "nombre": "COMISARIA 1ª DE SAN ISIDRO",
     "alias": [],
     "zona": {
       "codigo": "4",
@@ -8629,7 +8671,9 @@
     "id_ruvte": 231,
     "slug": "subcomisaria-de-ciudad-evita",
     "nombre": "SUBCOMISARIA DE CIUDAD EVITA",
-    "alias": [],
+    "alias": [
+      "COMISARIA 9ª DE LA MATANZA SIN DETERMINAR UBICACION"
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -8680,8 +8724,8 @@
   {
     "id": "ruvte-234",
     "id_ruvte": 234,
-    "slug": "registro-ruvte-234",
-    "nombre": "Registro RUVTE 234",
+    "slug": "comisaria-de-campana-2",
+    "nombre": "COMISARIA DE CAMPANA",
     "alias": [],
     "zona": {
       "codigo": "4",
@@ -8733,9 +8777,11 @@
   {
     "id": "ruvte-235",
     "id_ruvte": 235,
-    "slug": "registro-ruvte-235",
-    "nombre": "Registro RUVTE 235",
-    "alias": [],
+    "slug": "up5",
+    "nombre": "UP5",
+    "alias": [
+      "UP5"
+    ],
     "zona": {
       "codigo": "3",
       "nombre": "Zona 3"
@@ -8786,8 +8832,8 @@
   {
     "id": "ruvte-236",
     "id_ruvte": 236,
-    "slug": "registro-ruvte-236",
-    "nombre": "Registro RUVTE 236",
+    "slug": "prefectura-de-zona-del-atlantico-pza-2",
+    "nombre": "PREFECTURA DE ZONA DEL ATLANTICO (PZA)",
     "alias": [],
     "zona": {
       "codigo": "5",
@@ -8839,9 +8885,11 @@
   {
     "id": "ruvte-237",
     "id_ruvte": 237,
-    "slug": "registro-ruvte-237",
-    "nombre": "Registro RUVTE 237",
-    "alias": [],
+    "slug": "batallon-deposito-de-arsenales-601-de-monte-chingolo-b-dep-ars-601",
+    "nombre": "BATALLON DEPOSITO DE ARSENALES 601 DE MONTE CHINGOLO / B Dep Ars 601",
+    "alias": [
+      "BATALLON DEPOSITO DE ARSENALES 601 DE MONTE CHINGOLO / B Dep Ars 601"
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -9065,7 +9113,9 @@
     "id_ruvte": 242,
     "slug": "arsenal-miguel-de-azcuenaga",
     "nombre": "ARSENAL \"MIGUEL DE AZCUENAGA\"",
-    "alias": [],
+    "alias": [
+      "Ca Ars 5 / COMPAÑIA DE ARSENALES 5"
+    ],
     "zona": {
       "codigo": "3",
       "nombre": "Zona 3"
@@ -9120,7 +9170,9 @@
     "id_ruvte": 243,
     "slug": "el-vesubio",
     "nombre": "EL VESUBIO",
-    "alias": [],
+    "alias": [
+      "LA PONDEROSA / PUENTE 12"
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -9173,8 +9225,8 @@
   {
     "id": "ruvte-244",
     "id_ruvte": 244,
-    "slug": "registro-ruvte-244",
-    "nombre": "Registro RUVTE 244",
+    "slug": "comisaria-2-de-moron-haedo",
+    "nombre": "COMISARIA 2ª DE MORON (HAEDO)",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -9389,8 +9441,8 @@
   {
     "id": "ruvte-248",
     "id_ruvte": 248,
-    "slug": "registro-ruvte-248",
-    "nombre": "Registro RUVTE 248",
+    "slug": "unidad-penal-8-de-olmos",
+    "nombre": "UNIDAD PENAL 8 DE OLMOS",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -9880,9 +9932,11 @@
   {
     "id": "ruvte-259",
     "id_ruvte": 259,
-    "slug": "registro-ruvte-259",
-    "nombre": "Registro RUVTE 259",
-    "alias": [],
+    "slug": "hospital-general-602-cirujano-primero-dr-juan-madera",
+    "nombre": "HOSPITAL GENERAL 602 \"CIRUJANO PRIMERO DR. JUAN MADERA\"",
+    "alias": [
+      "HOSPITAL GENERAL 602 \"CIRUJANO PRIMERO DR. JUAN MADERA\""
+    ],
     "zona": {
       "codigo": "4",
       "nombre": "Zona 4"
@@ -10045,9 +10099,11 @@
   {
     "id": "ruvte-264",
     "id_ruvte": 264,
-    "slug": "registro-ruvte-264",
-    "nombre": "Registro RUVTE 264",
-    "alias": [],
+    "slug": "r-i-7-cnel-conde",
+    "nombre": "R I 7 \"CNEL. CONDE\"",
+    "alias": [
+      "R I 7 \"CNEL. CONDE\""
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -10098,9 +10154,11 @@
   {
     "id": "ruvte-266",
     "id_ruvte": 266,
-    "slug": "registro-ruvte-266",
-    "nombre": "Registro RUVTE 266",
-    "alias": [],
+    "slug": "gada-601-tte-gral-riccheri",
+    "nombre": "GADA 601 \"TTE. GRAL. RICCHERI\"",
+    "alias": [
+      "GADA 601 \"TTE. GRAL. RICCHERI\""
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -10263,8 +10321,8 @@
   {
     "id": "ruvte-270",
     "id_ruvte": 270,
-    "slug": "registro-ruvte-270",
-    "nombre": "Registro RUVTE 270",
+    "slug": "predio-senalizado-el-28-07-2014-cartel",
+    "nombre": "Predio señalizado el 28/07/2014 (cartel)",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -10428,8 +10486,8 @@
   {
     "id": "ruvte-274",
     "id_ruvte": 274,
-    "slug": "registro-ruvte-274",
-    "nombre": "Registro RUVTE 274",
+    "slug": "comisaria-17-de-capital-federal",
+    "nombre": "COMISARIA 17ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -10481,9 +10539,11 @@
   {
     "id": "ruvte-275",
     "id_ruvte": 275,
-    "slug": "registro-ruvte-275",
-    "nombre": "Registro RUVTE 275",
-    "alias": [],
+    "slug": "r-i-m-22-tte-cnel-cabot",
+    "nombre": "R I M 22 “TTE. CNEL. CABOT”",
+    "alias": [
+      "R I M 22 “TTE. CNEL. CABOT”"
+    ],
     "zona": {
       "codigo": "3",
       "nombre": "Zona 3"
@@ -10534,8 +10594,8 @@
   {
     "id": "ruvte-277",
     "id_ruvte": 277,
-    "slug": "registro-ruvte-277",
-    "nombre": "Registro RUVTE 277",
+    "slug": "unidad-penal-21-instituto-de-resocializacion",
+    "nombre": "UNIDAD PENAL 21 (INSTITUTO DE RESOCIALIZACION)",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -10752,9 +10812,11 @@
   {
     "id": "ruvte-283",
     "id_ruvte": 283,
-    "slug": "registro-ruvte-283",
-    "nombre": "Registro RUVTE 283",
-    "alias": [],
+    "slug": "r-i-mte-29-cnel-warnes",
+    "nombre": "R I Mte 29 \"CNEL. WARNES\"",
+    "alias": [
+      "R I Mte 29 \"CNEL. WARNES\""
+    ],
     "zona": {
       "codigo": "2",
       "nombre": "Zona 2"
@@ -10807,8 +10869,8 @@
   {
     "id": "ruvte-284",
     "id_ruvte": 284,
-    "slug": "registro-ruvte-284",
-    "nombre": "Registro RUVTE 284",
+    "slug": "comisaria-1-de-alte-brown-adrogue",
+    "nombre": "COMISARIA 1ª DE ALTE. BROWN (ADROGUE)",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -10860,8 +10922,8 @@
   {
     "id": "ruvte-285",
     "id_ruvte": 285,
-    "slug": "registro-ruvte-285",
-    "nombre": "Registro RUVTE 285",
+    "slug": "comisaria-1-de-la-matanza-san-justo",
+    "nombre": "COMISARIA 1ª DE LA MATANZA (SAN JUSTO)",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -11023,9 +11085,11 @@
   {
     "id": "ruvte-291",
     "id_ruvte": 291,
-    "slug": "registro-ruvte-291",
-    "nombre": "Registro RUVTE 291",
-    "alias": [],
+    "slug": "r-i-6-gral-viamonte",
+    "nombre": "R I 6 \"GRAL. VIAMONTE\"",
+    "alias": [
+      "R I 6 \"GRAL. VIAMONTE\""
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -11076,9 +11140,11 @@
   {
     "id": "ruvte-292",
     "id_ruvte": 292,
-    "slug": "registro-ruvte-292",
-    "nombre": "Registro RUVTE 292",
-    "alias": [],
+    "slug": "b-com-cdo-121",
+    "nombre": "B Com Cdo 121",
+    "alias": [
+      "B Com Cdo 121"
+    ],
     "zona": {
       "codigo": "2",
       "nombre": "Zona 2"
@@ -11294,8 +11360,8 @@
   {
     "id": "ruvte-298",
     "id_ruvte": 298,
-    "slug": "registro-ruvte-298",
-    "nombre": "Registro RUVTE 298",
+    "slug": "comisaria-22-de-yuto",
+    "nombre": "COMISARIA 22ª DE YUTO",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -11516,8 +11582,8 @@
   {
     "id": "ruvte-305",
     "id_ruvte": 305,
-    "slug": "registro-ruvte-305",
-    "nombre": "Registro RUVTE 305",
+    "slug": "casa-quinta-en-gral-pacheco-2",
+    "nombre": "CASA-QUINTA EN GRAL. PACHECO",
     "alias": [],
     "zona": {
       "codigo": "4",
@@ -11946,8 +12012,8 @@
   {
     "id": "ruvte-313",
     "id_ruvte": 313,
-    "slug": "registro-ruvte-313",
-    "nombre": "Registro RUVTE 313",
+    "slug": "brigada-aerea-vii-moron-unidad-de-comando-subzona-16-unidad-de-comando-area-160",
+    "nombre": "BRIGADA AEREA VII \"MORON\" UNIDAD DE COMANDO SUBZONA 16 / UNIDAD DE COMANDO AREA 160",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -12323,8 +12389,8 @@
   {
     "id": "ruvte-321",
     "id_ruvte": 321,
-    "slug": "registro-ruvte-321",
-    "nombre": "Registro RUVTE 321",
+    "slug": "comisaria-1-de-san-martin",
+    "nombre": "COMISARIA 1ª DE SAN MARTIN",
     "alias": [],
     "zona": {
       "codigo": "4",
@@ -12433,9 +12499,11 @@
   {
     "id": "ruvte-323",
     "id_ruvte": 323,
-    "slug": "registro-ruvte-323",
-    "nombre": "Registro RUVTE 323",
-    "alias": [],
+    "slug": "up1-penitenciaria-capital",
+    "nombre": "UP1 / PENITENCIARIA CAPITAL",
+    "alias": [
+      "UP1 / PENITENCIARIA CAPITAL"
+    ],
     "zona": {
       "codigo": "3",
       "nombre": "Zona 3"
@@ -12596,8 +12664,8 @@
   {
     "id": "ruvte-327",
     "id_ruvte": 327,
-    "slug": "registro-ruvte-327",
-    "nombre": "Registro RUVTE 327",
+    "slug": "comisaria-5-de-capital-federal",
+    "nombre": "COMISARIA 5ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -12649,8 +12717,8 @@
   {
     "id": "ruvte-328",
     "id_ruvte": 328,
-    "slug": "registro-ruvte-328",
-    "nombre": "Registro RUVTE 328",
+    "slug": "comisaria-21-de-capital-federal",
+    "nombre": "COMISARIA 21ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -12757,8 +12825,8 @@
   {
     "id": "ruvte-331",
     "id_ruvte": 331,
-    "slug": "registro-ruvte-331",
-    "nombre": "Registro RUVTE 331",
+    "slug": "comisaria-27-de-godoy-cruz",
+    "nombre": "COMISARIA 27ª DE GODOY CRUZ",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -12810,8 +12878,8 @@
   {
     "id": "ruvte-332",
     "id_ruvte": 332,
-    "slug": "registro-ruvte-332",
-    "nombre": "Registro RUVTE 332",
+    "slug": "frente-a-la-plaza-de-san-jose",
+    "nombre": "Frente a la plaza de San José",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -13187,9 +13255,11 @@
   {
     "id": "ruvte-341",
     "id_ruvte": 341,
-    "slug": "registro-ruvte-341",
-    "nombre": "Registro RUVTE 341",
-    "alias": [],
+    "slug": "r-i-9-cnel-pagola",
+    "nombre": "R I 9 \"CNEL. PAGOLA\"",
+    "alias": [
+      "R I 9 \"CNEL. PAGOLA\""
+    ],
     "zona": {
       "codigo": "2",
       "nombre": "Zona 2"
@@ -13299,9 +13369,11 @@
   {
     "id": "ruvte-343",
     "id_ruvte": 343,
-    "slug": "registro-ruvte-343",
-    "nombre": "Registro RUVTE 343",
-    "alias": [],
+    "slug": "hospital-general-601-cirujano-mayor-dr-cosme-argerich",
+    "nombre": "HOSPITAL GENERAL 601 \"CIRUJANO MAYOR DR. COSME ARGERICH\"",
+    "alias": [
+      "HOSPITAL GENERAL 601 \"CIRUJANO MAYOR DR. COSME ARGERICH\""
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -13352,9 +13424,11 @@
   {
     "id": "ruvte-345",
     "id_ruvte": 345,
-    "slug": "registro-ruvte-345",
-    "nombre": "Registro RUVTE 345",
-    "alias": [],
+    "slug": "g-a-bl-1-cnel-chilavert",
+    "nombre": "G A Bl 1 \"CNEL. CHILAVERT\"",
+    "alias": [
+      "G A Bl 1 \"CNEL. CHILAVERT\""
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -13407,9 +13481,11 @@
   {
     "id": "ruvte-347",
     "id_ruvte": 347,
-    "slug": "registro-ruvte-347",
-    "nombre": "Registro RUVTE 347",
-    "alias": [],
+    "slug": "prision-regional-del-norte-u-7",
+    "nombre": "PRISION REGIONAL DEL NORTE (U.7)",
+    "alias": [
+      "PRISION REGIONAL DEL NORTE (U.7)"
+    ],
     "zona": {
       "codigo": "2",
       "nombre": "Zona 2"
@@ -13462,8 +13538,8 @@
   {
     "id": "ruvte-348",
     "id_ruvte": 348,
-    "slug": "registro-ruvte-348",
-    "nombre": "Registro RUVTE 348",
+    "slug": "comisaria-18-de-capital-federal",
+    "nombre": "COMISARIA 18ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -13515,8 +13591,8 @@
   {
     "id": "ruvte-349",
     "id_ruvte": 349,
-    "slug": "registro-ruvte-349",
-    "nombre": "Registro RUVTE 349",
+    "slug": "comisaria-3-de-san-isidro-boulogne",
+    "nombre": "COMISARIA 3ª DE SAN ISIDRO (BOULOGNE)",
     "alias": [],
     "zona": {
       "codigo": "4",
@@ -13621,8 +13697,8 @@
   {
     "id": "ruvte-351",
     "id_ruvte": 351,
-    "slug": "registro-ruvte-351",
-    "nombre": "Registro RUVTE 351",
+    "slug": "destacamento-santa-ana-de-prefectura-2",
+    "nombre": "DESTACAMENTO SANTA ANA DE PREFECTURA",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -13949,9 +14025,11 @@
   {
     "id": "ruvte-359",
     "id_ruvte": 359,
-    "slug": "registro-ruvte-359",
-    "nombre": "Registro RUVTE 359",
-    "alias": [],
+    "slug": "up2",
+    "nombre": "UP2",
+    "alias": [
+      "UP2"
+    ],
     "zona": {
       "codigo": "3",
       "nombre": "Zona 3"
@@ -14002,8 +14080,8 @@
   {
     "id": "ruvte-360",
     "id_ruvte": 360,
-    "slug": "registro-ruvte-360",
-    "nombre": "Registro RUVTE 360",
+    "slug": "comisaria-44-de-capital-federal",
+    "nombre": "COMISARIA 44ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -14112,9 +14190,11 @@
   {
     "id": "ruvte-363",
     "id_ruvte": 363,
-    "slug": "registro-ruvte-363",
-    "nombre": "Registro RUVTE 363",
-    "alias": [],
+    "slug": "r-i-m-20-cazadores-de-los-andes",
+    "nombre": "R I M 20 \"CAZADORES DE LOS ANDES\"",
+    "alias": [
+      "R I M 20 \"CAZADORES DE LOS ANDES\""
+    ],
     "zona": {
       "codigo": "3",
       "nombre": "Zona 3"
@@ -14277,9 +14357,11 @@
   {
     "id": "ruvte-366",
     "id_ruvte": 366,
-    "slug": "registro-ruvte-366",
-    "nombre": "Registro RUVTE 366",
-    "alias": [],
+    "slug": "b-com-cdo-181",
+    "nombre": "B Com Cdo 181",
+    "alias": [
+      "B Com Cdo 181"
+    ],
     "zona": {
       "codigo": "5",
       "nombre": "Zona 5"
@@ -14440,8 +14522,8 @@
   {
     "id": "ruvte-369",
     "id_ruvte": 369,
-    "slug": "registro-ruvte-369",
-    "nombre": "Registro RUVTE 369",
+    "slug": "comisaria-4-de-lanus-remedios-de-escalada",
+    "nombre": "COMISARIA 4ª DE LANUS (REMEDIOS DE ESCALADA)",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -14654,8 +14736,8 @@
   {
     "id": "ruvte-374",
     "id_ruvte": 374,
-    "slug": "registro-ruvte-374",
-    "nombre": "Registro RUVTE 374",
+    "slug": "comisaria-10-de-lomas-de-zamora-ing-budge",
+    "nombre": "COMISARIA 10ª DE LOMAS DE ZAMORA (ING. BUDGE)",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -14709,9 +14791,11 @@
   {
     "id": "ruvte-377",
     "id_ruvte": 377,
-    "slug": "registro-ruvte-377",
-    "nombre": "Registro RUVTE 377",
-    "alias": [],
+    "slug": "unidad-militar-gualeguaychu-esc-expl-c-bl-2",
+    "nombre": "UNIDAD MILITAR GUALEGUAYCHU / Esc Expl C Bl 2",
+    "alias": [
+      "UNIDAD MILITAR GUALEGUAYCHU / Esc Expl C Bl 2"
+    ],
     "zona": {
       "codigo": "2",
       "nombre": "Zona 2"
@@ -14764,7 +14848,9 @@
     "id_ruvte": 379,
     "slug": "hospital-de-campana",
     "nombre": "HOSPITAL DE CAMPANA",
-    "alias": [],
+    "alias": [
+      "HOSPITAL MUNICIPAL \"SAN JOSE\" NO INCLUIDO EN ANEXO 2006"
+    ],
     "zona": {
       "codigo": "4",
       "nombre": "Zona 4"
@@ -14872,8 +14958,8 @@
   {
     "id": "ruvte-385",
     "id_ruvte": 385,
-    "slug": "registro-ruvte-385",
-    "nombre": "Registro RUVTE 385",
+    "slug": "comisaria-5-de-rosario",
+    "nombre": "COMISARIA 5ª DE ROSARIO",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -14925,9 +15011,11 @@
   {
     "id": "ruvte-386",
     "id_ruvte": 386,
-    "slug": "registro-ruvte-386",
-    "nombre": "Registro RUVTE 386",
-    "alias": [],
+    "slug": "prision-regional-del-sur-unidad-9",
+    "nombre": "PRISION REGIONAL DEL SUR UNIDAD 9",
+    "alias": [
+      "PRISION REGIONAL DEL SUR UNIDAD 9"
+    ],
     "zona": {
       "codigo": "5",
       "nombre": "Zona 5"
@@ -14980,8 +15068,8 @@
   {
     "id": "ruvte-387",
     "id_ruvte": 387,
-    "slug": "registro-ruvte-387",
-    "nombre": "Registro RUVTE 387",
+    "slug": "terrenos-de-la-ppbaav-jorge-newbery-ruta-nac-n-205-altura-calle-olegario-andrade-9-de-abril-esteban-echeverria-buenos-aires",
+    "nombre": "TERRENOS DE LA PPBAAv. JORGE NEWBERY (Ruta Nac. Nº 205) _ altura calle OLEGARIO ANDRADE 9 DE ABRIL · ESTEBAN ECHEVERRIA · BUENOS AIRES",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -15035,9 +15123,11 @@
   {
     "id": "ruvte-388",
     "id_ruvte": 388,
-    "slug": "registro-ruvte-388",
-    "nombre": "Registro RUVTE 388",
-    "alias": [],
+    "slug": "r-i-mte-28-grala-juana-azurduy",
+    "nombre": "R I Mte 28 \"GRALA. JUANA AZURDUY\"",
+    "alias": [
+      "R I Mte 28 \"GRALA. JUANA AZURDUY\""
+    ],
     "zona": {
       "codigo": "3",
       "nombre": "Zona 3"
@@ -15251,9 +15341,11 @@
   {
     "id": "ruvte-394",
     "id_ruvte": 394,
-    "slug": "registro-ruvte-394",
-    "nombre": "Registro RUVTE 394",
-    "alias": [],
+    "slug": "b-ing-comb-141",
+    "nombre": "B Ing Comb 141",
+    "alias": [
+      "B Ing Comb 141"
+    ],
     "zona": {
       "codigo": "3",
       "nombre": "Zona 3"
@@ -15306,9 +15398,11 @@
   {
     "id": "ruvte-396",
     "id_ruvte": 396,
-    "slug": "registro-ruvte-396",
-    "nombre": "Registro RUVTE 396",
-    "alias": [],
+    "slug": "batallon-de-artilleria-logistica-10-b-log-10",
+    "nombre": "BATALLON DE ARTILLERIA LOGISTICA 10 / B Log 10",
+    "alias": [
+      "BATALLON DE ARTILLERIA LOGISTICA 10 / B Log 10"
+    ],
     "zona": {
       "codigo": "4",
       "nombre": "Zona 4"
@@ -15414,8 +15508,8 @@
   {
     "id": "ruvte-399",
     "id_ruvte": 399,
-    "slug": "registro-ruvte-399",
-    "nombre": "Registro RUVTE 399",
+    "slug": "jefatura-de-policia-de-villa-maria-2",
+    "nombre": "JEFATURA DE POLICIA DE VILLA MARIA",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -15467,8 +15561,8 @@
   {
     "id": "ruvte-400",
     "id_ruvte": 400,
-    "slug": "registro-ruvte-400",
-    "nombre": "Registro RUVTE 400",
+    "slug": "hospital-militar-mendoza",
+    "nombre": "HOSPITAL MILITAR \"MENDOZA\"",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -15630,9 +15724,11 @@
   {
     "id": "ruvte-405",
     "id_ruvte": 405,
-    "slug": "registro-ruvte-405",
-    "nombre": "Registro RUVTE 405",
-    "alias": [],
+    "slug": "no-incluido-en-anexo-2006",
+    "nombre": "NO INCLUIDO EN ANEXO 2006",
+    "alias": [
+      "NO INCLUIDO EN ANEXO 2006"
+    ],
     "zona": {
       "codigo": "3",
       "nombre": "Zona 3"
@@ -15683,8 +15779,8 @@
   {
     "id": "ruvte-406",
     "id_ruvte": 406,
-    "slug": "registro-ruvte-406",
-    "nombre": "Registro RUVTE 406",
+    "slug": "comisaria-1-de-tucuman",
+    "nombre": "COMISARIA 1ª DE TUCUMAN",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -15793,8 +15889,8 @@
   {
     "id": "ruvte-411",
     "id_ruvte": 411,
-    "slug": "registro-ruvte-411",
-    "nombre": "Registro RUVTE 411",
+    "slug": "comisaria-4-de-capital-federal",
+    "nombre": "COMISARIA 4ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -15901,7 +15997,9 @@
     "id_ruvte": 414,
     "slug": "subcomisaria-de-gregorio-de-laferrere",
     "nombre": "SUBCOMISARIA DE GREGORIO DE LAFERRERE",
-    "alias": [],
+    "alias": [
+      "COMISARIA 4ª DE LA MATANZA"
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -16007,8 +16105,8 @@
   {
     "id": "ruvte-417",
     "id_ruvte": 417,
-    "slug": "registro-ruvte-417",
-    "nombre": "Registro RUVTE 417",
+    "slug": "comisaria-3-de-capital-federal",
+    "nombre": "COMISARIA 3ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -16060,9 +16158,11 @@
   {
     "id": "ruvte-421",
     "id_ruvte": 421,
-    "slug": "registro-ruvte-421",
-    "nombre": "Registro RUVTE 421",
-    "alias": [],
+    "slug": "la-septima-seccional-7",
+    "nombre": "LA SEPTIMA / SECCIONAL 7º",
+    "alias": [
+      "LA SEPTIMA / SECCIONAL 7º"
+    ],
     "zona": {
       "codigo": "3",
       "nombre": "Zona 3"
@@ -16278,8 +16378,8 @@
   {
     "id": "ruvte-431",
     "id_ruvte": 431,
-    "slug": "registro-ruvte-431",
-    "nombre": "Registro RUVTE 431",
+    "slug": "campo-las-lajas-2",
+    "nombre": "CAMPO LAS LAJAS",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -16333,8 +16433,8 @@
   {
     "id": "ruvte-433",
     "id_ruvte": 433,
-    "slug": "registro-ruvte-433",
-    "nombre": "Registro RUVTE 433",
+    "slug": "brigada-de-san-justo-2",
+    "nombre": "BRIGADA DE SAN JUSTO",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -16547,8 +16647,8 @@
   {
     "id": "ruvte-441",
     "id_ruvte": 441,
-    "slug": "registro-ruvte-441",
-    "nombre": "Registro RUVTE 441",
+    "slug": "comisaria-1-de-tandil",
+    "nombre": "COMISARIA 1ª DE TANDIL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -16875,8 +16975,8 @@
   {
     "id": "ruvte-450",
     "id_ruvte": 450,
-    "slug": "registro-ruvte-450",
-    "nombre": "Registro RUVTE 450",
+    "slug": "comisaria-31-de-capital-federal",
+    "nombre": "COMISARIA 31ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -17144,9 +17244,11 @@
   {
     "id": "ruvte-460",
     "id_ruvte": 460,
-    "slug": "registro-ruvte-460",
-    "nombre": "Registro RUVTE 460",
-    "alias": [],
+    "slug": "r-i-mte-30",
+    "nombre": "R I Mte 30",
+    "alias": [
+      "R I Mte 30"
+    ],
     "zona": {
       "codigo": "2",
       "nombre": "Zona 2"
@@ -17578,9 +17680,11 @@
   {
     "id": "ruvte-471",
     "id_ruvte": 471,
-    "slug": "registro-ruvte-471",
-    "nombre": "Registro RUVTE 471",
-    "alias": [],
+    "slug": "g-a-3",
+    "nombre": "G A 3",
+    "alias": [
+      "G A 3"
+    ],
     "zona": {
       "codigo": "2",
       "nombre": "Zona 2"
@@ -17631,8 +17735,8 @@
   {
     "id": "ruvte-472",
     "id_ruvte": 472,
-    "slug": "registro-ruvte-472",
-    "nombre": "Registro RUVTE 472",
+    "slug": "comisaria-11-de-santa-fe",
+    "nombre": "COMISARIA 11ª DE SANTA FE",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -17739,8 +17843,8 @@
   {
     "id": "ruvte-480",
     "id_ruvte": 480,
-    "slug": "registro-ruvte-480",
-    "nombre": "Registro RUVTE 480",
+    "slug": "brigada-aerea-vi-tandil-2",
+    "nombre": "BRIGADA AEREA VI \"TANDIL\"",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -17794,9 +17898,11 @@
   {
     "id": "ruvte-481",
     "id_ruvte": 481,
-    "slug": "registro-ruvte-481",
-    "nombre": "Registro RUVTE 481",
-    "alias": [],
+    "slug": "la-trece-seccional-13",
+    "nombre": "LA TRECE / SECCIONAL 13ª",
+    "alias": [
+      "LA TRECE / SECCIONAL 13ª"
+    ],
     "zona": {
       "codigo": "3",
       "nombre": "Zona 3"
@@ -18228,8 +18334,8 @@
   {
     "id": "ruvte-498",
     "id_ruvte": 498,
-    "slug": "registro-ruvte-498",
-    "nombre": "Registro RUVTE 498",
+    "slug": "escuela-de-policia-de-santiago-del-estero-2",
+    "nombre": "ESCUELA DE POLICIA DE SANTIAGO DEL ESTERO",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -18281,8 +18387,8 @@
   {
     "id": "ruvte-499",
     "id_ruvte": 499,
-    "slug": "registro-ruvte-499",
-    "nombre": "Registro RUVTE 499",
+    "slug": "unidad-penitenciaria-1-unidad-familiar",
+    "nombre": "UNIDAD PENITENCIARIA 1 (\"UNIDAD FAMILIAR\")",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -18334,8 +18440,8 @@
   {
     "id": "ruvte-500",
     "id_ruvte": 500,
-    "slug": "registro-ruvte-500",
-    "nombre": "Registro RUVTE 500",
+    "slug": "escuadron-de-exploracion-de-caballeria-blindado-2-unidad-de-comando-area-213",
+    "nombre": "ESCUADRON DE EXPLORACION DE CABALLERIA BLINDADO 2 UNIDAD DE COMANDO AREA 213",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -18550,8 +18656,8 @@
   {
     "id": "ruvte-509",
     "id_ruvte": 509,
-    "slug": "registro-ruvte-509",
-    "nombre": "Registro RUVTE 509",
+    "slug": "unidad-penal-1-caseros",
+    "nombre": "UNIDAD PENAL 1 \"CASEROS\"",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -18603,8 +18709,8 @@
   {
     "id": "ruvte-510",
     "id_ruvte": 510,
-    "slug": "registro-ruvte-510",
-    "nombre": "Registro RUVTE 510",
+    "slug": "prefectura-san-nicolas-2",
+    "nombre": "PREFECTURA SAN NICOLAS",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -18764,9 +18870,11 @@
   {
     "id": "ruvte-516",
     "id_ruvte": 516,
-    "slug": "registro-ruvte-516",
-    "nombre": "Registro RUVTE 516",
-    "alias": [],
+    "slug": "esc-com-bl-2-cdo-br-c-bl-ii",
+    "nombre": "Esc Com Bl 2 / Cdo Br C Bl II",
+    "alias": [
+      "Esc Com Bl 2 / Cdo Br C Bl II"
+    ],
     "zona": {
       "codigo": "2",
       "nombre": "Zona 2"
@@ -19196,8 +19304,8 @@
   {
     "id": "ruvte-528",
     "id_ruvte": 528,
-    "slug": "registro-ruvte-528",
-    "nombre": "Registro RUVTE 528",
+    "slug": "comisaria-22-de-capital-federal",
+    "nombre": "COMISARIA 22ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -19304,8 +19412,8 @@
   {
     "id": "ruvte-530",
     "id_ruvte": 530,
-    "slug": "registro-ruvte-530",
-    "nombre": "Registro RUVTE 530",
+    "slug": "comisaria-25-de-la-esperanza",
+    "nombre": "COMISARIA 25ª DE LA ESPERANZA",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -19465,7 +19573,9 @@
     "id_ruvte": 533,
     "slug": "brigada-femenina-de-san-martin",
     "nombre": "BRIGADA FEMENINA DE SAN MARTIN",
-    "alias": [],
+    "alias": [
+      "DESTACAMENTO Nº 2 DE POLICIA FEMENINA"
+    ],
     "zona": {
       "codigo": "4",
       "nombre": "Zona 4"
@@ -19624,9 +19734,11 @@
   {
     "id": "ruvte-539",
     "id_ruvte": 539,
-    "slug": "registro-ruvte-539",
-    "nombre": "Registro RUVTE 539",
-    "alias": [],
+    "slug": "destacamento-de-ing-maschwitz-hasta-jul-1982-subcomisaria-de-ing-maschwitz-desde-ago-1982",
+    "nombre": "DESTACAMENTO DE ING. MASCHWITZ (HASTA JUL/1982) / SUBCOMISARIA DE ING. MASCHWITZ (DESDE AGO/1982)",
+    "alias": [
+      "DESTACAMENTO DE ING. MASCHWITZ (HASTA JUL/1982) / SUBCOMISARIA DE ING. MASCHWITZ (DESDE AGO/1982)"
+    ],
     "zona": {
       "codigo": "4",
       "nombre": "Zona 4"
@@ -19677,8 +19789,8 @@
   {
     "id": "ruvte-540",
     "id_ruvte": 540,
-    "slug": "registro-ruvte-540",
-    "nombre": "Registro RUVTE 540",
+    "slug": "comisaria-1-de-rosario",
+    "nombre": "COMISARIA 1ª DE ROSARIO",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -19997,8 +20109,8 @@
   {
     "id": "ruvte-548",
     "id_ruvte": 548,
-    "slug": "registro-ruvte-548",
-    "nombre": "Registro RUVTE 548",
+    "slug": "comisaria-13-de-tucuman",
+    "nombre": "COMISARIA 13ª DE TUCUMAN",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -20050,9 +20162,11 @@
   {
     "id": "ruvte-549",
     "id_ruvte": 549,
-    "slug": "registro-ruvte-549",
-    "nombre": "Registro RUVTE 549",
-    "alias": [],
+    "slug": "la-tercera-seccional-3",
+    "nombre": "LA TERCERA / SECCIONAL 3ª",
+    "alias": [
+      "LA TERCERA / SECCIONAL 3ª"
+    ],
     "zona": {
       "codigo": "3",
       "nombre": "Zona 3"
@@ -20103,8 +20217,8 @@
   {
     "id": "ruvte-550",
     "id_ruvte": 550,
-    "slug": "registro-ruvte-550",
-    "nombre": "Registro RUVTE 550",
+    "slug": "base-aeronaval-almirante-zar-2",
+    "nombre": "BASE AERONAVAL \"ALMIRANTE ZAR\"",
     "alias": [],
     "zona": {
       "codigo": "5",
@@ -20156,9 +20270,11 @@
   {
     "id": "ruvte-551",
     "id_ruvte": 551,
-    "slug": "registro-ruvte-551",
-    "nombre": "Registro RUVTE 551",
-    "alias": [],
+    "slug": "r-i-8-gral-o-higgins",
+    "nombre": "R I 8 \"GRAL. O'HIGGINS\"",
+    "alias": [
+      "R I 8 \"GRAL. O'HIGGINS\""
+    ],
     "zona": {
       "codigo": "5",
       "nombre": "Zona 5"
@@ -20209,9 +20325,11 @@
   {
     "id": "ruvte-552",
     "id_ruvte": 552,
-    "slug": "registro-ruvte-552",
-    "nombre": "Registro RUVTE 552",
-    "alias": [],
+    "slug": "seccional-1",
+    "nombre": "SECCIONAL 1ª",
+    "alias": [
+      "SECCIONAL 1ª"
+    ],
     "zona": {
       "codigo": "5",
       "nombre": "Zona 5"
@@ -20262,8 +20380,8 @@
   {
     "id": "ruvte-553",
     "id_ruvte": 553,
-    "slug": "registro-ruvte-553",
-    "nombre": "Registro RUVTE 553",
+    "slug": "jefatura-departamental-de-policia-de-concepcion-del-uruguay-2",
+    "nombre": "JEFATURA DEPARTAMENTAL DE POLICIA DE CONCEPCION DEL URUGUAY",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -20370,7 +20488,9 @@
     "id_ruvte": 555,
     "slug": "subcomisaria-de-francisco-alvarez",
     "nombre": "SUBCOMISARIA DE FRANCISCO ALVAREZ",
-    "alias": [],
+    "alias": [
+      "COMISARIA 6ª DE MORENO (DENOMINACION ACTUAL)"
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -20476,9 +20596,11 @@
   {
     "id": "ruvte-557",
     "id_ruvte": 557,
-    "slug": "registro-ruvte-557",
-    "nombre": "Registro RUVTE 557",
-    "alias": [],
+    "slug": "la-sexta-seccional-6",
+    "nombre": "LA SEXTA / SECCIONAL 6º",
+    "alias": [
+      "LA SEXTA / SECCIONAL 6º"
+    ],
     "zona": {
       "codigo": "3",
       "nombre": "Zona 3"
@@ -20639,7 +20761,9 @@
     "id_ruvte": 563,
     "slug": "unidad-regional-i-central-vieja",
     "nombre": "UNIDAD REGIONAL I (CENTRAL VIEJA)",
-    "alias": [],
+    "alias": [
+      "JEFATURA DE POLICIA DE LA PCIA. DE MENDOZA (HASTA 1974)"
+    ],
     "zona": {
       "codigo": "3",
       "nombre": "Zona 3"
@@ -20690,9 +20814,11 @@
   {
     "id": "ruvte-564",
     "id_ruvte": 564,
-    "slug": "registro-ruvte-564",
-    "nombre": "Registro RUVTE 564",
-    "alias": [],
+    "slug": "r-c-tan-8-cazadores-gral-necochea",
+    "nombre": "R C Tan 8 \"CAZADORES GRAL. NECOCHEA\"",
+    "alias": [
+      "R C Tan 8 \"CAZADORES GRAL. NECOCHEA\""
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -20798,8 +20924,8 @@
   {
     "id": "ruvte-566",
     "id_ruvte": 566,
-    "slug": "registro-ruvte-566",
-    "nombre": "Registro RUVTE 566",
+    "slug": "base-de-infanteria-de-marina-baterias-bateria-vii-2",
+    "nombre": "BASE DE INFANTERIA DE MARINA \"BATERIAS\" (BATERIA VII)",
     "alias": [],
     "zona": {
       "codigo": "5",
@@ -20851,8 +20977,8 @@
   {
     "id": "ruvte-567",
     "id_ruvte": 567,
-    "slug": "registro-ruvte-567",
-    "nombre": "Registro RUVTE 567",
+    "slug": "comisaria-1-de-vicente-lopez-olivos",
+    "nombre": "COMISARIA 1ª DE VICENTE LOPEZ (OLIVOS)",
     "alias": [],
     "zona": {
       "codigo": "4",
@@ -20904,8 +21030,8 @@
   {
     "id": "ruvte-568",
     "id_ruvte": 568,
-    "slug": "registro-ruvte-568",
-    "nombre": "Registro RUVTE 568",
+    "slug": "comisaria-6-de-rosario",
+    "nombre": "COMISARIA 6ª DE ROSARIO",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -20957,8 +21083,8 @@
   {
     "id": "ruvte-569",
     "id_ruvte": 569,
-    "slug": "registro-ruvte-569",
-    "nombre": "Registro RUVTE 569",
+    "slug": "comisaria-1-de-santiago-del-estero",
+    "nombre": "COMISARIA 1ª DE SANTIAGO DEL ESTERO",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -21226,8 +21352,8 @@
   {
     "id": "ruvte-574",
     "id_ruvte": 574,
-    "slug": "registro-ruvte-574",
-    "nombre": "Registro RUVTE 574",
+    "slug": "ubicacion-actual",
+    "nombre": "(ubicación actual)",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -21281,8 +21407,8 @@
   {
     "id": "ruvte-575",
     "id_ruvte": 575,
-    "slug": "registro-ruvte-575",
-    "nombre": "Registro RUVTE 575",
+    "slug": "comisaria-38-de-capital-federal",
+    "nombre": "COMISARIA 38ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -21334,8 +21460,8 @@
   {
     "id": "ruvte-576",
     "id_ruvte": 576,
-    "slug": "registro-ruvte-576",
-    "nombre": "Registro RUVTE 576",
+    "slug": "comisaria-19-de-capital-federal",
+    "nombre": "COMISARIA 19ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -21821,8 +21947,8 @@
   {
     "id": "ruvte-588",
     "id_ruvte": 588,
-    "slug": "registro-ruvte-588",
-    "nombre": "Registro RUVTE 588",
+    "slug": "comisaria-32-de-san-rafael",
+    "nombre": "COMISARIA 32ª DE SAN RAFAEL",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -21874,8 +22000,8 @@
   {
     "id": "ruvte-589",
     "id_ruvte": 589,
-    "slug": "registro-ruvte-589",
-    "nombre": "Registro RUVTE 589",
+    "slug": "comisaria-8-de-santa-fe",
+    "nombre": "COMISARIA 8ª DE SANTA FE",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -21984,8 +22110,8 @@
   {
     "id": "ruvte-591",
     "id_ruvte": 591,
-    "slug": "registro-ruvte-591",
-    "nombre": "Registro RUVTE 591",
+    "slug": "batallon-de-infanteria-de-marina-3-unidad-de-comando-area-ft5",
+    "nombre": "BATALLON DE INFANTERIA DE MARINA 3 UNIDAD DE COMANDO AREA FT5",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -22255,8 +22381,8 @@
   {
     "id": "ruvte-597",
     "id_ruvte": 597,
-    "slug": "registro-ruvte-597",
-    "nombre": "Registro RUVTE 597",
+    "slug": "alcaidia-de-varones-de-formosa-2",
+    "nombre": "ALCAIDIA DE VARONES DE FORMOSA",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -22681,8 +22807,8 @@
   {
     "id": "ruvte-606",
     "id_ruvte": 606,
-    "slug": "registro-ruvte-606",
-    "nombre": "Registro RUVTE 606",
+    "slug": "comisaria-5-de-santiago-del-estero",
+    "nombre": "COMISARIA 5ª DE SANTIAGO DEL ESTERO",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -22734,9 +22860,11 @@
   {
     "id": "ruvte-607",
     "id_ruvte": 607,
-    "slug": "registro-ruvte-607",
-    "nombre": "Registro RUVTE 607",
-    "alias": [],
+    "slug": "la-primera-seccional-1",
+    "nombre": "LA PRIMERA / SECCIONAL 1ª",
+    "alias": [
+      "LA PRIMERA / SECCIONAL 1ª"
+    ],
     "zona": {
       "codigo": "3",
       "nombre": "Zona 3"
@@ -22948,8 +23076,8 @@
   {
     "id": "ruvte-611",
     "id_ruvte": 611,
-    "slug": "registro-ruvte-611",
-    "nombre": "Registro RUVTE 611",
+    "slug": "comisaria-17-de-rosario-fisherton",
+    "nombre": "COMISARIA 17ª DE ROSARIO (FISHERTON)",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -23001,8 +23129,8 @@
   {
     "id": "ruvte-612",
     "id_ruvte": 612,
-    "slug": "registro-ruvte-612",
-    "nombre": "Registro RUVTE 612",
+    "slug": "casa-quinta-3-cercana-a-campo-de-mayo",
+    "nombre": "CASA-QUINTA 3 (CERCANA A CAMPO DE MAYO)",
     "alias": [],
     "zona": {
       "codigo": "4",
@@ -23107,8 +23235,8 @@
   {
     "id": "ruvte-615",
     "id_ruvte": 615,
-    "slug": "registro-ruvte-615",
-    "nombre": "Registro RUVTE 615",
+    "slug": "mismo-predio-alcaidia-de-misiones",
+    "nombre": "mismo predio Alcaidía de Misiones",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -23164,7 +23292,9 @@
     "id_ruvte": 617,
     "slug": "en-inmediaciones-de-puente-nuevo-de-acceso-a-malagueno-frente-a-la-fabrica-corcemar",
     "nombre": "En inmediaciones de Puente Nuevo de acceso a Malagueño, frente a la fábrica Corcemar",
-    "alias": [],
+    "alias": [
+      "GA 141 NO INCLUIDO EN ANEXOS 2006-2015"
+    ],
     "zona": {
       "codigo": "3",
       "nombre": "Zona 3"
@@ -23543,8 +23673,8 @@
   {
     "id": "ruvte-634",
     "id_ruvte": 634,
-    "slug": "registro-ruvte-634",
-    "nombre": "Registro RUVTE 634",
+    "slug": "av-3-de-abril-y-av-costanera-corrientes-capital-corrientes",
+    "nombre": "Av. 3 DE ABRIL y Av. COSTANERA CORRIENTES · CAPITAL · CORRIENTES",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -23649,9 +23779,11 @@
   {
     "id": "ruvte-636",
     "id_ruvte": 636,
-    "slug": "registro-ruvte-636",
-    "nombre": "Registro RUVTE 636",
-    "alias": [],
+    "slug": "la-novena-seccional-9",
+    "nombre": "LA NOVENA / SECCIONAL 9º",
+    "alias": [
+      "LA NOVENA / SECCIONAL 9º"
+    ],
     "zona": {
       "codigo": "3",
       "nombre": "Zona 3"
@@ -23812,7 +23944,9 @@
     "id_ruvte": 642,
     "slug": "comisaria-de-pueblo-nuevo",
     "nombre": "COMISARIA DE PUEBLO NUEVO",
-    "alias": [],
+    "alias": [
+      "Cdo A 141 / GADA 141 UNIDAD DE COMANDO AREA 333"
+    ],
     "zona": {
       "codigo": "3",
       "nombre": "Zona 3"
@@ -24077,8 +24211,8 @@
   {
     "id": "ruvte-649",
     "id_ruvte": 649,
-    "slug": "registro-ruvte-649",
-    "nombre": "Registro RUVTE 649",
+    "slug": "casa-quinta-casco-de-estancia-2",
+    "nombre": "CASA-QUINTA (CASCO DE ESTANCIA)",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -24725,8 +24859,8 @@
   {
     "id": "ruvte-666",
     "id_ruvte": 666,
-    "slug": "registro-ruvte-666",
-    "nombre": "Registro RUVTE 666",
+    "slug": "vivienda-o-similar-particular-3",
+    "nombre": "VIVIENDA O SIMILAR / PARTICULAR",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -24833,7 +24967,9 @@
     "id_ruvte": 670,
     "slug": "division-cuatrerismo-brigada-guemes",
     "nombre": "DIVISION CUATRERISMO (BRIGADA \"GÜEMES\")",
-    "alias": [],
+    "alias": [
+      "\"PROTO-BANCO\" / OMEGA / PUENTE 12"
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -25261,8 +25397,8 @@
   {
     "id": "ruvte-681",
     "id_ruvte": 681,
-    "slug": "registro-ruvte-681",
-    "nombre": "Registro RUVTE 681",
+    "slug": "comisaria-1-de-parana",
+    "nombre": "COMISARIA 1ª DE PARANA",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -25473,8 +25609,8 @@
   {
     "id": "ruvte-690",
     "id_ruvte": 690,
-    "slug": "registro-ruvte-690",
-    "nombre": "Registro RUVTE 690",
+    "slug": "comisaria-1-de-san-juan",
+    "nombre": "COMISARIA 1ª DE SAN JUAN",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -26278,9 +26414,11 @@
   {
     "id": "ruvte-711",
     "id_ruvte": 711,
-    "slug": "registro-ruvte-711",
-    "nombre": "Registro RUVTE 711",
-    "alias": [],
+    "slug": "servicio-de-inteligencia-del-ejercito-dest-icia-124",
+    "nombre": "SERVICIO DE INTELIGENCIA DEL EJERCITO / Dest Icia 124",
+    "alias": [
+      "SERVICIO DE INTELIGENCIA DEL EJERCITO / Dest Icia 124"
+    ],
     "zona": {
       "codigo": "2",
       "nombre": "Zona 2"
@@ -26496,8 +26634,8 @@
   {
     "id": "ruvte-715",
     "id_ruvte": 715,
-    "slug": "registro-ruvte-715",
-    "nombre": "Registro RUVTE 715",
+    "slug": "illia",
+    "nombre": "ILLIA",
     "alias": [],
     "zona": {
       "codigo": "4",
@@ -26932,9 +27070,11 @@
   {
     "id": "ruvte-724",
     "id_ruvte": 724,
-    "slug": "registro-ruvte-724",
-    "nombre": "Registro RUVTE 724",
-    "alias": [],
+    "slug": "seccional-32",
+    "nombre": "SECCIONAL 32ª",
+    "alias": [
+      "SECCIONAL 32ª"
+    ],
     "zona": {
       "codigo": "3",
       "nombre": "Zona 3"
@@ -27093,9 +27233,11 @@
   {
     "id": "ruvte-727",
     "id_ruvte": 727,
-    "slug": "registro-ruvte-727",
-    "nombre": "Registro RUVTE 727",
-    "alias": [],
+    "slug": "r-i-19",
+    "nombre": "R I 19",
+    "alias": [
+      "R I 19"
+    ],
     "zona": {
       "codigo": "3",
       "nombre": "Zona 3"
@@ -27199,9 +27341,11 @@
   {
     "id": "ruvte-729",
     "id_ruvte": 729,
-    "slug": "registro-ruvte-729",
-    "nombre": "Registro RUVTE 729",
-    "alias": [],
+    "slug": "ca-ing-10-sin-determinar-ubicacion-exacta",
+    "nombre": "Ca Ing 10 SIN DETERMINAR UBICACION EXACTA",
+    "alias": [
+      "Ca Ing 10 SIN DETERMINAR UBICACION EXACTA"
+    ],
     "zona": {
       "codigo": "4",
       "nombre": "Zona 4"
@@ -27252,8 +27396,8 @@
   {
     "id": "ruvte-730",
     "id_ruvte": 730,
-    "slug": "registro-ruvte-730",
-    "nombre": "Registro RUVTE 730",
+    "slug": "brigada-de-investigaciones-de-santa-rosa-2",
+    "nombre": "BRIGADA DE INVESTIGACIONES DE SANTA ROSA",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -27572,7 +27716,9 @@
     "id_ruvte": 736,
     "slug": "subcomisaria-de-villa-tesei",
     "nombre": "SUBCOMISARIA DE VILLA TESEI",
-    "alias": [],
+    "alias": [
+      "COMISARIA 2° DE HURLINGHAM (VILLA TESEI) _ DENOMINACION ACTUAL"
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -27625,8 +27771,8 @@
   {
     "id": "ruvte-737",
     "id_ruvte": 737,
-    "slug": "registro-ruvte-737",
-    "nombre": "Registro RUVTE 737",
+    "slug": "comisaria-29-de-capital-federal",
+    "nombre": "COMISARIA 29ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -27731,8 +27877,8 @@
   {
     "id": "ruvte-901",
     "id_ruvte": 901,
-    "slug": "registro-ruvte-901",
-    "nombre": "Registro RUVTE 901",
+    "slug": "comisaria-6-de-parana",
+    "nombre": "COMISARIA 6ª DE PARANA",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -28962,8 +29108,8 @@
   {
     "id": "ruvte-980",
     "id_ruvte": 980,
-    "slug": "registro-ruvte-980",
-    "nombre": "Registro RUVTE 980",
+    "slug": "division-policia-rural-e-islas-matadero-municipal-de-corrientes-2",
+    "nombre": "DIVISION POLICIA RURAL E ISLAS / MATADERO MUNICIPAL DE CORRIENTES",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -29068,8 +29214,8 @@
   {
     "id": "ruvte-982",
     "id_ruvte": 982,
-    "slug": "registro-ruvte-982",
-    "nombre": "Registro RUVTE 982",
+    "slug": "comando-de-brigada-de-infanteria-v-unidad-de-comando-subzona-32",
+    "nombre": "COMANDO DE BRIGADA DE INFANTERIA V UNIDAD DE COMANDO SUBZONA 32",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -29288,7 +29434,9 @@
     "id_ruvte": 987,
     "slug": "subcomisaria-villa-diaz-velez",
     "nombre": "SUBCOMISARIA \"VILLA DIAZ VELEZ\"",
-    "alias": [],
+    "alias": [
+      "COMISARIA 3ª DE NECOCHEA / COMISARIA DE LA PLAYA"
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -29451,9 +29599,11 @@
   {
     "id": "ruvte-991",
     "id_ruvte": 991,
-    "slug": "registro-ruvte-991",
-    "nombre": "Registro RUVTE 991",
-    "alias": [],
+    "slug": "r-i-4-cnel-manuel-fraga",
+    "nombre": "R I 4 \"CNEL. MANUEL FRAGA\"",
+    "alias": [
+      "R I 4 \"CNEL. MANUEL FRAGA\""
+    ],
     "zona": {
       "codigo": "2",
       "nombre": "Zona 2"
@@ -29504,9 +29654,11 @@
   {
     "id": "ruvte-992",
     "id_ruvte": 992,
-    "slug": "registro-ruvte-992",
-    "nombre": "Registro RUVTE 992",
-    "alias": [],
+    "slug": "dest-icia-123",
+    "nombre": "Dest Icia 123",
+    "alias": [
+      "Dest Icia 123"
+    ],
     "zona": {
       "codigo": "2",
       "nombre": "Zona 2"
@@ -29773,7 +29925,9 @@
     "id_ruvte": 997,
     "slug": "ex-destacamento-policial-camino-a-puerto-boca-mano-derecha",
     "nombre": "Ex-Destacamento Policial camino a Puerto Boca mano derecha",
-    "alias": [],
+    "alias": [
+      "Ca Telecom 121"
+    ],
     "zona": {
       "codigo": "2",
       "nombre": "Zona 2"
@@ -29824,9 +29978,11 @@
   {
     "id": "ruvte-998",
     "id_ruvte": 998,
-    "slug": "registro-ruvte-998",
-    "nombre": "Registro RUVTE 998",
-    "alias": [],
+    "slug": "ca-ing-7",
+    "nombre": "Ca Ing 7",
+    "alias": [
+      "Ca Ing 7"
+    ],
     "zona": {
       "codigo": "2",
       "nombre": "Zona 2"
@@ -29879,7 +30035,9 @@
     "id_ruvte": 999,
     "slug": "comisaria-de-sierra-grande",
     "nombre": "COMISARIA DE SIERRA GRANDE",
-    "alias": [],
+    "alias": [
+      "SECCIONAL 17ª"
+    ],
     "zona": {
       "codigo": "5",
       "nombre": "Zona 5"
@@ -30095,9 +30253,11 @@
   {
     "id": "ruvte-1003",
     "id_ruvte": 1003,
-    "slug": "registro-ruvte-1003",
-    "nombre": "Registro RUVTE 1003",
-    "alias": [],
+    "slug": "el-regimiento-regimiento-de-la-liguria-g-a-7",
+    "nombre": "EL REGIMIENTO / REGIMIENTO DE LA LIGURIA / G A 7",
+    "alias": [
+      "EL REGIMIENTO / REGIMIENTO DE LA LIGURIA / G A 7"
+    ],
     "zona": {
       "codigo": "2",
       "nombre": "Zona 2"
@@ -30256,8 +30416,8 @@
   {
     "id": "ruvte-1007",
     "id_ruvte": 1007,
-    "slug": "registro-ruvte-1007",
-    "nombre": "Registro RUVTE 1007",
+    "slug": "ex-direccion-de-investigaciones-de-la-policia-de-entre-rios-2",
+    "nombre": "EX DIRECCION DE INVESTIGACIONES DE LA POLICIA DE ENTRE RIOS",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -30474,9 +30634,11 @@
   {
     "id": "ruvte-1011",
     "id_ruvte": 1011,
-    "slug": "registro-ruvte-1011",
-    "nombre": "Registro RUVTE 1011",
-    "alias": [],
+    "slug": "abajo-dest-icia-141-no-es-ccd-inteligencia",
+    "nombre": "ABAJO / Dest Icia 141 NO ES CCD / INTELIGENCIA",
+    "alias": [
+      "ABAJO / Dest Icia 141 NO ES CCD / INTELIGENCIA"
+    ],
     "zona": {
       "codigo": "3",
       "nombre": "Zona 3"
@@ -30582,8 +30744,8 @@
   {
     "id": "ruvte-1013",
     "id_ruvte": 1013,
-    "slug": "registro-ruvte-1013",
-    "nombre": "Registro RUVTE 1013",
+    "slug": "comisaria-de-chilecito-2",
+    "nombre": "COMISARIA DE CHILECITO",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -31128,8 +31290,8 @@
   {
     "id": "ruvte-1023",
     "id_ruvte": 1023,
-    "slug": "registro-ruvte-1023",
-    "nombre": "Registro RUVTE 1023",
+    "slug": "unidad-penal-13-de-santa-rosa",
+    "nombre": "UNIDAD PENAL 13 DE SANTA ROSA",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -31287,8 +31449,8 @@
   {
     "id": "ruvte-1027",
     "id_ruvte": 1027,
-    "slug": "registro-ruvte-1027",
-    "nombre": "Registro RUVTE 1027",
+    "slug": "comisaria-2-de-santa-fe",
+    "nombre": "COMISARIA 2ª DE SANTA FE",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -31340,9 +31502,11 @@
   {
     "id": "ruvte-1029",
     "id_ruvte": 1029,
-    "slug": "registro-ruvte-1029",
-    "nombre": "Registro RUVTE 1029",
-    "alias": [],
+    "slug": "g-a-m-5-cap-pereyra-de-lucena",
+    "nombre": "G A M 5 \"CAP. PEREYRA DE LUCENA\"",
+    "alias": [
+      "G A M 5 \"CAP. PEREYRA DE LUCENA\""
+    ],
     "zona": {
       "codigo": "3",
       "nombre": "Zona 3"
@@ -31397,7 +31561,9 @@
     "id_ruvte": 1030,
     "slug": "comisaria-de-zonda",
     "nombre": "COMISARIA DE ZONDA",
-    "alias": [],
+    "alias": [
+      "COMISARIA 14ª"
+    ],
     "zona": {
       "codigo": "3",
       "nombre": "Zona 3"
@@ -31503,8 +31669,8 @@
   {
     "id": "ruvte-1033",
     "id_ruvte": 1033,
-    "slug": "registro-ruvte-1033",
-    "nombre": "Registro RUVTE 1033",
+    "slug": "direccion-de-investigaciones-de-la-policia-del-chaco-1976-1978",
+    "nombre": "DIRECCION DE INVESTIGACIONES DE LA POLICIA DEL CHACO (1976-1978)",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -31556,8 +31722,8 @@
   {
     "id": "ruvte-1034",
     "id_ruvte": 1034,
-    "slug": "registro-ruvte-1034",
-    "nombre": "Registro RUVTE 1034",
+    "slug": "hospital-central-de-mendoza-2",
+    "nombre": "HOSPITAL CENTRAL DE MENDOZA",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -31774,7 +31940,9 @@
     "id_ruvte": 1044,
     "slug": "destacamento-de-paso-del-rey",
     "nombre": "DESTACAMENTO DE PASO DEL REY",
-    "alias": [],
+    "alias": [
+      "COMISARIA 5ª DE MORENO (DENOMINACION ACTUAL)"
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -31882,8 +32050,8 @@
   {
     "id": "ruvte-1046",
     "id_ruvte": 1046,
-    "slug": "registro-ruvte-1046",
-    "nombre": "Registro RUVTE 1046",
+    "slug": "comisaria-6-de-capital-federal",
+    "nombre": "COMISARIA 6ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -31988,8 +32156,8 @@
   {
     "id": "ruvte-1048",
     "id_ruvte": 1048,
-    "slug": "registro-ruvte-1048",
-    "nombre": "Registro RUVTE 1048",
+    "slug": "comisaria-2-de-lomas-de-zamora-banfield",
+    "nombre": "COMISARIA 2ª DE LOMAS DE ZAMORA (BANFIELD)",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -32041,9 +32209,11 @@
   {
     "id": "ruvte-1049",
     "id_ruvte": 1049,
-    "slug": "registro-ruvte-1049",
-    "nombre": "Registro RUVTE 1049",
-    "alias": [],
+    "slug": "r-i-5-gral-felix-de-olazabal",
+    "nombre": "R I 5 \"GRAL. FELIX DE OLAZABAL\"",
+    "alias": [
+      "R I 5 \"GRAL. FELIX DE OLAZABAL\""
+    ],
     "zona": {
       "codigo": "2",
       "nombre": "Zona 2"
@@ -32094,8 +32264,8 @@
   {
     "id": "ruvte-1050",
     "id_ruvte": 1050,
-    "slug": "registro-ruvte-1050",
-    "nombre": "Registro RUVTE 1050",
+    "slug": "comisaria-36-de-capital-federal",
+    "nombre": "COMISARIA 36ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -32147,8 +32317,8 @@
   {
     "id": "ruvte-1051",
     "id_ruvte": 1051,
-    "slug": "registro-ruvte-1051",
-    "nombre": "Registro RUVTE 1051",
+    "slug": "comisaria-2-de-la-matanza-ramos-mejia",
+    "nombre": "COMISARIA 2ª DE LA MATANZA (RAMOS MEJIA)",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -32308,8 +32478,8 @@
   {
     "id": "ruvte-1055",
     "id_ruvte": 1055,
-    "slug": "registro-ruvte-1055",
-    "nombre": "Registro RUVTE 1055",
+    "slug": "comisaria-20-de-capital-federal",
+    "nombre": "COMISARIA 20ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -32414,8 +32584,8 @@
   {
     "id": "ruvte-1057",
     "id_ruvte": 1057,
-    "slug": "registro-ruvte-1057",
-    "nombre": "Registro RUVTE 1057",
+    "slug": "comisaria-26-de-capital-federal",
+    "nombre": "COMISARIA 26ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -32467,8 +32637,8 @@
   {
     "id": "ruvte-1058",
     "id_ruvte": 1058,
-    "slug": "registro-ruvte-1058",
-    "nombre": "Registro RUVTE 1058",
+    "slug": "comisaria-28-de-capital-federal",
+    "nombre": "COMISARIA 28ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -32628,8 +32798,8 @@
   {
     "id": "ruvte-1061",
     "id_ruvte": 1061,
-    "slug": "registro-ruvte-1061",
-    "nombre": "Registro RUVTE 1061",
+    "slug": "comisaria-6-de-santiago-del-estero",
+    "nombre": "COMISARIA 6ª DE SANTIAGO DEL ESTERO",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -32734,9 +32904,11 @@
   {
     "id": "ruvte-1063",
     "id_ruvte": 1063,
-    "slug": "registro-ruvte-1063",
-    "nombre": "Registro RUVTE 1063",
-    "alias": [],
+    "slug": "o-t-18-el-jardin-la-cueva",
+    "nombre": "O.T. 18 / EL JARDIN / LA CUEVA",
+    "alias": [
+      "O.T. 18 / EL JARDIN / LA CUEVA"
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -33166,9 +33338,11 @@
   {
     "id": "ruvte-1071",
     "id_ruvte": 1071,
-    "slug": "registro-ruvte-1071",
-    "nombre": "Registro RUVTE 1071",
-    "alias": [],
+    "slug": "cdo-br-i-aerot-iv-4-brigada",
+    "nombre": "Cdo Br I Aerot IV / 4ª BRIGADA",
+    "alias": [
+      "Cdo Br I Aerot IV / 4ª BRIGADA"
+    ],
     "zona": {
       "codigo": "3",
       "nombre": "Zona 3"
@@ -33327,9 +33501,11 @@
   {
     "id": "ruvte-1074",
     "id_ruvte": 1074,
-    "slug": "vivienda-o-similar-particular-4",
+    "slug": "vivienda-o-similar-particular-5",
     "nombre": "VIVIENDA O SIMILAR / PARTICULAR",
-    "alias": [],
+    "alias": [
+      "B Ars 121"
+    ],
     "zona": {
       "codigo": "2",
       "nombre": "Zona 2"
@@ -33440,8 +33616,8 @@
   {
     "id": "ruvte-1077",
     "id_ruvte": 1077,
-    "slug": "registro-ruvte-1077",
-    "nombre": "Registro RUVTE 1077",
+    "slug": "comisaria-2-de-neuquen",
+    "nombre": "COMISARIA 2ª DE NEUQUEN",
     "alias": [],
     "zona": {
       "codigo": "5",
@@ -33495,8 +33671,8 @@
   {
     "id": "ruvte-1078",
     "id_ruvte": 1078,
-    "slug": "registro-ruvte-1078",
-    "nombre": "Registro RUVTE 1078",
+    "slug": "unidad-penal-6-de-parana-carcel-de-mujeres",
+    "nombre": "UNIDAD PENAL 6 DE PARANA (CARCEL DE MUJERES)",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -33870,8 +34046,8 @@
   {
     "id": "ruvte-1085",
     "id_ruvte": 1085,
-    "slug": "registro-ruvte-1085",
-    "nombre": "Registro RUVTE 1085",
+    "slug": "escuadron-35-el-bolson-de-gendarmeria-nacional",
+    "nombre": "ESCUADRON 35 \"EL BOLSON\" DE GENDARMERIA NACIONAL",
     "alias": [],
     "zona": {
       "codigo": "5",
@@ -33978,9 +34154,11 @@
   {
     "id": "ruvte-1087",
     "id_ruvte": 1087,
-    "slug": "registro-ruvte-1087",
-    "nombre": "Registro RUVTE 1087",
-    "alias": [],
+    "slug": "b-ing-const-181",
+    "nombre": "B Ing Const 181",
+    "alias": [
+      "B Ing Const 181"
+    ],
     "zona": {
       "codigo": "5",
       "nombre": "Zona 5"
@@ -34084,8 +34262,8 @@
   {
     "id": "ruvte-1089",
     "id_ruvte": 1089,
-    "slug": "registro-ruvte-1089",
-    "nombre": "Registro RUVTE 1089",
+    "slug": "comisaria-11-de-lib-gral-san-martin",
+    "nombre": "COMISARIA 11ª DE LIB. GRAL. SAN MARTIN",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -34353,8 +34531,8 @@
   {
     "id": "ruvte-1094",
     "id_ruvte": 1094,
-    "slug": "registro-ruvte-1094",
-    "nombre": "Registro RUVTE 1094",
+    "slug": "comisaria-3-de-santiago-del-estero",
+    "nombre": "COMISARIA 3ª DE SANTIAGO DEL ESTERO",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -34406,8 +34584,8 @@
   {
     "id": "ruvte-1095",
     "id_ruvte": 1095,
-    "slug": "registro-ruvte-1095",
-    "nombre": "Registro RUVTE 1095",
+    "slug": "batallon-de-ingenieros-de-combate-141-unidad-de-comando-area-312",
+    "nombre": "BATALLON DE INGENIEROS DE COMBATE 141 UNIDAD DE COMANDO AREA 312",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -34459,9 +34637,11 @@
   {
     "id": "ruvte-1096",
     "id_ruvte": 1096,
-    "slug": "registro-ruvte-1096",
-    "nombre": "Registro RUVTE 1096",
-    "alias": [],
+    "slug": "regimiento-de-caballeria-5-gral-guemes-dest-expl-cm-141-c5",
+    "nombre": "REGIMIENTO DE CABALLERIA 5 \"GRAL. GÜEMES\" / Dest Expl CM 141 (C5)",
+    "alias": [
+      "REGIMIENTO DE CABALLERIA 5 \"GRAL. GÜEMES\" / Dest Expl CM 141 (C5)"
+    ],
     "zona": {
       "codigo": "3",
       "nombre": "Zona 3"
@@ -34565,8 +34745,8 @@
   {
     "id": "ruvte-1098",
     "id_ruvte": 1098,
-    "slug": "registro-ruvte-1098",
-    "nombre": "Registro RUVTE 1098",
+    "slug": "escuadron-34-bariloche-de-gendarmeria-nacional",
+    "nombre": "ESCUADRON 34 \"BARILOCHE\" DE GENDARMERIA NACIONAL",
     "alias": [],
     "zona": {
       "codigo": "5",
@@ -34618,8 +34798,8 @@
   {
     "id": "ruvte-1099",
     "id_ruvte": 1099,
-    "slug": "registro-ruvte-1099",
-    "nombre": "Registro RUVTE 1099",
+    "slug": "comisaria-de-el-bolson-2",
+    "nombre": "COMISARIA DE EL BOLSON",
     "alias": [],
     "zona": {
       "codigo": "5",
@@ -34830,9 +35010,11 @@
   {
     "id": "ruvte-1103",
     "id_ruvte": 1103,
-    "slug": "registro-ruvte-1103",
-    "nombre": "Registro RUVTE 1103",
-    "alias": [],
+    "slug": "cdo-br-i-m-vi-brigada-de-infanteria-de-montana-6",
+    "nombre": "Cdo Br I M VI / BRIGADA DE INFANTERIA DE MONTAÑA 6",
+    "alias": [
+      "Cdo Br I M VI / BRIGADA DE INFANTERIA DE MONTAÑA 6"
+    ],
     "zona": {
       "codigo": "5",
       "nombre": "Zona 5"
@@ -34883,9 +35065,11 @@
   {
     "id": "ruvte-1104",
     "id_ruvte": 1104,
-    "slug": "registro-ruvte-1104",
-    "nombre": "Registro RUVTE 1104",
-    "alias": [],
+    "slug": "ca-com-m-6",
+    "nombre": "Ca Com M 6",
+    "alias": [
+      "Ca Com M 6"
+    ],
     "zona": {
       "codigo": "5",
       "nombre": "Zona 5"
@@ -34936,9 +35120,11 @@
   {
     "id": "ruvte-1105",
     "id_ruvte": 1105,
-    "slug": "registro-ruvte-1105",
-    "nombre": "Registro RUVTE 1105",
-    "alias": [],
+    "slug": "g-a-m-6",
+    "nombre": "G A M 6",
+    "alias": [
+      "G A M 6"
+    ],
     "zona": {
       "codigo": "5",
       "nombre": "Zona 5"
@@ -35095,9 +35281,11 @@
   {
     "id": "ruvte-1108",
     "id_ruvte": 1108,
-    "slug": "registro-ruvte-1108",
-    "nombre": "Registro RUVTE 1108",
-    "alias": [],
+    "slug": "u5-colonia-penal-de-gral-roca-subprefecto-miguel-rocha",
+    "nombre": "U5 / COLONIA PENAL DE GRAL. ROCA \"SUBPREFECTO MIGUEL ROCHA\"",
+    "alias": [
+      "U5 / COLONIA PENAL DE GRAL. ROCA \"SUBPREFECTO MIGUEL ROCHA\""
+    ],
     "zona": {
       "codigo": "5",
       "nombre": "Zona 5"
@@ -35254,9 +35442,11 @@
   {
     "id": "ruvte-1112",
     "id_ruvte": 1112,
-    "slug": "registro-ruvte-1112",
-    "nombre": "Registro RUVTE 1112",
-    "alias": [],
+    "slug": "r-i-m-26",
+    "nombre": "R I M 26",
+    "alias": [
+      "R I M 26"
+    ],
     "zona": {
       "codigo": "5",
       "nombre": "Zona 5"
@@ -35360,8 +35550,8 @@
   {
     "id": "ruvte-1115",
     "id_ruvte": 1115,
-    "slug": "registro-ruvte-1115",
-    "nombre": "Registro RUVTE 1115",
+    "slug": "comisaria-2-de-formosa",
+    "nombre": "COMISARIA 2ª DE FORMOSA",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -35413,9 +35603,11 @@
   {
     "id": "ruvte-1117",
     "id_ruvte": 1117,
-    "slug": "registro-ruvte-1117",
-    "nombre": "Registro RUVTE 1117",
-    "alias": [],
+    "slug": "seccional-2-2",
+    "nombre": "SECCIONAL 2ª",
+    "alias": [
+      "SECCIONAL 2ª"
+    ],
     "zona": {
       "codigo": "5",
       "nombre": "Zona 5"
@@ -35572,9 +35764,11 @@
   {
     "id": "ruvte-1120",
     "id_ruvte": 1120,
-    "slug": "registro-ruvte-1120",
-    "nombre": "Registro RUVTE 1120",
-    "alias": [],
+    "slug": "seccional-1-2",
+    "nombre": "SECCIONAL 1ª",
+    "alias": [
+      "SECCIONAL 1ª"
+    ],
     "zona": {
       "codigo": "5",
       "nombre": "Zona 5"
@@ -35625,9 +35819,11 @@
   {
     "id": "ruvte-1121",
     "id_ruvte": 1121,
-    "slug": "registro-ruvte-1121",
-    "nombre": "Registro RUVTE 1121",
-    "alias": [],
+    "slug": "penitenciaria-15",
+    "nombre": "PENITENCIARIA 15",
+    "alias": [
+      "PENITENCIARIA 15"
+    ],
     "zona": {
       "codigo": "5",
       "nombre": "Zona 5"
@@ -35733,8 +35929,8 @@
   {
     "id": "ruvte-1123",
     "id_ruvte": 1123,
-    "slug": "registro-ruvte-1123",
-    "nombre": "Registro RUVTE 1123",
+    "slug": "comisaria-2-de-capital-federal",
+    "nombre": "COMISARIA 2ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -35786,8 +35982,8 @@
   {
     "id": "ruvte-1124",
     "id_ruvte": 1124,
-    "slug": "registro-ruvte-1124",
-    "nombre": "Registro RUVTE 1124",
+    "slug": "comisaria-1-de-santa-fe",
+    "nombre": "COMISARIA 1ª DE SANTA FE",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -35947,8 +36143,8 @@
   {
     "id": "ruvte-1127",
     "id_ruvte": 1127,
-    "slug": "registro-ruvte-1127",
-    "nombre": "Registro RUVTE 1127",
+    "slug": "batallon-deposito-de-arsenales-601-domingo-viejobueno-unidad-de-comando-area-111",
+    "nombre": "BATALLON DEPOSITO DE ARSENALES 601 \"DOMINGO VIEJOBUENO\" UNIDAD DE COMANDO AREA 111",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -36159,8 +36355,8 @@
   {
     "id": "ruvte-1131",
     "id_ruvte": 1131,
-    "slug": "registro-ruvte-1131",
-    "nombre": "Registro RUVTE 1131",
+    "slug": "casa-en-san-jose-del-rincon-2",
+    "nombre": "CASA EN SAN JOSE DEL RINCON",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -36638,9 +36834,11 @@
   {
     "id": "ruvte-1145",
     "id_ruvte": 1145,
-    "slug": "registro-ruvte-1145",
-    "nombre": "Registro RUVTE 1145",
-    "alias": [],
+    "slug": "unidad-penal-6-concepcion-arenal",
+    "nombre": "UNIDAD PENAL 6 \"CONCEPCION ARENAL\"",
+    "alias": [
+      "UNIDAD PENAL 6 \"CONCEPCION ARENAL\""
+    ],
     "zona": {
       "codigo": "2",
       "nombre": "Zona 2"
@@ -36691,8 +36889,8 @@
   {
     "id": "ruvte-1146",
     "id_ruvte": 1146,
-    "slug": "registro-ruvte-1146",
-    "nombre": "Registro RUVTE 1146",
+    "slug": "unidad-penitenciaria-1-casa-del-director",
+    "nombre": "UNIDAD PENITENCIARIA 1 (\"CASA DEL DIRECTOR\")",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -36852,8 +37050,8 @@
   {
     "id": "ruvte-1150",
     "id_ruvte": 1150,
-    "slug": "registro-ruvte-1150",
-    "nombre": "Registro RUVTE 1150",
+    "slug": "comisaria-1-de-posadas",
+    "nombre": "COMISARIA 1ª DE POSADAS",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -37331,8 +37529,8 @@
   {
     "id": "ruvte-1159",
     "id_ruvte": 1159,
-    "slug": "registro-ruvte-1159",
-    "nombre": "Registro RUVTE 1159",
+    "slug": "comisaria-de-obera-2",
+    "nombre": "COMISARIA DE OBERA",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -37547,8 +37745,8 @@
   {
     "id": "ruvte-1163",
     "id_ruvte": 1163,
-    "slug": "registro-ruvte-1163",
-    "nombre": "Registro RUVTE 1163",
+    "slug": "comisaria-14-de-rosario",
+    "nombre": "COMISARIA 14ª DE ROSARIO",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -37600,8 +37798,8 @@
   {
     "id": "ruvte-1164",
     "id_ruvte": 1164,
-    "slug": "registro-ruvte-1164",
-    "nombre": "Registro RUVTE 1164",
+    "slug": "casa-cercana-a-campo-de-polo-del-ejercito-2",
+    "nombre": "CASA CERCANA A CAMPO DE POLO DEL EJERCITO",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -37653,8 +37851,8 @@
   {
     "id": "ruvte-1166",
     "id_ruvte": 1166,
-    "slug": "registro-ruvte-1166",
-    "nombre": "Registro RUVTE 1166",
+    "slug": "delegacion-concepcion-del-uruguay-de-la-policia-federal-2",
+    "nombre": "DELEGACION \"CONCEPCION DEL URUGUAY\" DE LA POLICIA FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -37975,8 +38173,8 @@
   {
     "id": "ruvte-1173",
     "id_ruvte": 1173,
-    "slug": "registro-ruvte-1173",
-    "nombre": "Registro RUVTE 1173",
+    "slug": "comisaria-2-de-parana",
+    "nombre": "COMISARIA 2ª DE PARANA",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -38136,8 +38334,8 @@
   {
     "id": "ruvte-1178",
     "id_ruvte": 1178,
-    "slug": "registro-ruvte-1178",
-    "nombre": "Registro RUVTE 1178",
+    "slug": "comisaria-1-de-eldorado",
+    "nombre": "COMISARIA 1ª DE ELDORADO",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -38295,9 +38493,11 @@
   {
     "id": "ruvte-1183",
     "id_ruvte": 1183,
-    "slug": "registro-ruvte-1183",
-    "nombre": "Registro RUVTE 1183",
-    "alias": [],
+    "slug": "esc-expl-c-bl-3",
+    "nombre": "Esc Expl C Bl 3",
+    "alias": [
+      "Esc Expl C Bl 3"
+    ],
     "zona": {
       "codigo": "2",
       "nombre": "Zona 2"
@@ -38564,8 +38764,8 @@
   {
     "id": "ruvte-1190",
     "id_ruvte": 1190,
-    "slug": "registro-ruvte-1190",
-    "nombre": "Registro RUVTE 1190",
+    "slug": "hospital-angel-c-padilla-2",
+    "nombre": "HOSPITAL \"ANGEL C. PADILLA\"",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -38674,8 +38874,8 @@
   {
     "id": "ruvte-1192",
     "id_ruvte": 1192,
-    "slug": "registro-ruvte-1192",
-    "nombre": "Registro RUVTE 1192",
+    "slug": "comisaria-4-de-vicente-lopez-villa-martelli",
+    "nombre": "COMISARIA 4ª DE VICENTE LOPEZ (VILLA MARTELLI)",
     "alias": [],
     "zona": {
       "codigo": "4",
@@ -38727,8 +38927,8 @@
   {
     "id": "ruvte-1193",
     "id_ruvte": 1193,
-    "slug": "registro-ruvte-1193",
-    "nombre": "Registro RUVTE 1193",
+    "slug": "comisaria-2-de-tres-de-febrero-ciudadela",
+    "nombre": "COMISARIA 2ª DE TRES DE FEBRERO (CIUDADELA)",
     "alias": [],
     "zona": {
       "codigo": "4",
@@ -38780,8 +38980,8 @@
   {
     "id": "ruvte-1194",
     "id_ruvte": 1194,
-    "slug": "registro-ruvte-1194",
-    "nombre": "Registro RUVTE 1194",
+    "slug": "comisaria-de-villa-quinteros-2",
+    "nombre": "COMISARIA DE VILLA QUINTEROS",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -39263,8 +39463,8 @@
   {
     "id": "ruvte-1204",
     "id_ruvte": 1204,
-    "slug": "registro-ruvte-1204",
-    "nombre": "Registro RUVTE 1204",
+    "slug": "comando-de-brigada-de-infanteria-de-montana-vi-jefatura-subzona-52",
+    "nombre": "COMANDO DE BRIGADA DE INFANTERIA DE MONTAÑA VI JEFATURA SUBZONA 52",
     "alias": [],
     "zona": {
       "codigo": "5",
@@ -39316,9 +39516,11 @@
   {
     "id": "ruvte-1205",
     "id_ruvte": 1205,
-    "slug": "registro-ruvte-1205",
-    "nombre": "Registro RUVTE 1205",
-    "alias": [],
+    "slug": "seccional-2",
+    "nombre": "SECCIONAL 2ª",
+    "alias": [
+      "SECCIONAL 2ª"
+    ],
     "zona": {
       "codigo": "5",
       "nombre": "Zona 5"
@@ -39369,8 +39571,8 @@
   {
     "id": "ruvte-1206",
     "id_ruvte": 1206,
-    "slug": "registro-ruvte-1206",
-    "nombre": "Registro RUVTE 1206",
+    "slug": "escuelita-de-bahia-blanca-2",
+    "nombre": "ESCUELITA DE BAHIA BLANCA",
     "alias": [],
     "zona": {
       "codigo": "5",
@@ -39422,8 +39624,8 @@
   {
     "id": "ruvte-1208",
     "id_ruvte": 1208,
-    "slug": "registro-ruvte-1208",
-    "nombre": "Registro RUVTE 1208",
+    "slug": "comando-de-cuerpo-de-ejercito-v-unidad-de-comando-zona-v-2",
+    "nombre": "COMANDO DE CUERPO DE EJERCITO V UNIDAD DE COMANDO ZONA V",
     "alias": [],
     "zona": {
       "codigo": "5",
@@ -39744,8 +39946,8 @@
   {
     "id": "ruvte-1214",
     "id_ruvte": 1214,
-    "slug": "registro-ruvte-1214",
-    "nombre": "Registro RUVTE 1214",
+    "slug": "comisaria-2-de-alte-brown-burzaco",
+    "nombre": "COMISARIA 2ª DE ALTE. BROWN (BURZACO)",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -39801,7 +40003,9 @@
     "id_ruvte": 1215,
     "slug": "comisaria-de-quequen",
     "nombre": "COMISARIA DE QUEQUEN",
-    "alias": [],
+    "alias": [
+      "COMISARIA 2ª DE NECOCHEA"
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -40066,8 +40270,8 @@
   {
     "id": "ruvte-1220",
     "id_ruvte": 1220,
-    "slug": "registro-ruvte-1220",
-    "nombre": "Registro RUVTE 1220",
+    "slug": "delegacion-mar-del-plata-de-la-policia-federal-2",
+    "nombre": "DELEGACION \"MAR DEL PLATA\" DE LA POLICIA FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -40119,8 +40323,8 @@
   {
     "id": "ruvte-1221",
     "id_ruvte": 1221,
-    "slug": "registro-ruvte-1221",
-    "nombre": "Registro RUVTE 1221",
+    "slug": "comisaria-de-miramar-2",
+    "nombre": "COMISARIA DE MIRAMAR",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -40492,8 +40696,8 @@
   {
     "id": "ruvte-1229",
     "id_ruvte": 1229,
-    "slug": "registro-ruvte-1229",
-    "nombre": "Registro RUVTE 1229",
+    "slug": "unidad-penal-1-de-santiago-del-estero-carcel-de-varones",
+    "nombre": "UNIDAD PENAL 1 DE SANTIAGO DEL ESTERO (CARCEL DE VARONES)",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -40657,7 +40861,9 @@
     "id_ruvte": 1232,
     "slug": "destacamento-abandonado-de-policia-caminera",
     "nombre": "DESTACAMENTO ABANDONADO DE POLICIA CAMINERA",
-    "alias": [],
+    "alias": [
+      "CONTROL CAMINERO / DESTACAMENTO CAMINERO Nº 21"
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -40708,8 +40914,8 @@
   {
     "id": "ruvte-1233",
     "id_ruvte": 1233,
-    "slug": "registro-ruvte-1233",
-    "nombre": "Registro RUVTE 1233",
+    "slug": "comisaria-5-de-tres-de-febrero-eufrasio-alvarez",
+    "nombre": "COMISARIA 5ª DE TRES DE FEBRERO (EUFRASIO ALVAREZ)",
     "alias": [],
     "zona": {
       "codigo": "4",
@@ -40869,8 +41075,8 @@
   {
     "id": "ruvte-1236",
     "id_ruvte": 1236,
-    "slug": "registro-ruvte-1236",
-    "nombre": "Registro RUVTE 1236",
+    "slug": "comisaria-46-de-capital-federal",
+    "nombre": "COMISARIA 46ª DE CAPITAL FEDERAL",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -40975,8 +41181,8 @@
   {
     "id": "ruvte-1238",
     "id_ruvte": 1238,
-    "slug": "registro-ruvte-1238",
-    "nombre": "Registro RUVTE 1238",
+    "slug": "comisaria-1-de-formosa",
+    "nombre": "COMISARIA 1ª DE FORMOSA",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -41880,8 +42086,8 @@
   {
     "id": "ruvte-1255",
     "id_ruvte": 1255,
-    "slug": "registro-ruvte-1255",
-    "nombre": "Registro RUVTE 1255",
+    "slug": "comisaria-1-de-merlo",
+    "nombre": "COMISARIA 1ª DE MERLO",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -41990,8 +42196,8 @@
   {
     "id": "ruvte-1258",
     "id_ruvte": 1258,
-    "slug": "registro-ruvte-1258",
-    "nombre": "Registro RUVTE 1258",
+    "slug": "comando-radioelectrico-de-la-policia-de-san-juan-2",
+    "nombre": "COMANDO RADIOELECTRICO DE LA POLICIA DE SAN JUAN",
     "alias": [],
     "zona": {
       "codigo": "3",
@@ -42096,8 +42302,8 @@
   {
     "id": "ruvte-1262",
     "id_ruvte": 1262,
-    "slug": "registro-ruvte-1262",
-    "nombre": "Registro RUVTE 1262",
+    "slug": "comando-radioelectrico-unidad-regional-la-plata-2",
+    "nombre": "COMANDO RADIOELECTRICO / UNIDAD REGIONAL LA PLATA",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -42149,8 +42355,8 @@
   {
     "id": "ruvte-1263",
     "id_ruvte": 1263,
-    "slug": "registro-ruvte-1263",
-    "nombre": "Registro RUVTE 1263",
+    "slug": "comisaria-2-de-escobar-ing-maschwitz",
+    "nombre": "COMISARIA 2ª DE ESCOBAR (ING. MASCHWITZ)",
     "alias": [],
     "zona": {
       "codigo": "4",
@@ -42416,8 +42622,8 @@
   {
     "id": "ruvte-1268",
     "id_ruvte": 1268,
-    "slug": "registro-ruvte-1268",
-    "nombre": "Registro RUVTE 1268",
+    "slug": "comisaria-3-de-lanus-valentin-alsina",
+    "nombre": "COMISARIA 3ª DE LANUS (VALENTIN ALSINA)",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -42469,8 +42675,8 @@
   {
     "id": "ruvte-1269",
     "id_ruvte": 1269,
-    "slug": "registro-ruvte-1269",
-    "nombre": "Registro RUVTE 1269",
+    "slug": "club-atletico-2",
+    "nombre": "CLUB ATLETICO",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -42524,7 +42730,9 @@
     "id_ruvte": 1270,
     "slug": "subcomisaria-de-ranelagh",
     "nombre": "SUBCOMISARIA DE RANELAGH",
-    "alias": [],
+    "alias": [
+      "DESTACAMENTO DE RANELAGH / COMISARIA 2ª DE BERAZATEGUI (RANELAGH)"
+    ],
     "zona": {
       "codigo": "1",
       "nombre": "Zona 1"
@@ -42846,8 +43054,8 @@
   {
     "id": "ruvte-1277",
     "id_ruvte": 1277,
-    "slug": "registro-ruvte-1277",
-    "nombre": "Registro RUVTE 1277",
+    "slug": "unidad-penal-3-de-rosario-encausados",
+    "nombre": "UNIDAD PENAL 3 DE ROSARIO (ENCAUSADOS)",
     "alias": [],
     "zona": {
       "codigo": "2",
@@ -43005,8 +43213,8 @@
   {
     "id": "ruvte-1280",
     "id_ruvte": 1280,
-    "slug": "registro-ruvte-1280",
-    "nombre": "Registro RUVTE 1280",
+    "slug": "tiro-federal-de-santa-rosa-2",
+    "nombre": "TIRO FEDERAL DE SANTA ROSA",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -43113,8 +43321,8 @@
   {
     "id": "ruvte-1283",
     "id_ruvte": 1283,
-    "slug": "registro-ruvte-1283",
-    "nombre": "Registro RUVTE 1283",
+    "slug": "la-atomica-2",
+    "nombre": "LA ATOMICA",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -43166,8 +43374,8 @@
   {
     "id": "ruvte-1284",
     "id_ruvte": 1284,
-    "slug": "registro-ruvte-1284",
-    "nombre": "Registro RUVTE 1284",
+    "slug": "unidad-penal-19-colonia-penal-de-ezeiza",
+    "nombre": "UNIDAD PENAL 19 (COLONIA PENAL DE EZEIZA)",
     "alias": [],
     "zona": {
       "codigo": "1",
@@ -43325,8 +43533,8 @@
   {
     "id": "ruvte-1288",
     "id_ruvte": 1288,
-    "slug": "registro-ruvte-1288",
-    "nombre": "Registro RUVTE 1288",
+    "slug": "c-o-t-vicente-lopez-2",
+    "nombre": "C.O.T. VICENTE LOPEZ",
     "alias": [],
     "zona": {
       "codigo": "4",

@@ -1,4 +1,6 @@
 ---
+import { stripBase, withBase } from '../lib/paths';
+
 interface NavItem {
 	href: string;
 	label: string;
@@ -9,6 +11,7 @@ interface Props {
 }
 
 const { currentPath = '/' } = Astro.props;
+const normalizedCurrentPath = stripBase(currentPath);
 
 const items: NavItem[] = [
 	{ href: '/', label: 'Inicio' },
@@ -20,17 +23,17 @@ const items: NavItem[] = [
 ---
 
 <header class="site-header">
-	<a class="site-header__title" href="/">Mapa de Memoria</a>
+	<a class="site-header__title" href={withBase('/')}>Mapa de Memoria</a>
 	<nav class="site-nav" aria-label="Navegacion principal">
 		{
 			items.map((item) => {
 				const isActive =
 					item.href === '/'
-						? currentPath === '/'
-						: currentPath === item.href || currentPath.startsWith(`${item.href}/`);
+						? normalizedCurrentPath === '/'
+						: normalizedCurrentPath === item.href || normalizedCurrentPath.startsWith(`${item.href}/`);
 
 				return (
-					<a href={item.href} class={isActive ? 'active' : undefined}>
+					<a href={withBase(item.href)} class={isActive ? 'active' : undefined}>
 						{item.label}
 					</a>
 				);

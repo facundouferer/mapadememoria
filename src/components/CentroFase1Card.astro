@@ -1,5 +1,6 @@
 ---
 import type { CentroFase1 } from '../lib/centros-fase1';
+import { withBase } from '../lib/paths';
 
 interface Props {
 	centro: CentroFase1;
@@ -21,7 +22,7 @@ const provincia = centro.jerarquia.provincia ?? 'Sin provincia';
 ---
 
 <article class="card">
-	<h3><a href={`/centros/${centro.slug}`}>{centro.nombre}</a></h3>
+	<h3><a href={withBase(`/centros/${centro.slug}`)}>{centro.nombre}</a></h3>
 	<p class="muted">{ubicacion}, {provincia}</p>
 	<p class="muted">
 		Zona {centro.jerarquia.zona ?? '-'} - Subzona {centro.jerarquia.subzona ?? '-'} - Area {centro.jerarquia.area ?? '-'}

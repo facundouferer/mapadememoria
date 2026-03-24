@@ -1,5 +1,6 @@
 ---
 import type { Centro } from '../lib/types';
+import { withBase } from '../lib/paths';
 
 interface Props {
 	centro: Centro;
@@ -20,7 +21,7 @@ const precisionClass =
 ---
 
 <article class="card">
-	<h3><a href={`/centros/${centro.slug}`}>{centro.nombre}</a></h3>
+	<h3><a href={withBase(`/centros/${centro.slug}`)}>{centro.nombre}</a></h3>
 	<p class="muted">
 		{centro.ubicacion.localidad ?? centro.ubicacion.partido_departamento ?? 'Sin localidad'}
 		{centro.ubicacion.provincia ? `, ${centro.ubicacion.provincia}` : ''}

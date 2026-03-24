@@ -421,11 +421,29 @@ const normalize = async () => {
           !isTipoLugarLine(candidate) &&
           !isContextLine(candidate) &&
           !isMemoryLine(candidate) &&
-          !looksLikeAddress(candidate),
+          candidate !== locationLine,
       );
 
+      const preNameCandidate = (() => {
+        for (let preIndex = preBlock.length - 1; preIndex >= 0; preIndex -= 1) {
+          const candidate = preBlock[preIndex];
+
+          if (preIndex === locationIndex || preIndex === tipoIndex || preIndex === testimoniosIndex) {
+            continue;
+          }
+
+          if (candidate.startsWith('ID RUVTE') || isContextLine(candidate) || isMemoryLine(candidate) || isFooter(candidate)) {
+            continue;
+          }
+
+          return candidate;
+        }
+
+        return null;
+      })();
+
       const postInfo = extractPostInfo(index);
-      const nombre = postInfo.nombre ?? alias[0] ?? `Registro RUVTE ${idMatch[1]}`;
+      const nombre = postInfo.nombre ?? alias[0] ?? preNameCandidate ?? `Registro RUVTE ${idMatch[1]}`;
 
       pendingRecord = {
         id_ruvte: Number(idMatch[1]),
