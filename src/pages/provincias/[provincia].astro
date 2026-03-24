@@ -1,0 +1,77 @@
+---
+import CentroFase1Card from '../../components/CentroFase1Card.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import Layout from '../../layouts/Layout.astro';
+import { getCentrosByProvinciaSlug, getProvincias } from '../../lib/centros-fase1';
+
+export const getStaticPaths = () => {
+	return getProvincias().map((provincia) => ({
+		params: { provincia: provincia.slug },
+		props: { provinciaNombre: provincia.nombre },
+	}));
+};
+
+const provinciaNombre = Astro.props.provinciaNombre as string;
+const centros = getCentrosByProvinciaSlug(Astro.params.provincia ?? '');
+const hasValue = (value: string | null): value is string => Boolean(value);
+
+const subzonas = [...new Set(centros.map((centro) => centro.jerarquia.subzona).filter(hasValue))].sort((a, b) =>
+	String(a).localeCompare(String(b), 'es-AR', { numeric: true, sensitivity: 'base' }),
+);
+const areas = [...new Set(centros.map((centro) => centro.jerarquia.area).filter(hasValue))].sort((a, b) =>
+	String(a).localeCompare(String(b), 'es-AR', { numeric: true, sensitivity: 'base' }),
+);
+const tipos = [...new Set(centros.map((centro) => centro.tipo).filter(hasValue))].sort((a, b) =>
+	String(a).localeCompare(String(b), 'es-AR', { numeric: true, sensitivity: 'base' }),
+);
+---
+
+<Layout title={`Mapa de Memoria | Provincia ${provinciaNombre}`}>
+	<div class="app-shell">
+		<SiteHeader currentPath={Astro.url.pathname} />
+		<main class="container">
+			<nav class="breadcrumbs" aria-label="Migas de pan">
+				<a href="/">Inicio</a>
+				<span>/</span>
+				<span>Provincia {provinciaNombre}</span>
+			</nav>
+
+			<section class="page-title">
+				<h1>Provincia: {provinciaNombre}</h1>
+				<p>{centros.length} centros en esta provincia.</p>
+			</section>
+
+			<div class="cta-row" style="margin-bottom: 1rem;">
+				<a class="button button--secondary" href={`/centros?provincia=${encodeURIComponent(provinciaNombre)}`}>
+					Abrir vista filtrada en listados
+				</a>
+				<a class="button button--secondary" href={`/mapa?provincia=${encodeURIComponent(provinciaNombre)}`}>
+					Abrir vista filtrada en mapa
+				</a>
+				<a class="button button--secondary" href="/centros?memoria=si">Ver lugares con memoria</a>
+			</div>
+
+			<div class="chip-row" style="margin-bottom: 0.5rem;">
+				{subzonas.slice(0, 6).map((subzona) => (
+					<a class="chip" href={`/centros?provincia=${encodeURIComponent(provinciaNombre)}&subzona=${encodeURIComponent(subzona)}`}>
+						Subzona {subzona}
+					</a>
+				))}
+				{areas.slice(0, 6).map((area) => (
+					<a class="chip" href={`/centros?provincia=${encodeURIComponent(provinciaNombre)}&area=${encodeURIComponent(area)}`}>
+						Area {area}
+					</a>
+				))}
+				{tipos.slice(0, 4).map((tipo) => (
+					<a class="chip" href={`/centros?provincia=${encodeURIComponent(provinciaNombre)}&tipo=${encodeURIComponent(tipo)}`}>
+						Tipo: {tipo}
+					</a>
+				))}
+			</div>
+
+			<section class="card-grid">
+				{centros.map((centro) => <CentroFase1Card centro={centro} />)}
+			</section>
+		</main>
+	</div>
+</Layout>

@@ -1,0 +1,185 @@
+---
+import SiteHeader from '../../components/SiteHeader.astro';
+import Layout from '../../layouts/Layout.astro';
+import { getAllCentros, getCentroBySlug, toProvinciaSlug, toZonaSlug } from '../../lib/data';
+
+export const getStaticPaths = () => {
+	return getAllCentros().map((centro) => ({
+		params: { slug: centro.slug },
+	}));
+};
+
+const centro = getCentroBySlug(Astro.params.slug ?? '');
+
+if (!centro) {
+	throw new Error(`Centro no encontrado para slug: ${Astro.params.slug ?? '(vacio)'}`);
+}
+
+const provinciaPath = centro.ubicacion.provincia ? `/provincias/${toProvinciaSlug(centro.ubicacion.provincia)}` : null;
+const zonaPath = centro.zona.codigo ? `/zonas/${toZonaSlug(centro.zona.codigo)}` : null;
+
+const listParams = new URLSearchParams();
+if (centro.ubicacion.provincia) {
+	listParams.set('provincia', centro.ubicacion.provincia);
+}
+if (centro.zona.codigo) {
+	listParams.set('zona', centro.zona.codigo);
+}
+if (centro.subzona.codigo) {
+	listParams.set('subzona', centro.subzona.codigo);
+}
+if (centro.area.codigo) {
+	listParams.set('area', centro.area.codigo);
+}
+if (centro.clasificacion.tipo_lugar) {
+	listParams.set('tipo', centro.clasificacion.tipo_lugar);
+}
+
+const listQuery = listParams.toString();
+const filteredListPath = listQuery ? `/centros?${listQuery}` : '/centros';
+const filteredMapPath = listQuery ? `/mapa?${listQuery}` : '/mapa';
+
+const precisionClass =
+	centro.geografia.precision === 'exacta'
+		? 'chip chip--ok'
+		: centro.geografia.precision === 'aproximada' || centro.geografia.precision === 'solo_localidad'
+			? 'chip chip--warn'
+			: centro.geografia.precision === 'a_revisar'
+				? 'chip chip--error'
+				: 'chip';
+
+const memoriaParam = centro.memoria.espacio_memoria.es ? 'si' : 'no';
+---
+
+<Layout title={`Mapa de Memoria | ${centro.nombre}`}>
+	<div class="app-shell">
+		<SiteHeader currentPath={Astro.url.pathname} />
+		<main class="container">
+			<nav class="breadcrumbs" aria-label="Migas de pan">
+				<a href="/">Inicio</a>
+				<span>/</span>
+				<a href="/centros">Centros</a>
+				<span>/</span>
+				<span>{centro.nombre}</span>
+			</nav>
+
+			<section class="page-title">
+				<h1>{centro.nombre}</h1>
+				<p>ID interno: {centro.id} - ID RUVTE: {centro.id_ruvte}</p>
+			</section>
+
+			<div class="chip-row" style="margin-bottom: 1rem;">
+				<span class={precisionClass}>precision: {centro.geografia.precision.replace('_', ' ')}</span>
+				{centro.memoria.espacio_memoria.es && <span class="chip chip--ok">espacio de memoria</span>}
+				{centro.memoria.senializaciones.length > 0 && <span class="chip chip--warn">senializado</span>}
+			</div>
+
+			<section class="detail-grid">
+				<article class="detail-block">
+					<h2>Jerarquia territorial</h2>
+					<dl style="margin-top: 0.8rem;">
+						<dt>Zona</dt>
+						<dd>{centro.zona.nombre ?? centro.zona.codigo ?? 'Sin dato'}</dd>
+						<dt>Subzona</dt>
+						<dd>{centro.subzona.nombre ?? centro.subzona.codigo ?? 'Sin dato'}</dd>
+						<dt>Area</dt>
+						<dd>{centro.area.nombre ?? centro.area.codigo ?? 'Sin dato'}</dd>
+						<dt>Provincia</dt>
+						<dd>{centro.ubicacion.provincia ?? 'Sin dato'}</dd>
+						<dt>Partido/depto</dt>
+						<dd>{centro.ubicacion.partido_departamento ?? 'Sin dato'}</dd>
+						<dt>Localidad</dt>
+						<dd>{centro.ubicacion.localidad ?? 'Sin dato'}</dd>
+					</dl>
+				</article>
+
+				<article class="detail-block">
+					<h2>Ubicacion y geografia</h2>
+					<dl style="margin-top: 0.8rem;">
+						<dt>Direccion</dt>
+						<dd>{centro.ubicacion.direccion ?? 'Sin dato'}</dd>
+						<dt>Referencia</dt>
+						<dd>{centro.ubicacion.referencia ?? 'Sin dato'}</dd>
+						<dt>Latitud</dt>
+						<dd>{centro.geografia.lat ?? 'Sin coordenadas'}</dd>
+						<dt>Longitud</dt>
+						<dd>{centro.geografia.lng ?? 'Sin coordenadas'}</dd>
+						<dt>Precision</dt>
+						<dd>{centro.geografia.precision.replace('_', ' ')}</dd>
+						<dt>Fuente geocod.</dt>
+						<dd>{centro.geografia.fuente_geocodificacion ?? 'Sin dato'}</dd>
+						<dt>Obs. geocod.</dt>
+						<dd>{centro.geografia.observaciones ?? 'Sin dato'}</dd>
+					</dl>
+				</article>
+
+				<article class="detail-block">
+					<h2>Clasificacion y memoria</h2>
+					<dl style="margin-top: 0.8rem;">
+						<dt>Tipo</dt>
+						<dd>{centro.clasificacion.tipo_lugar ?? 'Sin dato'}</dd>
+						<dt>Dependencia</dt>
+						<dd>{centro.clasificacion.dependencia ?? 'Sin dato'}</dd>
+						<dt>Testimonios</dt>
+						<dd>{centro.testimonios}</dd>
+						<dt>Espacio memoria</dt>
+						<dd>{centro.memoria.espacio_memoria.es ? 'Si' : 'No'}</dd>
+						<dt>Detalle memoria</dt>
+						<dd>{centro.memoria.espacio_memoria.descripcion ?? 'Sin dato'}</dd>
+						<dt>Senializaciones</dt>
+						<dd>
+							{centro.memoria.senializaciones.length > 0
+								? centro.memoria.senializaciones.join(' | ')
+								: 'Sin dato'}
+						</dd>
+					</dl>
+				</article>
+
+				<article class="detail-block">
+					<h2>Notas y fuente</h2>
+					<dl style="margin-top: 0.8rem;">
+						<dt>Notas</dt>
+						<dd>{centro.notas.length > 0 ? centro.notas.join(' | ') : 'Sin notas cargadas'}</dd>
+						<dt>Documento</dt>
+						<dd>{centro.fuente.documento}</dd>
+						<dt>Pagina PDF</dt>
+						<dd>{centro.fuente.pagina_pdf}</dd>
+						<dt>Texto fuente</dt>
+						<dd>{centro.fuente.texto_fuente}</dd>
+						<dt>Texto ubic. original</dt>
+						<dd>{centro.ubicacion.texto_ubicacion_original ?? 'Sin dato'}</dd>
+					</dl>
+				</article>
+			</section>
+
+			<div class="cta-row" style="margin-top: 1rem;">
+				<a class="button button--secondary" href="/centros">Volver al listado</a>
+				<a class="button button--secondary" href={filteredListPath}>Vista filtrada en listados</a>
+				<a class="button button--secondary" href={filteredMapPath}>Vista filtrada en mapa</a>
+				{provinciaPath && <a class="button button--secondary" href={provinciaPath}>Ver provincia</a>}
+				{zonaPath && <a class="button button--secondary" href={zonaPath}>Ver zona</a>}
+			</div>
+
+			<div class="cta-row" style="margin-top: 0.7rem;">
+				{centro.subzona.codigo && (
+					<a class="button button--secondary" href={`/centros?subzona=${encodeURIComponent(centro.subzona.codigo)}`}>
+						Ver subzona
+					</a>
+				)}
+				{centro.area.codigo && (
+					<a class="button button--secondary" href={`/centros?area=${encodeURIComponent(centro.area.codigo)}`}>
+						Ver area
+					</a>
+				)}
+				{centro.clasificacion.tipo_lugar && (
+					<a class="button button--secondary" href={`/centros?tipo=${encodeURIComponent(centro.clasificacion.tipo_lugar)}`}>
+						Ver tipo
+					</a>
+				)}
+				<a class="button button--secondary" href={`/centros?memoria=${memoriaParam}`}>
+					Filtrar por memoria ({memoriaParam})
+				</a>
+			</div>
+		</main>
+	</div>
+</Layout>

@@ -1,11 +1,86 @@
 ---
-import Welcome from '../components/Welcome.astro';
+import SiteHeader from '../components/SiteHeader.astro';
 import Layout from '../layouts/Layout.astro';
+import { DATASET_VERSION, getCentrosCount, getProvincias, getZonas } from '../lib/centros-fase1';
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+const totalCentros = getCentrosCount();
+const provincias = getProvincias();
+const zonas = getZonas();
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="Mapa de Memoria | Inicio">
+	<div class="app-shell">
+		<SiteHeader currentPath={Astro.url.pathname} />
+		<main class="container">
+			<section class="hero">
+				<h1>Mapa de Memoria</h1>
+				<p>
+					Sitio estatico para explorar centros relevados por el RUVTE 2022 con dos entradas principales:
+					mapa interactivo y listado con filtros avanzados. Cada ficha conserva trazabilidad a la fuente.
+				</p>
+				<div class="cta-row">
+					<a class="button button--primary" href="/mapa">Explorar en mapa</a>
+					<a class="button button--primary" href="/centros">Explorar centros</a>
+					<a class="button button--secondary" href="/metodologia">Ver metodologia</a>
+					<a class="button button--secondary" href="/fuentes">Ver fuentes</a>
+				</div>
+				<div class="meta-grid">
+					<article class="stat">
+						<strong>{totalCentros}</strong>
+						<span>registros cargados en esta fase</span>
+					</article>
+					<article class="stat">
+						<strong>{provincias.length}</strong>
+						<span>provincias detectadas</span>
+					</article>
+					<article class="stat">
+						<strong>{zonas.length}</strong>
+						<span>zonas detectadas</span>
+					</article>
+					<article class="stat">
+						<strong>{DATASET_VERSION}</strong>
+						<span>version del dataset local</span>
+					</article>
+				</div>
+			</section>
+
+			<section class="page-title" style="margin-top: 1.3rem;">
+				<h2>Flujo de uso</h2>
+				<p>
+					1) Abri <a href="/mapa">/mapa</a> para vista territorial. 2) Ajusta filtros o busqueda. 3) Abri la
+					ficha de un centro y navega por provincia, zona o vistas filtradas (subzona, area, tipo, memoria).
+				</p>
+			</section>
+
+			<section class="page-title" style="margin-top: 1.3rem;">
+				<h2>Navegacion por provincia</h2>
+				<p>Acceso rapido a fichas agrupadas por provincia.</p>
+			</section>
+			<div class="card-grid">
+				{
+					provincias.slice(0, 12).map((provincia) => (
+						<article class="card">
+							<h3><a href={`/provincias/${provincia.slug}`}>{provincia.nombre}</a></h3>
+							<p class="muted">{provincia.total} centros</p>
+						</article>
+					))
+				}
+			</div>
+
+			<section class="page-title" style="margin-top: 1.3rem;">
+				<h2>Navegacion por zona</h2>
+				<p>Acceso rapido a fichas agrupadas por zona.</p>
+			</section>
+			<div class="card-grid">
+				{
+					zonas.slice(0, 12).map((zona) => (
+						<article class="card">
+							<h3><a href={`/zonas/${zona.slug}`}>{zona.nombre}</a></h3>
+							<p class="muted">{zona.total} centros</p>
+						</article>
+					))
+				}
+			</div>
+		</main>
+	</div>
 </Layout>

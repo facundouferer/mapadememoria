@@ -1,46 +1,59 @@
-# Astro Starter Kit: Basics
+# Mapa de Memoria
+
+Sitio estatico en Astro para explorar centros clandestinos de detencion y otros lugares de reclusion ilegal relevados en el PDF RUVTE 2022.
+
+## Requisitos
+
+- Node.js >= 22.12.0
+- npm
+
+## Instalacion y desarrollo
 
 ```sh
-npm create astro@latest -- --template basics
+npm install
+npm run dev
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Rutas principales
 
-## 🚀 Project Structure
+- `/` inicio con acceso a mapa, listados y navegacion territorial
+- `/mapa` explorador con OpenStreetMap + Leaflet, filtros y busqueda
+- `/centros` listado completo con filtros y busqueda textual
+- `/centros/[slug]` ficha detallada con trazabilidad a fuente
+- `/provincias/[provincia]` centros por provincia + accesos a vistas filtradas
+- `/zonas/[zona]` centros por zona + accesos a vistas filtradas
+- `/metodologia` alcance, precision y limitaciones
+- `/fuentes` documentos y archivos de datos del repo
 
-Inside of your Astro project, you'll see the following folders and files:
+## Datos y reproducibilidad
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
+El sitio usa solo archivos versionados del repositorio:
+
+- `src/data/centros.json` dataset principal normalizado
+- `src/data/mapa-centros.json` proyeccion simplificada para mapa
+- `src/data/stats.json` indicadores generales
+- `docs/ruvte2022_anm_nomina_ccd_con_mapas_de_zonas_mayo_2022.pdf` fuente documental
+
+Scripts del pipeline local:
+
+```sh
+npm run extract:pdf
+npm run normalize:data
+npm run geocode:data
+npm run validate:data
+npm run data:rebuild
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## Validacion liviana
 
-## 🧞 Commands
+```sh
+npm run astro -- check
+```
 
-All commands are run from the root of the project, from a terminal:
+No hay runner de tests configurado por ahora.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## Alcance y limitaciones
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- Sitio 100% estatico, sin backend y sin base de datos externa.
+- El universo de referencia declara 807 registros y el dataset actual contiene 806.
+- La precision geografica se muestra explicitamente (exacta, aproximada, solo localidad, sin coordenadas, a revisar).

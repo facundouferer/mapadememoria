@@ -1,0 +1,25 @@
+---
+import MapExplorer from '../components/MapExplorer.astro';
+import SiteHeader from '../components/SiteHeader.astro';
+import Layout from '../layouts/Layout.astro';
+import { getCentrosMapa } from '../lib/data';
+
+const centros = getCentrosMapa();
+---
+
+<Layout title="Mapa de Memoria | Mapa" description="Exploracion en mapa con filtros y busqueda de centros del RUVTE 2022.">
+	<div class="app-shell">
+		<SiteHeader currentPath={Astro.url.pathname} />
+		<main class="container">
+			<section class="page-title">
+				<h1>Mapa interactivo</h1>
+				<p>
+					Vista con OpenStreetMap + Leaflet para navegar por provincia, zona, subzona, area, tipo de lugar,
+					dependencia y estado de memoria.
+				</p>
+			</section>
+
+			<MapExplorer centros={centros} />
+		</main>
+	</div>
+</Layout>

@@ -1,0 +1,401 @@
+---
+import type { CentroMapa } from '../lib/types';
+import Legend from './Legend.astro';
+
+interface Props {
+	centros: CentroMapa[];
+}
+
+const { centros } = Astro.props;
+---
+
+<link
+	rel="stylesheet"
+	href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+	integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+	crossorigin=""
+/>
+
+<div class="filters-layout" id="mapa-explorer">
+	<aside class="panel">
+		<h3>Filtros</h3>
+		<div class="filters" style="margin-top: 0.75rem;">
+			<label>
+				Busqueda textual
+				<input id="f-q" type="search" placeholder="Nombre, alias, direccion, provincia, ID" />
+			</label>
+			<label>
+				Provincia
+				<select id="f-provincia"><option value="">Todas</option></select>
+			</label>
+			<label>
+				Zona
+				<select id="f-zona"><option value="">Todas</option></select>
+			</label>
+			<label>
+				Subzona
+				<select id="f-subzona"><option value="">Todas</option></select>
+			</label>
+			<label>
+				Area
+				<select id="f-area"><option value="">Todas</option></select>
+			</label>
+			<label>
+				Tipo de lugar
+				<select id="f-tipo"><option value="">Todos</option></select>
+			</label>
+			<label>
+				Dependencia
+				<select id="f-dependencia"><option value="">Todas</option></select>
+			</label>
+			<label>
+				Coordenadas
+				<select id="f-coords">
+					<option value="">Todas</option>
+					<option value="si">Con coordenadas</option>
+					<option value="no">Sin coordenadas</option>
+				</select>
+			</label>
+			<label>
+				Senializacion
+				<select id="f-senializado">
+					<option value="">Todas</option>
+					<option value="si">Con senializacion</option>
+					<option value="no">Sin senializacion</option>
+				</select>
+			</label>
+			<label>
+				Espacio de memoria
+				<select id="f-memoria">
+					<option value="">Todos</option>
+					<option value="si">Con espacio de memoria</option>
+					<option value="no">Sin espacio de memoria</option>
+				</select>
+			</label>
+		</div>
+		<div class="cta-row" style="margin-top: 0.8rem;">
+			<button class="button button--secondary" id="btn-limpiar" type="button">Limpiar filtros</button>
+			<button class="button button--secondary" id="btn-reset-vista" type="button">Resetear vista</button>
+		</div>
+		<p class="muted" id="resultados-contador" style="margin-top: 0.7rem;">0 resultados</p>
+		<div class="results-list" id="resultados-lista" aria-live="polite" style="margin-top: 0.8rem;"></div>
+		<Legend />
+	</aside>
+
+	<div class="map-wrap">
+		<div class="map-canvas" id="map-canvas" role="region" aria-label="Mapa de centros"></div>
+		<section class="panel">
+			<p class="muted">
+				Se muestran marcadores para registros con coordenadas. Para registros sin coordenadas, la ficha conserva trazabilidad textual y nivel de precision.
+			</p>
+		</section>
+	</div>
+</div>
+
+<script id="map-centros-data" type="application/json">{JSON.stringify(centros)}</script>
+
+<script
+	src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+	integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+	crossorigin=""
+></script>
+
+<script>
+	(() => {
+		const root = document.getElementById('mapa-explorer');
+		if (!root || typeof window.L === 'undefined') {
+			return;
+		}
+
+		const dataNode = document.getElementById('map-centros-data');
+		if (!dataNode?.textContent) {
+			return;
+		}
+
+		const data = JSON.parse(dataNode.textContent);
+
+		const ids = {
+			q: document.getElementById('f-q'),
+			provincia: document.getElementById('f-provincia'),
+			zona: document.getElementById('f-zona'),
+			subzona: document.getElementById('f-subzona'),
+			area: document.getElementById('f-area'),
+			tipo: document.getElementById('f-tipo'),
+			dependencia: document.getElementById('f-dependencia'),
+			coords: document.getElementById('f-coords'),
+			senializado: document.getElementById('f-senializado'),
+			memoria: document.getElementById('f-memoria'),
+			limpiar: document.getElementById('btn-limpiar'),
+			resetVista: document.getElementById('btn-reset-vista'),
+			contador: document.getElementById('resultados-contador'),
+			lista: document.getElementById('resultados-lista'),
+		};
+
+		const state = {
+			q: '',
+			provincia: '',
+			zona: '',
+			subzona: '',
+			area: '',
+			tipo: '',
+			dependencia: '',
+			coords: '',
+			senializado: '',
+			memoria: '',
+		};
+
+		const FILTER_KEYS = Object.keys(state);
+
+		const precisionClass = (precision) =>
+			precision === 'exacta'
+				? 'marker--exacta'
+				: precision === 'aproximada'
+					? 'marker--aproximada'
+					: precision === 'solo_localidad'
+						? 'marker--solo-localidad'
+						: precision === 'a_revisar'
+							? 'marker--a-revisar'
+							: 'marker--sin-coordenadas';
+
+		const hasCoords = (item) => Number.isFinite(item.lat) && Number.isFinite(item.lng);
+
+		const escapeHtml = (value) =>
+			String(value)
+				.replaceAll('&', '&amp;')
+				.replaceAll('<', '&lt;')
+				.replaceAll('>', '&gt;')
+				.replaceAll('"', '&quot;')
+				.replaceAll("'", '&#39;');
+
+		const parseParams = () => {
+			const params = new URLSearchParams(window.location.search);
+			for (const key of FILTER_KEYS) {
+				if (params.has(key)) {
+					state[key] = params.get(key) ?? '';
+				}
+			}
+		};
+
+		const syncParams = () => {
+			const params = new URLSearchParams();
+			for (const key of FILTER_KEYS) {
+				if (state[key]) {
+					params.set(key, state[key]);
+				}
+			}
+			const query = params.toString();
+			const next = query ? `${window.location.pathname}?${query}` : window.location.pathname;
+			window.history.replaceState(null, '', next);
+		};
+
+		const selectData = (field) => {
+			const values = [...new Set(data.map((item) => item[field]).filter(Boolean))].sort((a, b) =>
+				String(a).localeCompare(String(b), 'es-AR', { numeric: true, sensitivity: 'base' }),
+			);
+
+			const select = ids[field];
+			if (!select) {
+				return;
+			}
+
+			for (const value of values) {
+				const option = document.createElement('option');
+				option.value = String(value);
+				option.textContent = String(value);
+				select.append(option);
+			}
+		};
+
+		selectData('provincia');
+		selectData('zona');
+		selectData('subzona');
+		selectData('area');
+		selectData('tipo');
+		selectData('dependencia');
+
+		parseParams();
+
+		for (const key of FILTER_KEYS) {
+			if (ids[key]) {
+				ids[key].value = state[key];
+			}
+		}
+
+		const map = window.L.map('map-canvas', {
+			zoomControl: true,
+			attributionControl: true,
+		}).setView([-38.5, -63.4], 4);
+
+		window.L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+			attribution: '&copy; OpenStreetMap contributors',
+			maxZoom: 19,
+		}).addTo(map);
+
+		const markerLayer = window.L.layerGroup().addTo(map);
+		const markersById = new Map();
+
+		const toSearchText = (item) =>
+			[
+				item.nombre,
+				item.alias,
+				item.provincia,
+				item.localidad,
+				item.partido_departamento,
+				item.direccion,
+				item.id_ruvte,
+			].join(' ').toLowerCase();
+
+		const applyFilters = () => {
+			const query = state.q.trim().toLowerCase();
+
+			return data.filter((item) => {
+				if (query && !toSearchText(item).includes(query)) {
+					return false;
+				}
+				if (state.provincia && item.provincia !== state.provincia) {
+					return false;
+				}
+				if (state.zona && item.zona !== state.zona) {
+					return false;
+				}
+				if (state.subzona && item.subzona !== state.subzona) {
+					return false;
+				}
+				if (state.area && item.area !== state.area) {
+					return false;
+				}
+				if (state.tipo && item.tipo !== state.tipo) {
+					return false;
+				}
+				if (state.dependencia && item.dependencia !== state.dependencia) {
+					return false;
+				}
+				if (state.coords === 'si' && !hasCoords(item)) {
+					return false;
+				}
+				if (state.coords === 'no' && hasCoords(item)) {
+					return false;
+				}
+				if (state.senializado === 'si' && !item.senializado) {
+					return false;
+				}
+				if (state.senializado === 'no' && item.senializado) {
+					return false;
+				}
+				if (state.memoria === 'si' && !item.espacio_memoria) {
+					return false;
+				}
+				if (state.memoria === 'no' && item.espacio_memoria) {
+					return false;
+				}
+				return true;
+			});
+		};
+
+		const renderList = (items) => {
+			ids.lista.innerHTML = '';
+			const limited = items.slice(0, 250);
+			for (const item of limited) {
+				const button = document.createElement('button');
+				button.type = 'button';
+				button.className = 'result-item';
+
+				const title = document.createElement('h4');
+				title.textContent = item.nombre;
+
+				const meta = document.createElement('p');
+				meta.textContent = `${item.provincia ?? 'sin provincia'} - ${item.zona ?? 'sin zona'} / ${item.subzona ?? 'sin subzona'} / ${item.area ?? 'sin area'}`;
+
+				const info = document.createElement('p');
+				info.textContent = hasCoords(item) ? 'Con coordenadas' : 'Sin coordenadas';
+
+				button.append(title, meta, info);
+
+				button.addEventListener('click', () => {
+					const marker = markersById.get(item.id);
+					if (marker) {
+						map.setView(marker.getLatLng(), 13);
+						marker.openPopup();
+					}
+				});
+
+				ids.lista.append(button);
+			}
+
+			if (items.length > limited.length) {
+				const note = document.createElement('p');
+				note.className = 'muted';
+				note.textContent = `Se muestran ${limited.length} resultados en la lista para mantener la interfaz agil.`;
+				ids.lista.append(note);
+			}
+		};
+
+		const renderMarkers = (items) => {
+			markerLayer.clearLayers();
+			markersById.clear();
+
+			for (const item of items) {
+				if (!hasCoords(item)) {
+					continue;
+				}
+
+				const icon = window.L.divIcon({
+					className: '',
+					html: `<span class="marker ${precisionClass(item.precision).replace('_', '-')}"></span>`,
+					iconSize: [14, 14],
+					iconAnchor: [7, 7],
+				});
+
+				const popup = `
+					<h4 class="popup-title">${escapeHtml(item.nombre)}</h4>
+					<p class="popup-body">${escapeHtml(item.provincia ?? 'Sin provincia')}<br />Zona ${escapeHtml(item.zona ?? '-')} / Subzona ${escapeHtml(item.subzona ?? '-')} / Area ${escapeHtml(item.area ?? '-')}<br />Precision: ${escapeHtml(String(item.precision).replaceAll('_', ' '))}</p>
+					<p style="margin:0.5rem 0 0;"><a href="/centros/${encodeURIComponent(item.slug)}">Ver ficha completa</a></p>
+				`;
+
+				const marker = window.L.marker([item.lat, item.lng], { icon });
+				marker.bindPopup(popup);
+				marker.addTo(markerLayer);
+				markersById.set(item.id, marker);
+			}
+		};
+
+		const update = () => {
+			const filtered = applyFilters();
+			ids.contador.textContent = `${filtered.length} resultados`;
+			renderList(filtered);
+			renderMarkers(filtered);
+			syncParams();
+		};
+
+		for (const key of FILTER_KEYS) {
+			const control = ids[key];
+			if (!control) {
+				continue;
+			}
+			control.addEventListener('input', () => {
+				state[key] = control.value;
+				update();
+			});
+			control.addEventListener('change', () => {
+				state[key] = control.value;
+				update();
+			});
+		}
+
+		ids.limpiar?.addEventListener('click', () => {
+			for (const key of FILTER_KEYS) {
+				state[key] = '';
+				if (ids[key]) {
+					ids[key].value = '';
+				}
+			}
+			update();
+		});
+
+		ids.resetVista?.addEventListener('click', () => {
+			map.setView([-38.5, -63.4], 4);
+		});
+
+		update();
+	})();
+</script>

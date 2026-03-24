@@ -9,7 +9,12 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "extract:pdf": "node scripts/extract-pdf.mjs",
+    "normalize:data": "node scripts/normalize-centros.mjs",
+    "geocode:data": "node scripts/geocode-centros.mjs",
+    "validate:data": "node scripts/validate-centros.mjs",
+    "data:rebuild": "npm run extract:pdf && npm run normalize:data && npm run geocode:data && npm run validate:data"
   },
   "dependencies": {
     "astro": "^6.0.8"

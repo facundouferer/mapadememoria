@@ -1,0 +1,327 @@
+---
+import type { Centro } from '../lib/types';
+import Legend from './Legend.astro';
+
+interface Props {
+	centros: Centro[];
+}
+
+const { centros } = Astro.props;
+---
+
+<div class="filters-layout" id="lista-explorer">
+	<aside class="panel">
+		<h3>Filtros y busqueda</h3>
+		<div class="filters" style="margin-top: 0.75rem;">
+			<label>
+				Busqueda textual
+				<input id="l-q" type="search" placeholder="Nombre, alias, direccion, provincia, ID" />
+			</label>
+			<label>
+				Provincia
+				<select id="l-provincia"><option value="">Todas</option></select>
+			</label>
+			<label>
+				Zona
+				<select id="l-zona"><option value="">Todas</option></select>
+			</label>
+			<label>
+				Subzona
+				<select id="l-subzona"><option value="">Todas</option></select>
+			</label>
+			<label>
+				Area
+				<select id="l-area"><option value="">Todas</option></select>
+			</label>
+			<label>
+				Tipo de lugar
+				<select id="l-tipo"><option value="">Todos</option></select>
+			</label>
+			<label>
+				Dependencia
+				<select id="l-dependencia"><option value="">Todas</option></select>
+			</label>
+			<label>
+				Coordenadas
+				<select id="l-coords">
+					<option value="">Todas</option>
+					<option value="si">Con coordenadas</option>
+					<option value="no">Sin coordenadas</option>
+				</select>
+			</label>
+			<label>
+				Senializacion
+				<select id="l-senializado">
+					<option value="">Todas</option>
+					<option value="si">Con senializacion</option>
+					<option value="no">Sin senializacion</option>
+				</select>
+			</label>
+			<label>
+				Espacio de memoria
+				<select id="l-memoria">
+					<option value="">Todos</option>
+					<option value="si">Con espacio de memoria</option>
+					<option value="no">Sin espacio de memoria</option>
+				</select>
+			</label>
+		</div>
+		<div class="cta-row" style="margin-top: 0.8rem;">
+			<button class="button button--secondary" id="l-limpiar" type="button">Limpiar filtros</button>
+		</div>
+		<p class="muted" id="l-contador" style="margin-top: 0.7rem;">0 resultados</p>
+		<Legend />
+	</aside>
+
+	<section>
+		<div class="card-grid" id="l-resultados" aria-live="polite"></div>
+	</section>
+</div>
+
+<script id="lista-centros-data" type="application/json">{JSON.stringify(centros)}</script>
+
+<script>
+	(() => {
+		const root = document.getElementById('lista-explorer');
+		if (!root) {
+			return;
+		}
+
+		const raw = document.getElementById('lista-centros-data')?.textContent;
+		if (!raw) {
+			return;
+		}
+
+		const data = JSON.parse(raw);
+		const state = {
+			q: '',
+			provincia: '',
+			zona: '',
+			subzona: '',
+			area: '',
+			tipo: '',
+			dependencia: '',
+			coords: '',
+			senializado: '',
+			memoria: '',
+		};
+
+		const controls = {
+			q: document.getElementById('l-q'),
+			provincia: document.getElementById('l-provincia'),
+			zona: document.getElementById('l-zona'),
+			subzona: document.getElementById('l-subzona'),
+			area: document.getElementById('l-area'),
+			tipo: document.getElementById('l-tipo'),
+			dependencia: document.getElementById('l-dependencia'),
+			coords: document.getElementById('l-coords'),
+			senializado: document.getElementById('l-senializado'),
+			memoria: document.getElementById('l-memoria'),
+			limpiar: document.getElementById('l-limpiar'),
+			contador: document.getElementById('l-contador'),
+			resultados: document.getElementById('l-resultados'),
+		};
+
+		const FILTER_KEYS = Object.keys(state);
+
+		const parseParams = () => {
+			const params = new URLSearchParams(window.location.search);
+			for (const key of FILTER_KEYS) {
+				if (params.has(key)) {
+					state[key] = params.get(key) ?? '';
+				}
+			}
+		};
+
+		const syncParams = () => {
+			const params = new URLSearchParams();
+			for (const key of FILTER_KEYS) {
+				if (state[key]) {
+					params.set(key, state[key]);
+				}
+			}
+			const query = params.toString();
+			const next = query ? `${window.location.pathname}?${query}` : window.location.pathname;
+			window.history.replaceState(null, '', next);
+		};
+
+		const unique = (arr) => [...new Set(arr.filter(Boolean))].sort((a, b) => String(a).localeCompare(String(b), 'es-AR'));
+
+		const appendOptions = (id, values) => {
+			for (const value of unique(values)) {
+				const option = document.createElement('option');
+				option.value = String(value);
+				option.textContent = String(value);
+				controls[id]?.append(option);
+			}
+		};
+
+		appendOptions('provincia', data.map((item) => item.ubicacion.provincia));
+		appendOptions('zona', data.map((item) => item.zona.codigo));
+		appendOptions('subzona', data.map((item) => item.subzona.codigo));
+		appendOptions('area', data.map((item) => item.area.codigo));
+		appendOptions('tipo', data.map((item) => item.clasificacion.tipo_lugar));
+		appendOptions('dependencia', data.map((item) => item.clasificacion.dependencia));
+
+		parseParams();
+
+		for (const key of FILTER_KEYS) {
+			if (controls[key]) {
+				controls[key].value = state[key];
+			}
+		}
+
+		const hasCoords = (item) => Number.isFinite(item.geografia.lat) && Number.isFinite(item.geografia.lng);
+
+		const toSearchText = (item) =>
+			[
+				item.nombre,
+				item.alias.join(' '),
+				item.ubicacion.direccion,
+				item.ubicacion.localidad,
+				item.ubicacion.partido_departamento,
+				item.ubicacion.provincia,
+				item.id_ruvte,
+			].join(' ').toLowerCase();
+
+		const chipClass = (precision) =>
+			precision === 'exacta'
+				? 'chip chip--ok'
+				: precision === 'aproximada' || precision === 'solo_localidad'
+					? 'chip chip--warn'
+					: precision === 'a_revisar'
+						? 'chip chip--error'
+						: 'chip';
+
+		const applyFilters = () => {
+			const query = state.q.trim().toLowerCase();
+			return data.filter((item) => {
+				if (query && !toSearchText(item).includes(query)) {
+					return false;
+				}
+				if (state.provincia && item.ubicacion.provincia !== state.provincia) {
+					return false;
+				}
+				if (state.zona && item.zona.codigo !== state.zona) {
+					return false;
+				}
+				if (state.subzona && item.subzona.codigo !== state.subzona) {
+					return false;
+				}
+				if (state.area && item.area.codigo !== state.area) {
+					return false;
+				}
+				if (state.tipo && item.clasificacion.tipo_lugar !== state.tipo) {
+					return false;
+				}
+				if (state.dependencia && item.clasificacion.dependencia !== state.dependencia) {
+					return false;
+				}
+				if (state.coords === 'si' && !hasCoords(item)) {
+					return false;
+				}
+				if (state.coords === 'no' && hasCoords(item)) {
+					return false;
+				}
+				if (state.senializado === 'si' && item.memoria.senializaciones.length === 0) {
+					return false;
+				}
+				if (state.senializado === 'no' && item.memoria.senializaciones.length > 0) {
+					return false;
+				}
+				if (state.memoria === 'si' && !item.memoria.espacio_memoria.es) {
+					return false;
+				}
+				if (state.memoria === 'no' && item.memoria.espacio_memoria.es) {
+					return false;
+				}
+				return true;
+			});
+		};
+
+		const render = (items) => {
+			controls.resultados.innerHTML = '';
+			controls.contador.textContent = `${items.length} resultados`;
+
+			for (const item of items) {
+				const article = document.createElement('article');
+				article.className = 'card';
+
+				const title = document.createElement('h3');
+				const link = document.createElement('a');
+				link.href = `/centros/${encodeURIComponent(item.slug)}`;
+				link.textContent = item.nombre;
+				title.append(link);
+
+				const ub = document.createElement('p');
+				ub.className = 'muted';
+				ub.textContent = [item.ubicacion.localidad || item.ubicacion.partido_departamento || 'Sin localidad', item.ubicacion.provincia || 'Sin provincia'].join(', ');
+
+				const zr = document.createElement('p');
+				zr.className = 'muted';
+				zr.textContent = `${item.zona.nombre || 'Zona sin dato'} - ${item.subzona.nombre || 'Subzona sin dato'} - ${item.area.nombre || 'Area sin dato'}`;
+
+				const chips = document.createElement('div');
+				chips.className = 'chip-row';
+
+				const precision = document.createElement('span');
+				precision.className = chipClass(item.geografia.precision);
+				precision.textContent = item.geografia.precision.replaceAll('_', ' ');
+				chips.append(precision);
+
+				if (item.memoria.espacio_memoria.es) {
+					const memoria = document.createElement('span');
+					memoria.className = 'chip chip--ok';
+					memoria.textContent = 'espacio de memoria';
+					chips.append(memoria);
+				}
+
+				if (item.memoria.senializaciones.length > 0) {
+					const sen = document.createElement('span');
+					sen.className = 'chip chip--warn';
+					sen.textContent = 'senializado';
+					chips.append(sen);
+				}
+
+				const tipo = document.createElement('p');
+				tipo.className = 'muted';
+				tipo.textContent = item.clasificacion.tipo_lugar || 'Tipo sin dato';
+
+				article.append(title, ub, zr, chips, tipo);
+				controls.resultados.append(article);
+			}
+		};
+
+		const update = () => {
+			render(applyFilters());
+			syncParams();
+		};
+
+		for (const key of FILTER_KEYS) {
+			const control = controls[key];
+			if (!control) {
+				continue;
+			}
+			control.addEventListener('input', () => {
+				state[key] = control.value;
+				update();
+			});
+			control.addEventListener('change', () => {
+				state[key] = control.value;
+				update();
+			});
+		}
+
+		controls.limpiar?.addEventListener('click', () => {
+			for (const key of FILTER_KEYS) {
+				state[key] = '';
+				if (controls[key]) {
+					controls[key].value = '';
+				}
+			}
+			update();
+		});
+
+		update();
+	})();
+</script>

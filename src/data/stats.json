@@ -1,0 +1,29 @@
+{
+  "total_registros": 807,
+  "total_con_coordenadas": 0,
+  "total_sin_coordenadas": 807,
+  "total_con_espacio_memoria": 24,
+  "total_con_senializacion": 186,
+  "precision": {
+    "exacta": 0,
+    "aproximada": 0,
+    "solo_localidad": 0,
+    "sin_coordenadas": 807,
+    "a_revisar": 0
+  },
+  "reconciliacion": {
+    "esperado_pdf": 807,
+    "ids_detectados_en_texto": 807,
+    "ids_normalizados": 807,
+    "ids_faltantes_en_normalizacion": [],
+    "ids_extra_en_normalizacion": [],
+    "lineas_id_embebido": [
+      {
+        "page": 51,
+        "line": "DEPENDENCIA POLICIA PROVINCIALID RUVTE 970"
+      }
+    ],
+    "estado": "ok"
+  },
+  "advertencia": "El dataset es preliminar: conserva trazabilidad textual completa y marca sin_coordenadas donde no hubo georreferenciacion confiable."
+}

@@ -1,0 +1,40 @@
+---
+interface NavItem {
+	href: string;
+	label: string;
+}
+
+interface Props {
+	currentPath?: string;
+}
+
+const { currentPath = '/' } = Astro.props;
+
+const items: NavItem[] = [
+	{ href: '/', label: 'Inicio' },
+	{ href: '/mapa', label: 'Mapa' },
+	{ href: '/centros', label: 'Centros' },
+	{ href: '/metodologia', label: 'Metodologia' },
+	{ href: '/fuentes', label: 'Fuentes' },
+];
+---
+
+<header class="site-header">
+	<a class="site-header__title" href="/">Mapa de Memoria</a>
+	<nav class="site-nav" aria-label="Navegacion principal">
+		{
+			items.map((item) => {
+				const isActive =
+					item.href === '/'
+						? currentPath === '/'
+						: currentPath === item.href || currentPath.startsWith(`${item.href}/`);
+
+				return (
+					<a href={item.href} class={isActive ? 'active' : undefined}>
+						{item.label}
+					</a>
+				);
+			})
+		}
+	</nav>
+</header>

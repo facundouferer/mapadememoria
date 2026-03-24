@@ -1,0 +1,37 @@
+---
+import type { Centro } from '../lib/types';
+
+interface Props {
+	centro: Centro;
+}
+
+const { centro } = Astro.props;
+
+const precisionClass =
+	centro.geografia.precision === 'exacta'
+		? 'chip chip--ok'
+		: centro.geografia.precision === 'aproximada'
+			? 'chip chip--warn'
+			: centro.geografia.precision === 'solo_localidad'
+				? 'chip chip--warn'
+				: centro.geografia.precision === 'a_revisar'
+					? 'chip chip--error'
+					: 'chip';
+---
+
+<article class="card">
+	<h3><a href={`/centros/${centro.slug}`}>{centro.nombre}</a></h3>
+	<p class="muted">
+		{centro.ubicacion.localidad ?? centro.ubicacion.partido_departamento ?? 'Sin localidad'}
+		{centro.ubicacion.provincia ? `, ${centro.ubicacion.provincia}` : ''}
+	</p>
+	<p class="muted">
+		{centro.zona.nombre ?? 'Zona sin dato'} - {centro.subzona.nombre ?? 'Subzona sin dato'} - {centro.area.nombre ?? 'Area sin dato'}
+	</p>
+	<div class="chip-row">
+		<span class={precisionClass}>{centro.geografia.precision.replace('_', ' ')}</span>
+		{centro.memoria.espacio_memoria.es && <span class="chip chip--ok">espacio de memoria</span>}
+		{centro.memoria.senializaciones.length > 0 && <span class="chip chip--warn">senializado</span>}
+	</div>
+	<p class="muted">{centro.clasificacion.tipo_lugar ?? 'Tipo sin dato'}</p>
+</article>

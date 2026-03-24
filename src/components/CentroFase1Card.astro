@@ -1,0 +1,35 @@
+---
+import type { CentroFase1 } from '../lib/centros-fase1';
+
+interface Props {
+	centro: CentroFase1;
+}
+
+const { centro } = Astro.props;
+
+const precisionClass =
+	centro.precision === 'exacta'
+		? 'chip chip--ok'
+		: centro.precision === 'aproximada' || centro.precision === 'solo_localidad'
+			? 'chip chip--warn'
+			: centro.precision === 'a_revisar'
+				? 'chip chip--error'
+				: 'chip';
+
+const ubicacion = centro.jerarquia.localidad ?? centro.jerarquia.partido ?? 'Sin localidad';
+const provincia = centro.jerarquia.provincia ?? 'Sin provincia';
+---
+
+<article class="card">
+	<h3><a href={`/centros/${centro.slug}`}>{centro.nombre}</a></h3>
+	<p class="muted">{ubicacion}, {provincia}</p>
+	<p class="muted">
+		Zona {centro.jerarquia.zona ?? '-'} - Subzona {centro.jerarquia.subzona ?? '-'} - Area {centro.jerarquia.area ?? '-'}
+	</p>
+	<div class="chip-row">
+		<span class={precisionClass}>{centro.precision.replace('_', ' ')}</span>
+		{centro.espacio_memoria && <span class="chip chip--ok">espacio de memoria</span>}
+		{centro.senializacion.length > 0 && <span class="chip chip--warn">senializado</span>}
+	</div>
+	<p class="muted">{centro.tipo ?? 'Tipo sin dato'}</p>
+</article>

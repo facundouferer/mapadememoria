@@ -1,0 +1,69 @@
+---
+import SiteHeader from '../components/SiteHeader.astro';
+import Layout from '../layouts/Layout.astro';
+import { DATASET_VERSION, getCentrosCount } from '../lib/centros-fase1';
+
+const totalCentros = getCentrosCount();
+---
+
+<Layout title="Mapa de Memoria | Metodologia">
+	<div class="app-shell">
+		<SiteHeader currentPath={Astro.url.pathname} />
+		<main class="container">
+			<section class="page-title">
+				<h1>Metodologia</h1>
+				<p>
+					Flujo actual de publicacion: exploracion en mapa/listado, filtros en cliente y fichas con trazabilidad
+					a la fuente PDF.
+				</p>
+			</section>
+
+			<div class="content-prose">
+				<section>
+					<h2>Flujo de UX publicado</h2>
+					<ul>
+						<li>Entrada principal por mapa interactivo (/mapa) con OpenStreetMap + Leaflet.</li>
+						<li>Listado navegable (/centros) con busqueda textual y filtros combinables.</li>
+						<li>Fichas individuales con direccion, referencia, notas, testimonios, precision y fuente.</li>
+						<li>Rutas de provincia y zona, mas vistas filtradas para subzona/area/tipo/memoria.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Criterio de precision y filtros</h2>
+					<p>
+						Se conserva el nivel de precision geogrfica del dataset (<em>exacta</em>, <em>aproximada</em>,
+						<em>solo localidad</em>, <em>sin coordenadas</em>, <em>a revisar</em>) y se usa para leyenda visual,
+						marcadores y fichas.
+					</p>
+					<p>
+						Los filtros se aplican 100% en cliente y se reflejan en query params para compartir vistas
+						reproducibles (ej.: <code>/centros?provincia=CORDOBA&amp;memoria=si</code>).
+					</p>
+				</section>
+
+				<section>
+					<h2>Versionado de datos</h2>
+					<p>
+						Version actual del dataset local: <strong>{DATASET_VERSION}</strong>.
+					</p>
+					<p>
+						Registros visibles en esta fase: <strong>{totalCentros}</strong>.
+					</p>
+				</section>
+
+				<section>
+					<h2>Limitaciones declaradas</h2>
+					<p>
+						El corpus esperado de referencia es de 807 centros. En esta fase el dataset local contiene 806,
+						por lo que queda explicitamente pendiente completar la carga del registro faltante y su validacion.
+					</p>
+					<p>
+						Las coordenadas y descripciones de geocodificacion conservan incertidumbre de la fuente; la interfaz
+						expone esa precision en vez de ocultarla.
+					</p>
+				</section>
+			</div>
+		</main>
+	</div>
+</Layout>

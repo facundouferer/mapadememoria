@@ -1,0 +1,27 @@
+---
+import ListExplorer from '../../components/ListExplorer.astro';
+import SiteHeader from '../../components/SiteHeader.astro';
+import Layout from '../../layouts/Layout.astro';
+import { getAllCentros } from '../../lib/data';
+
+const centros = getAllCentros();
+---
+
+<Layout title="Mapa de Memoria | Centros">
+	<div class="app-shell">
+		<SiteHeader currentPath={Astro.url.pathname} />
+		<main class="container">
+			<section class="page-title">
+				<h1>Centros</h1>
+				<p>
+					Explorador en listado con busqueda textual y filtros de provincia, zona, subzona, area, tipo,
+					dependencia, coordenadas y estado de memoria.
+				</p>
+			</section>
+
+			<p class="muted">Total de registros visibles: {centros.length}.</p>
+
+			<ListExplorer centros={centros} />
+		</main>
+	</div>
+</Layout>

@@ -1,0 +1,56 @@
+---
+import SiteHeader from '../components/SiteHeader.astro';
+import Layout from '../layouts/Layout.astro';
+
+const fuentes = [
+	'RUVTE 2022 - Nomina de CCD y otros lugares de reclusion ilegal con mapas de zonas',
+	'Dataset local normalizado en src/data/centros.json',
+	'Dataset derivado para mapa en src/data/mapa-centros.json',
+	'Indicadores de control en src/data/stats.json',
+];
+---
+
+<Layout title="Mapa de Memoria | Fuentes">
+	<div class="app-shell">
+		<SiteHeader currentPath={Astro.url.pathname} />
+		<main class="container">
+			<section class="page-title">
+				<h1>Fuentes</h1>
+				<p>Fuentes publicadas y archivos clave para reproducir el flujo de datos y la experiencia de consulta.</p>
+			</section>
+
+			<div class="content-prose">
+				<section>
+					<h2>Documentos base</h2>
+					<ul>
+						{fuentes.map((fuente) => <li>{fuente}</li>)}
+					</ul>
+				</section>
+
+				<section>
+					<h2>Archivos del repositorio</h2>
+					<ul>
+						<li>docs/ruvte2022_anm_nomina_ccd_con_mapas_de_zonas_mayo_2022.pdf</li>
+						<li>src/data/centros.json</li>
+						<li>src/data/mapa-centros.json</li>
+						<li>src/data/stats.json</li>
+						<li>src/lib/data.ts</li>
+						<li>src/lib/centros-fase1.ts</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Criterio de publicacion</h2>
+					<p>
+						Cada ficha mantiene ID RUVTE, pagina del PDF y texto fuente original para trazabilidad. La interfaz
+						conecta mapa, listados y rutas por provincia/zona con query params compartibles.
+					</p>
+					<p>
+						La reconstruccion completa del pipeline sigue en scripts locales (extract/normalize/geocode/validate)
+						y no requiere backend ni servicios remotos propios.
+					</p>
+				</section>
+			</div>
+		</main>
+	</div>
+</Layout>
