@@ -52,8 +52,22 @@ npm run astro -- check
 
 No hay runner de tests configurado por ahora.
 
+## Deploy en GitHub Pages
+
+Este repo esta configurado como project page `facundouferer/mapadememoria`:
+
+- `site`: `https://facundouferer.github.io`
+- `base`: `/mapadememoria`
+- Workflow: `.github/workflows/deploy.yml` (build con `withastro/action` + deploy con `actions/deploy-pages`)
+
+Settings esperados en GitHub:
+
+1. En `Settings > Pages`, seleccionar `Source: GitHub Actions`.
+2. Mantener la rama `main` como rama de trabajo del repositorio.
+3. Verificar que el workflow `Deploy to GitHub Pages` tenga permisos de Pages habilitados.
+
 ## Alcance y limitaciones
 
 - Sitio 100% estatico, sin backend y sin base de datos externa.
-- El universo de referencia declara 807 registros y el dataset actual contiene 806.
+- El universo de referencia declara 807 registros y el dataset actual contiene 807.
 - La precision geografica se muestra explicitamente (exacta, aproximada, solo localidad, sin coordenadas, a revisar).

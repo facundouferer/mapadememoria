@@ -3,6 +3,7 @@ import CentroFase1Card from '../../components/CentroFase1Card.astro';
 import SiteHeader from '../../components/SiteHeader.astro';
 import Layout from '../../layouts/Layout.astro';
 import { getCentrosByZonaSlug, getZonas } from '../../lib/centros-fase1';
+import { withBase } from '../../lib/paths';
 
 export const getStaticPaths = () => {
 	return getZonas().map((zona) => ({
@@ -31,7 +32,7 @@ const areas = [...new Set(centros.map((centro) => centro.jerarquia.area).filter(
 		<SiteHeader currentPath={Astro.url.pathname} />
 		<main class="container">
 			<nav class="breadcrumbs" aria-label="Migas de pan">
-				<a href="/">Inicio</a>
+				<a href={withBase('/')}>Inicio</a>
 				<span>/</span>
 				<span>Zona {zonaNombre}</span>
 			</nav>
@@ -42,28 +43,28 @@ const areas = [...new Set(centros.map((centro) => centro.jerarquia.area).filter(
 			</section>
 
 			<div class="cta-row" style="margin-bottom: 1rem;">
-				<a class="button button--secondary" href={`/centros?zona=${encodeURIComponent(zonaNombre)}`}>
+				<a class="button button--secondary" href={withBase(`/centros?zona=${encodeURIComponent(zonaNombre)}`)}>
 					Abrir vista filtrada en listados
 				</a>
-				<a class="button button--secondary" href={`/mapa?zona=${encodeURIComponent(zonaNombre)}`}>
+				<a class="button button--secondary" href={withBase(`/mapa?zona=${encodeURIComponent(zonaNombre)}`)}>
 					Abrir vista filtrada en mapa
 				</a>
-				<a class="button button--secondary" href="/centros?memoria=si">Ver lugares con memoria</a>
+				<a class="button button--secondary" href={withBase('/centros?memoria=si')}>Ver lugares con memoria</a>
 			</div>
 
 			<div class="chip-row" style="margin-bottom: 0.5rem;">
 				{provincias.slice(0, 6).map((provincia) => (
-					<a class="chip" href={`/centros?zona=${encodeURIComponent(zonaNombre)}&provincia=${encodeURIComponent(provincia)}`}>
+					<a class="chip" href={withBase(`/centros?zona=${encodeURIComponent(zonaNombre)}&provincia=${encodeURIComponent(provincia)}`)}>
 						Provincia: {provincia}
 					</a>
 				))}
 				{subzonas.slice(0, 8).map((subzona) => (
-					<a class="chip" href={`/centros?zona=${encodeURIComponent(zonaNombre)}&subzona=${encodeURIComponent(subzona)}`}>
+					<a class="chip" href={withBase(`/centros?zona=${encodeURIComponent(zonaNombre)}&subzona=${encodeURIComponent(subzona)}`)}>
 						Subzona {subzona}
 					</a>
 				))}
 				{areas.slice(0, 8).map((area) => (
-					<a class="chip" href={`/centros?zona=${encodeURIComponent(zonaNombre)}&area=${encodeURIComponent(area)}`}>
+					<a class="chip" href={withBase(`/centros?zona=${encodeURIComponent(zonaNombre)}&area=${encodeURIComponent(area)}`)}>
 						Area {area}
 					</a>
 				))}

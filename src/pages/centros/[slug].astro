@@ -2,6 +2,7 @@
 import SiteHeader from '../../components/SiteHeader.astro';
 import Layout from '../../layouts/Layout.astro';
 import { getAllCentros, getCentroBySlug, toProvinciaSlug, toZonaSlug } from '../../lib/data';
+import { withBase } from '../../lib/paths';
 
 export const getStaticPaths = () => {
 	return getAllCentros().map((centro) => ({
@@ -15,8 +16,8 @@ if (!centro) {
 	throw new Error(`Centro no encontrado para slug: ${Astro.params.slug ?? '(vacio)'}`);
 }
 
-const provinciaPath = centro.ubicacion.provincia ? `/provincias/${toProvinciaSlug(centro.ubicacion.provincia)}` : null;
-const zonaPath = centro.zona.codigo ? `/zonas/${toZonaSlug(centro.zona.codigo)}` : null;
+const provinciaPath = centro.ubicacion.provincia ? withBase(`/provincias/${toProvinciaSlug(centro.ubicacion.provincia)}`) : null;
+const zonaPath = centro.zona.codigo ? withBase(`/zonas/${toZonaSlug(centro.zona.codigo)}`) : null;
 
 const listParams = new URLSearchParams();
 if (centro.ubicacion.provincia) {
@@ -36,8 +37,8 @@ if (centro.clasificacion.tipo_lugar) {
 }
 
 const listQuery = listParams.toString();
-const filteredListPath = listQuery ? `/centros?${listQuery}` : '/centros';
-const filteredMapPath = listQuery ? `/mapa?${listQuery}` : '/mapa';
+const filteredListPath = listQuery ? withBase(`/centros?${listQuery}`) : withBase('/centros');
+const filteredMapPath = listQuery ? withBase(`/mapa?${listQuery}`) : withBase('/mapa');
 
 const precisionClass =
 	centro.geografia.precision === 'exacta'
@@ -56,9 +57,9 @@ const memoriaParam = centro.memoria.espacio_memoria.es ? 'si' : 'no';
 		<SiteHeader currentPath={Astro.url.pathname} />
 		<main class="container">
 			<nav class="breadcrumbs" aria-label="Migas de pan">
-				<a href="/">Inicio</a>
+				<a href={withBase('/')}>Inicio</a>
 				<span>/</span>
-				<a href="/centros">Centros</a>
+				<a href={withBase('/centros')}>Centros</a>
 				<span>/</span>
 				<span>{centro.nombre}</span>
 			</nav>
@@ -153,7 +154,7 @@ const memoriaParam = centro.memoria.espacio_memoria.es ? 'si' : 'no';
 			</section>
 
 			<div class="cta-row" style="margin-top: 1rem;">
-				<a class="button button--secondary" href="/centros">Volver al listado</a>
+				<a class="button button--secondary" href={withBase('/centros')}>Volver al listado</a>
 				<a class="button button--secondary" href={filteredListPath}>Vista filtrada en listados</a>
 				<a class="button button--secondary" href={filteredMapPath}>Vista filtrada en mapa</a>
 				{provinciaPath && <a class="button button--secondary" href={provinciaPath}>Ver provincia</a>}
@@ -162,21 +163,21 @@ const memoriaParam = centro.memoria.espacio_memoria.es ? 'si' : 'no';
 
 			<div class="cta-row" style="margin-top: 0.7rem;">
 				{centro.subzona.codigo && (
-					<a class="button button--secondary" href={`/centros?subzona=${encodeURIComponent(centro.subzona.codigo)}`}>
+					<a class="button button--secondary" href={withBase(`/centros?subzona=${encodeURIComponent(centro.subzona.codigo)}`)}>
 						Ver subzona
 					</a>
 				)}
 				{centro.area.codigo && (
-					<a class="button button--secondary" href={`/centros?area=${encodeURIComponent(centro.area.codigo)}`}>
+					<a class="button button--secondary" href={withBase(`/centros?area=${encodeURIComponent(centro.area.codigo)}`)}>
 						Ver area
 					</a>
 				)}
 				{centro.clasificacion.tipo_lugar && (
-					<a class="button button--secondary" href={`/centros?tipo=${encodeURIComponent(centro.clasificacion.tipo_lugar)}`}>
+					<a class="button button--secondary" href={withBase(`/centros?tipo=${encodeURIComponent(centro.clasificacion.tipo_lugar)}`)}>
 						Ver tipo
 					</a>
 				)}
-				<a class="button button--secondary" href={`/centros?memoria=${memoriaParam}`}>
+				<a class="button button--secondary" href={withBase(`/centros?memoria=${memoriaParam}`)}>
 					Filtrar por memoria ({memoriaParam})
 				</a>
 			</div>

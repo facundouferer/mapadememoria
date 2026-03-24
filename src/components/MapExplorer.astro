@@ -101,7 +101,17 @@ const { centros } = Astro.props;
 ></script>
 
 <script>
+	// @ts-nocheck
 	(() => {
+		const BASE_URL = import.meta.env.BASE_URL;
+		const withBase = (path: string) => {
+			if (!path || path === '/') {
+				return BASE_URL;
+			}
+			const normalizedPath = path.startsWith('/') ? path.slice(1) : path;
+			return `${BASE_URL}${normalizedPath}`;
+		};
+
 		const root = document.getElementById('mapa-explorer');
 		if (!root || typeof window.L === 'undefined') {
 			return;
@@ -349,7 +359,7 @@ const { centros } = Astro.props;
 				const popup = `
 					<h4 class="popup-title">${escapeHtml(item.nombre)}</h4>
 					<p class="popup-body">${escapeHtml(item.provincia ?? 'Sin provincia')}<br />Zona ${escapeHtml(item.zona ?? '-')} / Subzona ${escapeHtml(item.subzona ?? '-')} / Area ${escapeHtml(item.area ?? '-')}<br />Precision: ${escapeHtml(String(item.precision).replaceAll('_', ' '))}</p>
-					<p style="margin:0.5rem 0 0;"><a href="/centros/${encodeURIComponent(item.slug)}">Ver ficha completa</a></p>
+					<p style="margin:0.5rem 0 0;"><a href="${escapeHtml(withBase(`/centros/${encodeURIComponent(item.slug)}`))}">Ver ficha completa</a></p>
 				`;
 
 				const marker = window.L.marker([item.lat, item.lng], { icon });
