@@ -12,8 +12,9 @@ export const withBase = (path: string): string => {
 		return path;
 	}
 
-	const normalizedPath = path.startsWith('/') ? path.slice(1) : path;
-	return `${BASE_URL}${normalizedPath}`;
+	const trimmedBase = BASE_URL.endsWith('/') ? BASE_URL.slice(0, -1) : BASE_URL;
+	const normalizedPath = path.startsWith('/') ? path : `/${path}`;
+	return `${trimmedBase}${normalizedPath}`;
 };
 
 export const stripBase = (pathname: string): string => {

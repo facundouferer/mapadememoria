@@ -108,8 +108,9 @@ const { centros } = Astro.props;
 			if (!path || path === '/') {
 				return BASE_URL;
 			}
-			const normalizedPath = path.startsWith('/') ? path.slice(1) : path;
-			return `${BASE_URL}${normalizedPath}`;
+			const trimmedBase = BASE_URL.endsWith('/') ? BASE_URL.slice(0, -1) : BASE_URL;
+			const normalizedPath = path.startsWith('/') ? path : `/${path}`;
+			return `${trimmedBase}${normalizedPath}`;
 		};
 
 		const root = document.getElementById('mapa-explorer');
@@ -198,12 +199,12 @@ const { centros } = Astro.props;
 			window.history.replaceState(null, '', next);
 		};
 
-		const selectData = (field) => {
+		const selectData = (controlKey, field = controlKey) => {
 			const values = [...new Set(data.map((item) => item[field]).filter(Boolean))].sort((a, b) =>
 				String(a).localeCompare(String(b), 'es-AR', { numeric: true, sensitivity: 'base' }),
 			);
 
-			const select = ids[field];
+			const select = ids[controlKey];
 			if (!select) {
 				return;
 			}
@@ -220,7 +221,7 @@ const { centros } = Astro.props;
 		selectData('zona');
 		selectData('subzona');
 		selectData('area');
-		selectData('tipo');
+		selectData('tipo', 'tipo_lugar');
 		selectData('dependencia');
 
 		parseParams();
@@ -274,7 +275,7 @@ const { centros } = Astro.props;
 				if (state.area && item.area !== state.area) {
 					return false;
 				}
-				if (state.tipo && item.tipo !== state.tipo) {
+				if (state.tipo && item.tipo_lugar !== state.tipo) {
 					return false;
 				}
 				if (state.dependencia && item.dependencia !== state.dependencia) {
