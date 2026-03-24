@@ -26,12 +26,12 @@
       "texto_ubicacion_original": "DIVISION DE AUTOMOTORES DE LA POLICIA FEDERALRAMON FALCON 4151 CAPITAL FEDERAL"
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -34.6423,
+      "lng": -58.4755,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "DIVISION DE AUTOMOTORES DE LA POLICIA FEDERALRAMON FALCON 4151 CAPITAL FEDERAL",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "DEPENDENCIA POLICIA FEDERAL",
@@ -83,12 +83,12 @@
       "texto_ubicacion_original": "EX DEPCIAS. BRIGADA CABALLERIA AEROTRANSPORTADA (CUERPO DE EJERCITO 3)Ruta Nac. Nº 20 Km 12 MALAGUEÑO · SANTA MARIA · CORDOBA"
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -31.3864,
+      "lng": -64.3649,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "EX DEPCIAS. BRIGADA CABALLERIA AEROTRANSPORTADA (CUERPO DE EJERCITO 3)Ruta Nac. Nº 20 Km 12 MALAGUEÑO · SANTA MARIA · CORDOBA",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "UNIDAD MILITAR EJERCITO",
@@ -140,12 +140,12 @@
       "texto_ubicacion_original": "Predio e/Av DEL LIBERTADOR, Av LUGONES, CALZADILLA y COMODORO RIVADAVIA"
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -34.5389,
+      "lng": -58.4636,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "Predio e/Av DEL LIBERTADOR, Av LUGONES, CALZADILLA y COMODORO RIVADAVIA",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "UNIDAD MILITAR MARINA",
@@ -195,12 +195,12 @@
       "texto_ubicacion_original": "Predio e/calles Magnolias, Jose E. Uriburu, H. Yrigoyen y Zabala"
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -24.7958,
+      "lng": -65.424,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "Predio e/calles Magnolias, Jose E. Uriburu, H. Yrigoyen y Zabala",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "UNIDAD PENITENCIARIA PROVINCIAL",
@@ -250,12 +250,12 @@
       "texto_ubicacion_original": "calle lateral sin pavimentar a 200 m de instalaciones Brigada Güemes"
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -34.7158,
+      "lng": -58.4619,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "calle lateral sin pavimentar a 200 m de instalaciones Brigada Güemes",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "DEPENDENCIA POLICIA PROVINCIAL",
@@ -305,12 +305,12 @@
       "texto_ubicacion_original": "BOULOGNE SUR MER y JOAQUIN V. GONZALEZ MENDOZA · CAPITAL · MENDOZA"
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -32.8733,
+      "lng": -68.8536,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "BOULOGNE SUR MER y JOAQUIN V. GONZALEZ MENDOZA · CAPITAL · MENDOZA",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "UNIDAD MILITAR EJERCITO",
@@ -468,12 +468,12 @@
       "texto_ubicacion_original": "DESTACAMENTO DIVISION CUATRERISMO DE ARANA (PPBA)Calle 640 y 131 ARANA · LA PLATA · BUENOS AIRES"
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -34.9429,
+      "lng": -58.1028,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "DESTACAMENTO DIVISION CUATRERISMO DE ARANA (PPBA)Calle 640 y 131 ARANA · LA PLATA · BUENOS AIRES",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "DEPENDENCIA POLICIA PROVINCIAL",
@@ -1238,12 +1238,12 @@
       "texto_ubicacion_original": "Camino de Cintura y Av. INT. CROVARA LA TABLADA · LA MATANZA · BUENOS AIRES"
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -34.7051,
+      "lng": -58.5114,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "Camino de Cintura y Av. INT. CROVARA LA TABLADA · LA MATANZA · BUENOS AIRES",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "UNIDAD MILITAR EJERCITO",
@@ -1344,12 +1344,12 @@
       "texto_ubicacion_original": "BRIGADA DE INVESTIGACIONES DE SAN JUSTO (PPBA)SALTA 2450 (lindante a Comisaría 1ª) SAN JUSTO · LA MATANZA · BUENOS AIRES"
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -34.6818,
+      "lng": -58.5586,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "BRIGADA DE INVESTIGACIONES DE SAN JUSTO (PPBA)SALTA 2450 (lindante a Comisaría 1ª) SAN JUSTO · LA MATANZA · BUENOS AIRES",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "DEPENDENCIA POLICIA PROVINCIAL",
@@ -1454,12 +1454,12 @@
       "texto_ubicacion_original": "DR. AMADEO SABATTINI 4447 CASEROS · TRES DE FEBRERO · BUENOS AIRES"
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -34.5961,
+      "lng": -58.6352,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "DR. AMADEO SABATTINI 4447 CASEROS · TRES DE FEBRERO · BUENOS AIRES",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "DEPENDENCIA POLICIA PROVINCIAL",
@@ -1617,12 +1617,12 @@
       "texto_ubicacion_original": "Frente a Plaza 25 de Mayo"
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -27.4516,
+      "lng": -58.9868,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "Frente a Plaza 25 de Mayo",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "DEPENDENCIA POLICIA PROVINCIAL",
@@ -1670,12 +1670,12 @@
       "texto_ubicacion_original": "Av. PIERRASTEGUI e/A. PACHE y CNEL. ARENA CASTELAR · MORON · BUENOS AIRES"
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -34.6606,
+      "lng": -58.6423,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "Av. PIERRASTEGUI e/A. PACHE y CNEL. ARENA CASTELAR · MORON · BUENOS AIRES",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "UNIDAD MILITAR FUERZA AEREA",
@@ -1723,12 +1723,12 @@
       "texto_ubicacion_original": "a 2 cuadras de Av 10 DE SETIEMBRE DE 1861 (Camino Negro)"
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -34.7219,
+      "lng": -58.3972,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "a 2 cuadras de Av 10 DE SETIEMBRE DE 1861 (Camino Negro)",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "DEPENDENCIA POLICIA PROVINCIAL",
@@ -1833,12 +1833,12 @@
       "texto_ubicacion_original": "BRIGADA DE INVESTIGACIONES DE QUILMES (PPBA)ALLISON BELL s/nº (esq. GARIBALDI) QUILMES · BUENOS AIRES"
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -34.7108,
+      "lng": -58.2741,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "BRIGADA DE INVESTIGACIONES DE QUILMES (PPBA)ALLISON BELL s/nº (esq. GARIBALDI) QUILMES · BUENOS AIRES",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "DEPENDENCIA POLICIA PROVINCIAL",
@@ -1945,7 +1945,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "Puerto Nuevo CAPITAL FEDERAL",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -2000,7 +2000,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "Puerto Nuevo CAPITAL FEDERAL",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -2104,12 +2104,12 @@
       "texto_ubicacion_original": "Av. PASEO COLON e/Av. SAN JUAN y COCHABAMBA CAPITAL FEDERAL"
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -34.6225,
+      "lng": -58.3873,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "Av. PASEO COLON e/Av. SAN JUAN y COCHABAMBA CAPITAL FEDERAL",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "DEPENDENCIA POLICIA FEDERAL",
@@ -2159,12 +2159,12 @@
       "texto_ubicacion_original": "CASPINCHANGO · MONTEROS · TUCUMAN"
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -27.0552,
+      "lng": -65.4099,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "CASPINCHANGO · MONTEROS · TUCUMAN",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "ESTABLECIMIENTO PRIVADO",
@@ -2699,7 +2699,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "INSTALACIONES SIN ESPECIFICAR DE PFA Y PREFECTURAZona portuaria (en inmed. de Comisaría 46ª de la PFA) CAPITAL FEDERAL",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -2862,12 +2862,12 @@
       "texto_ubicacion_original": "Entre calles 191, 47, 196 y 52 (vías del FCGB)"
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -34.9376,
+      "lng": -58.0924,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "Entre calles 191, 47, 196 y 52 (vías del FCGB)",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "DEPENDENCIA POLICIA PROVINCIAL",
@@ -3567,12 +3567,12 @@
       "texto_ubicacion_original": "Ruta Nac. Nº 9 y SAN JOSE FUNES · ROSARIO · SANTA FE"
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -32.9643,
+      "lng": -60.6873,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "Ruta Nac. Nº 9 y SAN JOSE FUNES · ROSARIO · SANTA FE",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "OTROS",
@@ -6312,12 +6312,12 @@
       "texto_ubicacion_original": "Camino de Cintura _ detrás del predio del Comando del Cuerpo de Ejército 5"
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -38.6942,
+      "lng": -62.2568,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "Camino de Cintura _ detrás del predio del Comando del Cuerpo de Ejército 5",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "UNIDAD MILITAR EJERCITO",
@@ -6477,12 +6477,12 @@
       "texto_ubicacion_original": "A unos 10km al oeste de la ciudad de Famaillá"
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -27.0543,
+      "lng": -65.4094,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "A unos 10km al oeste de la ciudad de Famaillá",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "ESTABLECIMIENTO PRIVADO",
@@ -7133,12 +7133,12 @@
       "texto_ubicacion_original": "Franja de terrenos e/\"ruta vieja\" y autopista a Carlos Paz (Km 12) _ Frente a CCD La Perla"
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -31.388,
+      "lng": -64.3675,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "Franja de terrenos e/\"ruta vieja\" y autopista a Carlos Paz (Km 12) _ Frente a CCD La Perla",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "UNIDAD MILITAR EJERCITO",
@@ -7349,12 +7349,12 @@
       "texto_ubicacion_original": "VENANCIO FLORES 3519/21 _ e/EMILIO LAMARCA y SAN NICOLAS CAPITAL FEDERAL"
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -34.6251,
+      "lng": -58.4959,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "VENANCIO FLORES 3519/21 _ e/EMILIO LAMARCA y SAN NICOLAS CAPITAL FEDERAL",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "ESTABLECIMIENTO PRIVADO",
@@ -7620,12 +7620,12 @@
       "texto_ubicacion_original": "XIV BRIGADA DE INVESTIGACIONES DE QUILMES (a partir de 1980) (PPBA)PILCOMAYO 69 DON BOSCO · QUILMES · BUENOS AIRES"
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -34.7107,
+      "lng": -58.2809,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "XIV BRIGADA DE INVESTIGACIONES DE QUILMES (a partir de 1980) (PPBA)PILCOMAYO 69 DON BOSCO · QUILMES · BUENOS AIRES",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "DEPENDENCIA POLICIA PROVINCIAL",
@@ -8653,7 +8653,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "LA CHOCA y EL GUAYACAN (a corroborar pertinencia) CIUDAD EVITA · LA MATANZA · BUENOS AIRES",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -8920,7 +8920,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "Av. CENTRAL _ Campamento CH - Molino (dirección actual_ a corroborar) EL AGUILAR · HUMAHUACA · JUJUY",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -9142,12 +9142,12 @@
       "texto_ubicacion_original": "PREDIO PERTENECIENTE AL SERVICIO PENITENCIARIO FEDERALCamino de Cintura y cruce Autopista RICCHIERI ALDO BONZI · LA MATANZA · BUENOS AIRES"
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -34.7808,
+      "lng": -58.5206,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "PREDIO PERTENECIENTE AL SERVICIO PENITENCIARIO FEDERALCamino de Cintura y cruce Autopista RICCHIERI ALDO BONZI · LA MATANZA · BUENOS AIRES",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "DEPENDENCIA SERVICIO PENITENCIARIO FEDERAL",
@@ -9307,12 +9307,12 @@
       "texto_ubicacion_original": "SAN JUSTO · LA MATANZA · BUENOS AIRES"
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -34.6952,
+      "lng": -58.5095,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "SAN JUSTO · LA MATANZA · BUENOS AIRES",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "OTROS",
@@ -11485,12 +11485,12 @@
       "texto_ubicacion_original": "BLAS PARERA 45/48 e/ FRAY JUSTO SANTA MARIA DE ORO y ALFREDO BUFANO CASTELAR · MORON · BUENOS AIRES"
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -34.6469,
+      "lng": -58.6628,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "BLAS PARERA 45/48 e/ FRAY JUSTO SANTA MARIA DE ORO y ALFREDO BUFANO CASTELAR · MORON · BUENOS AIRES",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "DEPENDENCIA ESTATAL",
@@ -12516,7 +12516,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "SAN JUAN · CAPITAL · SAN JUAN",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -12730,7 +12730,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "Cercano a cruce ferroviario por Av. SAN MARTIN PANQUEHUA · LAS HERAS · MENDOZA",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -12891,7 +12891,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "MENDOZA · CAPITAL · MENDOZA",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -13160,7 +13160,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "Camino a Clorinda (a pocos km de Formosa) / Camino al Cementerio San Antonio",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -13702,7 +13702,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "COMPAÑIA DE COMUNICACIONES DE MONTAÑA 8PLANTAMURA s/nº MENDOZA · CAPITAL · MENDOZA",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -14360,7 +14360,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "\"Por Ruta 8, después de 15' desvío hacia la derecha 200 m por camino de tierra\" Gran Buenos Aires (zona norte)",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -15004,12 +15004,12 @@
       "texto_ubicacion_original": "Sobre margen izquierda \"a 300 m del acceso a Ruta 205 desde Autopista RICCHIERI\""
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -34.8457,
+      "lng": -58.4778,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "Sobre margen izquierda \"a 300 m del acceso a Ruta 205 desde Autopista RICCHIERI\"",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "DEPENDENCIA POLICIA PROVINCIAL",
@@ -15493,7 +15493,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "BOULOGNE SUR MER 2136 MENDOZA · CAPITAL · MENDOZA",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -16304,7 +16304,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "RIVADAVIA 540 LAS HERAS · MENDOZA",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -18684,7 +18684,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "ALMAFUERTE 757 (a corroborar pertinencia) MAR DEL PLATA · GRAL. PUEYRREDON · BUENOS AIRES",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -20930,7 +20930,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "JOAQUIN V. GONZALEZ 950 (dirección actual) / Anteriormente sobre calle FRENCH (a corroborar) ROSARIO · SANTA FE",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -21741,7 +21741,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": null,
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -23243,7 +23243,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "Puerto Nuevo CAPITAL FEDERAL",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -23408,7 +23408,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "SANTO TOME · LA CAPITAL · SANTA FE",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -24476,7 +24476,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "Ex barrio militar _ Campo militar \"Cnel. Holmberg\" LA BANDA · BANDA · SANTIAGO DEL ESTERO",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -24698,7 +24698,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "DEPTE. DE COMISARIA DE VILLA MADERO (PPBA)Inmed. de zona de piletas CIUDAD MADERO · LA MATANZA · BUENOS AIRES",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -26088,7 +26088,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "a 10 km de Santa Fe",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -26249,12 +26249,12 @@
       "texto_ubicacion_original": "Inmueble fte a cuarteles de Ejército / Ruta Nac Nº 146 Km 387/500"
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -34.6239,
+      "lng": -68.3403,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "Inmueble fte a cuarteles de Ejército / Ruta Nac Nº 146 Km 387/500",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "UNIDAD MILITAR EJERCITO",
@@ -26467,7 +26467,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "Ruta Nac. Nº 8 _ entrada a 100 m de SAN MIGUEL (ex partido de GRAL. SARMIENTO) · BUENOS AIRES",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -26522,7 +26522,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "mencionada como ubicada en calle CONEJO 101, en las inmediaciones de Campo de Mayo / NO CORRESPONDE PRESUMIBLEMENTE CALLE CONESA A 100 M. DE AV. PTE. ARTURO",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -26579,7 +26579,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "CAMPO DE MAYO · SAN MIGUEL (ex GRAL. SARMIENTO) · BUENOS AIRES",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -26740,7 +26740,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "CMTE. SALAS y CHILE _ inmed de / anteriormente SAN LUIS a cuadra y media de GRAL. PAZ SAN RAFAEL · MENDOZA",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -27225,7 +27225,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "PABLO PODESTA · TRES DE FEBRERO · BUENOS AIRES",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -27490,7 +27490,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "SAENZ PEÑA y Av. VIALE (dirección actual) _ [a corroborar] CATRILO · LA PAMPA",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -28028,7 +28028,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "CONCEPCION · CHICLIGASTA · TUCUMAN",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -30013,7 +30013,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "Establecimiento carcelario abandonado o en construcción, a 1 km de Autopista Ricchieri y Ruta 205 ubicado junto al denominado \"Campo de la Atómica\" (C.N.E.A.)",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -30229,7 +30229,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "Sobre la costa del río, a 1 km aprox. de Puente Gral. Belgrano BARRANQUERAS · SAN FERNANDO · CHACO",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -31046,7 +31046,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "CHILECITO · LA RIOJA",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -31692,7 +31692,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "PAPAGAYOS · LAS HERAS · MENDOZA",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -33411,7 +33411,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "CAMPO ANDINO · LA CAPITAL · SANTA FE",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -33464,12 +33464,12 @@
       "texto_ubicacion_original": "Av. CARLOS H. RODRIGUEZ 230 CUTRAL CO · CONFLUENCIA · NEUQUEN"
     },
     "geografia": {
-      "lat": null,
-      "lng": null,
-      "precision": "sin_coordenadas",
-      "fuente_geocodificacion": null,
+      "lat": -38.9527,
+      "lng": -69.2303,
+      "precision": "aproximada",
+      "fuente_geocodificacion": "Curado manual interno",
       "texto_geocodificacion": "Av. CARLOS H. RODRIGUEZ 230 CUTRAL CO · CONFLUENCIA · NEUQUEN",
-      "observaciones": "Sin coordenadas confiables en esta version del dataset."
+      "observaciones": "Coordenada aproximada obtenida con cartografia publica."
     },
     "clasificacion": {
       "tipo_lugar": "DEPENDENCIA POLICIA PROVINCIAL",
@@ -36933,7 +36933,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "CORRIENTES y REPUBLICA DEL PARAGUAY (dirección actual) _ [a corroborar] ARISTOBULO DEL VALLE · CAINGUAS · MISIONES",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -37039,7 +37039,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "[a corroborar] BONPLAND · CANDELARIA · MISIONES",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -37251,7 +37251,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "SARMIENTO (o CABRAL) y FRAY LUIS BELTRAN (dirección actual) _ [a corroborar] CAMPO GRANDE · CAINGUAS · MISIONES",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -37840,7 +37840,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "MAIPU · MENDOZA",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -40573,7 +40573,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "SAN NICOLAS DE LOS ARROYOS · SAN NICOLAS · BUENOS AIRES",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -40628,7 +40628,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "SAN NICOLAS DE LOS ARROYOS · SAN NICOLAS · BUENOS AIRES",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."
@@ -43459,7 +43459,7 @@
     "geografia": {
       "lat": null,
       "lng": null,
-      "precision": "sin_coordenadas",
+      "precision": "a_revisar",
       "fuente_geocodificacion": null,
       "texto_geocodificacion": "COMANDO DE INSTITUTOS MILITARES DE CAMPO DE MAYO CAMPO DE MAYO · SAN MIGUEL (ex GRAL. SARMIENTO) · BUENOS AIRES",
       "observaciones": "Sin coordenadas confiables en esta version del dataset."

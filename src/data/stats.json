@@ -1,15 +1,15 @@
 {
   "total_registros": 807,
-  "total_con_coordenadas": 0,
-  "total_sin_coordenadas": 807,
+  "total_con_coordenadas": 29,
+  "total_sin_coordenadas": 778,
   "total_con_espacio_memoria": 24,
   "total_con_senializacion": 186,
   "precision": {
     "exacta": 0,
-    "aproximada": 0,
+    "aproximada": 29,
     "solo_localidad": 0,
-    "sin_coordenadas": 807,
-    "a_revisar": 0
+    "sin_coordenadas": 738,
+    "a_revisar": 40
   },
   "reconciliacion": {
     "esperado_pdf": 807,
@@ -25,5 +25,5 @@
     ],
     "estado": "ok"
   },
-  "advertencia": "El dataset es preliminar: conserva trazabilidad textual completa y marca sin_coordenadas donde no hubo georreferenciacion confiable."
+  "advertencia": "Solo una porcion acotada del dataset tiene georreferenciacion manual aproximada. El resto se mantiene sin coordenadas o a revisar."
 }
